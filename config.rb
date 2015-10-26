@@ -1,3 +1,32 @@
+# For custom domains on github pages
+page "CNAME", layout: false
+
+# Turn this on if you want to make your url's prettier, without the .html
+# activate :directory_indexes
+
+# Automatic image dimensions on image_tag helper
+activate :automatic_image_sizes
+
+# Easier bootstrap navbars
+activate :bootstrap_navbar do |bnb|
+  bnb.bootstrap_version = '3.0.3'
+end
+
+# Assumes the file source/about/template.html.erb exists
+# ["tom", "dick", "harry"].each do |name|
+#   proxy "/about/#{name}.html", "/about/template.html", :locals => { :person_name => name }
+# end
+
+# activate :blog do |blog|
+#   blog.prefix = 'posts'
+#   blog.permalink = ':title'
+#   blog.default_extension = '.md'
+#   blog.layout = 'post'
+#   blog.paginate = true
+# end
+
+Time.zone = 'Paris'
+
 ###
 # Compass
 ###
@@ -62,11 +91,29 @@ configure :build do
   # activate :minify_javascript
 
   # Enable cache buster
-  # activate :asset_hash
+  activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
+
+  # Sprockets
+  activate :sprockets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+end
+
+# This will push to the gh-pages branch of the repo, which will
+# host it on github pages (If this is a github repository)
+# activate :deploy do |deploy|
+#   deploy.method = :git
+#   deploy.build_before = true
+# end
+
+
+helpers do
+  def t_title object
+    return unless object.repond_to? :title
+    object.title
+  end
 end
