@@ -1,0 +1,5 @@
+- data.features.features.each_with_index do |feature, index|
+  .feature
+    %img{:src => "/images/#{feature.image}"}
+    %h3=feature.title
+    %p=feature.text
