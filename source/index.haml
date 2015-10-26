@@ -2,15 +2,18 @@
 	.container
 		%header
 			%h2.alt
-				Hi! I'm
-				%strong Prologue
-				efefefzefzefze
+				Hello! Je suis
+				%strong Bruno Medici,
+				%br
+				ingénieur et architecte web
 
-				%p
-					bla bla bla
+			%p
+				bla bla bla
 
 		%footer
 			%a.button.scrolly{href: "#portfolio"} Go portfolio !
+
+
 
 %section#portfolio.two
 	.container
@@ -23,3 +26,68 @@
 			fezefzefzef
 			efzfezfezefzefefz
 			fezefzfezfez
+
+		.row
+
+			.4u{class: "12u$(mobile)"}
+				%article.item
+					%a.image.fit{href: "#"}
+						%img{src: "/images/pic02.jpg"}
+					%header
+						%h3 Lorem ipsum
+				%article.item
+					%a.image.fit{href: "#"}
+						%img{src: "/images/pic03.jpg"}
+					%header
+						%h3 Lorem ipsum
+
+			.4u{class: "12u$(mobile)"}
+				%article.item
+					%a.image.fit{href: "#"}
+						%img{src: "/images/pic04.jpg"}
+					%header
+						%h3 Lorem ipsum
+				%article.item
+					%a.image.fit{href: "#"}
+						%img{src: "/images/pic05.jpg"}
+					%header
+						%h3 Lorem ipsum
+
+
+
+
+%section#about.three
+	.container
+		%header
+			%h2 About me
+
+			%p
+				bla bla bla
+			%a.image.featured{href: "#"}
+				%img{src: "/images/pic08.jpg"}
+			%p
+				bla bla bla
+
+
+
+
+%section#contact.four
+	.container
+		%header
+			%h2 Contact me
+
+			%p
+				bla bla bla
+
+			%form{method: "post", action:"#"}
+				%div.row
+					%div.6u{class: "12u$(mobile)"}
+						%input{type: "text", name: "name", placeholder: "Name"}
+					%div.6u{class: "12u$(mobile)"}
+						%input{type: "text", name: "email", placeholder: "Email"}
+					%div{class: "12u$"}
+						%textarea{name: "message", placeholder: "Message"}
+					%div{class: "12u$"}
+						%input{type: "submit", value: "Send Message"}
+
+

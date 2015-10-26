@@ -5,9 +5,8 @@
     %title= current_page.data.title || ''
     %meta{name: 'description', content: ''}
     %meta{name: 'author', content: ''}
-    %meta(charset="utf-8")
-    %meta(http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1")
-    %meta(name="viewport" content="width=device-width, initial-scale=1")
+    %meta{"http-equiv" => "X-UA-Compatible", content:"IE=Edge,chrome=1"}
+    %meta{name:"viewport", content:"width=device-width, initial-scale=1"}
 
     :plain
         <!--[if lte IE 8]>
@@ -37,17 +36,21 @@
         %nav#nav
           %ul
             %li
-              %a#top-link.skel-layers-ignoreHref{href: "#top"}
+              %a#top-link.skel-layers-ignoreHref{href: "/#top"}
                 %span.icon.fa-home top
             %li
-              %a#portfolio-link.skel-layers-ignoreHref{href: "#portfolio"}
+              %a#portfolio-link.skel-layers-ignoreHref{href: "/#portfolio"}
                 %span.icon.fa-th portfolio
             %li
-              %a#about-link.skel-layers-ignoreHref{href: "#about"}
+              %a#about-link.skel-layers-ignoreHref{href: "/#about"}
                 %span.icon.fa-user about
             %li
-              %a#contact-link.skel-layers-ignoreHref{href: "#contact"}
+              %a#contact-link.skel-layers-ignoreHref{href: "/#contact"}
                 %span.icon.fa-envelope contact
+
+            %li
+              %a#cv-link.skel-layers-ignoreHref{href: "/cv.html"}
+                %span.icon.fa-envelope CV
 
       .bottom
         %ul.icons
