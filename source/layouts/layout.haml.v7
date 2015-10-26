@@ -1,0 +1,83 @@
+!!!
+%html
+  %head
+    %meta{charset: 'utf-8'}
+    %title= current_page.data.title || ''
+    %meta{name: 'description', content: ''}
+    %meta{name: 'author', content: ''}
+    %meta(charset="utf-8")
+    %meta(http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1")
+    %meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+    :plain
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+    %link{href: '/stylesheets/application.css', type: 'text/css', rel: 'stylesheet' }
+    %link{href: '/stylesheets/main.css', type: 'text/css', rel: 'stylesheet' }
+    %link{href: '/stylesheets/cv.css', type: 'text/css', rel: 'stylesheet' }
+
+  %body
+    .navbar-header
+      %button.navbar-toggle{"data-target" => ".navbar-ex1-collapse", "data-toggle" => "collapse", type: "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{href: "#"} Brand
+
+    / Collect the nav links, forms, and other content for toggling
+    .collapse.navbar-collapse.navbar-ex1-collapse
+      %ul.nav.navbar-nav
+        %li.active
+          %a{href: "#"} Link
+        %li
+          %a{href: "#"} Link
+        %li.dropdown
+          %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
+            CV
+            %b.caret
+          %ul.dropdown-menu
+            %li
+              %a{href: "#"} CV - en français
+            %li
+              %a{href: "#"} CV - English version
+            %li
+
+      %ul.nav.navbar-nav.navbar-right
+        %li
+          %a{href: "#"} FR
+        %li
+          %a{href: "#"} EN
+
+
+    %hr
+
+    .contiainer
+
+      .row
+        .col-md-4
+          = link_to '/' do
+            = image_tag 'bmc_header.png', class: "logo-large hidden-xs", height: 60
+            = image_tag 'bmc_square.png', class: "logo-small visible-xs", height: 50
+
+        .col-md-12
+          .btn-group
+            = link_to "home", '/',              class: "btn btn-default"
+            = link_to "CV (FR)", '/cv.html',    class: "btn btn-default"
+            = link_to "CV (EN)", '/cv-en.html', class: "btn btn-default"
+            = link_to "test", '/test.html',     class: "btn btn-default"
+
+
+    .contiainer
+      %div= yield
+
+    / Placed at the end of the document so the pages load faster
+    %script{type: 'text/javascript', src: 'http://code.jquery.com/jquery.js'}
+    %script{type: 'text/javascript', src: 'javascripts/main.js'}
+
+
+
+
