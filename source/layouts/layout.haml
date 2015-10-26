@@ -7,70 +7,94 @@
     %meta{name: 'author', content: ''}
     %meta(charset="utf-8")
     %meta(http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1")
-    %meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    %meta(name="viewport" content="width=device-width, initial-scale=1")
 
     :plain
-        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-        <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <!--[if lte IE 8]>
+          <script src="/javascripts/html5shiv.js"></script>
+          <link rel="stylesheet" href="/stylesheets/ie8.css" />
+        <![endif]-->
+        <!--[if lte IE 9]>
+          <link rel="stylesheet" href="/stylesheets/ie9.css" />
         <![endif]-->
 
-    %link{href: 'https://fonts.googleapis.com/css?family=Exo+2:200,400,700', type: 'text/css', rel: 'stylesheet' }
-    %link{href: '/stylesheets/application.css', type: 'text/css', rel: 'stylesheet' }
-    %link{href: '/stylesheets/main.css', type: 'text/css', rel: 'stylesheet' }
-    %link{href: '/stylesheets/debug.css', type: 'text/css', rel: 'stylesheet' }
-    -# %link{href: '/stylesheets/cv.css', type: 'text/css', rel: 'stylesheet' }
+    -# %link{href: 'https://fonts.googleapis.com/css?family=Exo+2:200,400,700', type: 'text/css', rel: 'stylesheet' }
+    %link{href: '/stylesheets/prologue.css', type: 'text/css', rel: 'stylesheet' }
+    %link{href: '/stylesheets/font-awesome.min.css', type: 'text/css', rel: 'stylesheet' }
+
 
   %body
-    .navbar.navbar-default.navbar-static-top
-      .container
-        %button.navbar-toggle(type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse")
-          %span.icon-bar
-          %span.icon-bar
-          %span.icon-bar
-        %a.navbar-brand
-          -# = link_to '/' do
-          -#   = image_tag 'bmc_header.png', class: "logo-large hidden-xs", height: 60
-          -#   = image_tag 'bmc_square.png', class: "logo-small visible-xs", height: 50
-          .navbar-collapse.collapse.navbar-responsive-collapse
-          %ul.nav.navbar-nav
-            %li= link_to "home", '/',              _class: "btn btn-default"
-            %li= link_to "CV (FR)", '/cv.html',    _class: "btn btn-default"
-            %li= link_to "CV (EN)", '/cv-en.html', _class: "btn btn-default"
-            %li= link_to "test", '/test.html',     _class: "btn btn-default"
+
+    #header
+      .top
+        #logo
+          %span.image.avatar48
+            %img{src: "images/avatar.jpg", alt: ""}
+          %h1#title Bruno MEDICI
+          %p Consultant indépendant
 
 
-    = yield
+        %nav#nav
+          %ul
+            %li
+              %a#top-link.skel-layers-ignoreHref{href: "#top"}
+                %span.icon.fa-home top
+            %li
+              %a#portfolio-link.skel-layers-ignoreHref{href: "#portfolio"}
+                %span.icon.fa-th portfolio
+            %li
+              %a#about-link.skel-layers-ignoreHref{href: "#about"}
+                %span.icon.fa-user about
+            %li
+              %a#contact-link.skel-layers-ignoreHref{href: "#contact"}
+                %span.icon.fa-envelope contact
 
-    -# .container
-    -#   .row
-    -#     .col-lg-9
-    -#       =# bootstrap_flash
-    -#       = yield
-    -#     .col-lg-3
-    -#       .well.sidebar-nav
-    -#         %h3 Sidebar
-    -#         %ul.nav.nav-list
-    -#           %li.nav-header Sidebar
-    -#           %li= link_to "Link 1", "/path1"
-    -#           %li= link_to "Link 2", "/path2"
-    -#           %li= link_to "Link 3", "/path3"
-
-      %footer
-        %p
-          &copy; Company
-          = Date.today.year
+      .bottom
+        %ul.icons
+          %li
+            %a.icon.fa-twitter{href: "#"}
+              %span.label Twitter
+          %li
+            %a.icon.fa-facebook{href: "#"}
+              %span.label facebook
+          %li
+            %a.icon.fa-github{href: "#"}
+              %span.label github
+          %li
+            %a.icon.fa-envelope{href: "#"}
+              %span.label email
 
 
 
+    #main
 
-    .contiainer
+      = yield
+
+
+    #footer
+      %ul.copyright
+        %li &copy; Bruno MEDICI Consultant
+        %li All rights reserved
+        %li
+          Design:
+          %a{href: "http://html5up.net"} HTML5 UP
 
 
     / Placed at the end of the document so the pages load faster
-    %script{type: 'text/javascript', src: 'http://code.jquery.com/jquery.js'}
-    %script{type: 'text/javascript', src: 'javascripts/main.js'}
+    -# %script{type: 'text/javascript', src: 'http://code.jquery.com/jquery.js'}
 
+    %script{type: 'text/javascript', src: '/javascripts/jquery.min.js'}
+    %script{type: 'text/javascript', src: '/javascripts/jquery.scrolly.min.js'}
+    %script{type: 'text/javascript', src: '/javascripts/jquery.scrollzer.min.js'}
+    %script{type: 'text/javascript', src: '/javascripts/skel.min.js'}
+    %script{type: 'text/javascript', src: '/javascripts/util.js'}
+    %script{type: 'text/javascript', src: '/javascripts/jquery.min.js'}
 
+    :plain
+      <!--[if lte IE 8]>
+        <script src="/javascripts/respond.min.js"></script>
+      <![endif]-->
+
+    %script{type: 'text/javascript', src: '/javascripts/prologue.js'}
 
 
