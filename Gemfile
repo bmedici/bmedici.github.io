@@ -16,3 +16,5 @@ gem "middleman-favicon-maker"
 gem 'haml'
 gem 'bootstrap-sass', require: false
 gem "jquery-middleman"
+
+gem 'middleman-deploy', '~> 1.0'

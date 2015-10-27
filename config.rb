@@ -69,6 +69,19 @@ configure :development do
   activate :livereload
 end
 
+# Deploy
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  # deploy.deploy_method = :rsync
+  # deploy.host          = 'www.example.com'
+  # deploy.path          = '/srv/www/site'
+  # Optional Settings
+  # deploy.user  = 'tvaughan' # no default
+  # deploy.port  = 5309 # ssh port, default: 22
+  # deploy.clean = true # remove orphaned files on remote host, default: false
+  # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
+end
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
