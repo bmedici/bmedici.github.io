@@ -1,3 +1,22 @@
+#cv {
+  font-size: 11pt;
+  /*
+  font-family: "Lucida Grande",Arial,sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
+  font-family: "Lucida Sans Unicode", 'Forum', sans-serif;
+  */
+
+  /*font-family: "Exo 2","Helvetica Neue",cursive;*/
+  font-family: Agenda, Georgia, "Times New Roman", Times, serif;
+
+  font-weight: 400;
+  /*color: #222;*/
+  margin: 0;
+  padding: 30px 15px;
+  line-height: 1.0em;
+  }
+
 #cv div,
 #cv h1,
 #cv h2,

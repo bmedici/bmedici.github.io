@@ -2,39 +2,38 @@
 title: Page de CV français
 ---
 
-.container#cv
-
-  .row
-
-    .col-md-3
-      .well.sidebar-nav
-
-        %h3 Ingénieur ENIC Télécom Lille, France
-        %ul
-          %li.item Communication avec les mobiles: GSM, UMTS"
-          %li Marketing des technologies de l'information
-
-        %h3 International
-        %ul
-          %li Mobilite: France, pays anglophones, monde
-          %li Anglais courant: score TOEIC 920 (/990)
-
-        %h3 Formation
-        %ul
-          %li Ingénieur Télécom Lille, 2005-2006 (ex ENIC)"
-          %li Cisco CSPFF & CSPFA (Cisco Security PIX Firewall Advanced)
-
-        %h3 Stages / séminaires
-        %ul
-          %li RailsConf 2010 (Baltimore)
-          %li RailsConf 2009 (Las Vegas)
-          %li ParisOnRails 2007 (Paris)
-          %li RailsConf 2007 (Berlin)
-          %li PHP Conference 2004 (Amsterdam)
-          %li PHP Conference 2002 (Munich)
 
 
-    .col-md-9.cv_skills
+#cv
+
+  %div.row
+    %div.3u{class: "12u$(mobile)"}
+
+      %h3 Ingénieur ENIC Télécom Lille, France
+      %ul
+        %li.item Communication avec les mobiles: GSM, UMTS"
+        %li Marketing des technologies de l'information
+
+      %h3 International
+      %ul
+        %li Mobilite: France, pays anglophones, monde
+        %li Anglais courant: score TOEIC 920 (/990)
+
+      %h3 Formation
+      %ul
+        %li Ingénieur Télécom Lille, 2005-2006 (ex ENIC)"
+        %li Cisco CSPFF & CSPFA (Cisco Security PIX Firewall Advanced)
+
+      %h3 Stages / séminaires
+      %ul
+        %li RailsConf 2010 (Baltimore)
+        %li RailsConf 2009 (Las Vegas)
+        %li ParisOnRails 2007 (Paris)
+        %li RailsConf 2007 (Berlin)
+        %li PHP Conference 2004 (Amsterdam)
+        %li PHP Conference 2002 (Munich)
+
+    %div.9u{class: "12u$(mobile)"}
 
       %h2 Compétences
 
@@ -67,3 +66,7 @@ title: Page de CV français
             .place= item.place
             .where= item.location
             =#.keywords DenyAll rWeb, ActivNetwork, banque, transition, coordination projet
+
+
+
+
