@@ -1,0 +1,35 @@
+/* Wide */
+
+	@media screen and (min-width: 961px) and (max-width: 1880px) {
+
+		/* Format indicator */
+		#formats .wide {
+			display: block;
+		}
+
+
+		/* Basic */
+
+			body, input, textarea, select {
+				font-size: 17pt;
+			}
+
+		/* Header */
+
+			#header {
+				width: 300px;
+			}
+
+		/* Footer */
+
+			#footer {
+				margin-left: 300px;
+			}
+
+		/* Main */
+
+			#main {
+				margin-left: 300px;
+			}
+
+	}
