@@ -8,9 +8,9 @@ page "CNAME", layout: false
 activate :automatic_image_sizes
 
 # Easier bootstrap navbars
-activate :bootstrap_navbar do |bnb|
-  bnb.bootstrap_version = '3.0.3'
-end
+# activate :bootstrap_navbar do |bootstrap_navbar|
+#   bootstrap_navbar.bootstrap_version = '4.0.0'
+# end
 
 # Assumes the file source/about/template.html.erb exists
 # ["tom", "dick", "harry"].each do |name|
@@ -25,7 +25,7 @@ end
 #   blog.paginate = true
 # end
 
-Time.zone = 'Paris'
+# Time.zone = 'Paris'
 
 ###
 # Compass
