@@ -2,6 +2,7 @@
 title: Page de CV français
 ---
 
+
 #cv
 
   %div.row
@@ -54,7 +55,7 @@ title: Page de CV français
 
       %h2 Expériences
 
-      - data.jobs.each do |key, job|
+      - jobs_sorted.each do |key, job|
         - title = localized(job.title)
         - year, name = key.split('_')
 

@@ -4,6 +4,10 @@ module CustomHelpers
     "testing123"
   end
 
+  def jobs_sorted
+    data.jobs.sort_by{|k,v| k}.reverse
+  end
+
   def ldata
     data[I18n.locale]
   end
