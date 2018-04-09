@@ -60,14 +60,13 @@ title: Page de CV français
         - year, name = key.split('_')
 
         .chapter
-
-          - unless job.respond_to? :title
-            %h3= "SKIPPED [#{key}]"
-            - next
+          / - unless job.respond_to? :title
+          /   %h3= "SKIPPED [#{key}]"
+          /   - next
 
           %h3= "#{title} [#{year}] [#{name}]"
 
-          %p= job.keywords.join(' - ')
+          %p= job.keywords.join(' - ') if job.keywords.is_a? Array
 
           .sidenotes
             = image_tag("logos/#{name}.png", class: "logo", title: job.location)
