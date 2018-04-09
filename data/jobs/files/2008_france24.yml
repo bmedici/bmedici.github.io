@@ -1,0 +1,13 @@
+title: 
+  fr: FRENCH_TITLE
+  en: ENGLISH_TITLE
+logo: atomis
+place: XXXXXXXXXXXXXXXXXXXXXXXXXX
+location: "VILLE, ANNEE, DUREEE"
+keywords: "DenyAll rWeb, ActivNetwork, banque, transition, coordination projet"
+what:
+  - "blabla":
+      - detail 1
+      - detail 2
+      - detail 3
+  - "à bloublou"
