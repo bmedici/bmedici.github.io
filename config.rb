@@ -6,6 +6,7 @@ page "CNAME", layout: false
 
 # Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes
+activate :i18n, :mount_at_root => :fr
 
 # Easier bootstrap navbars
 # activate :bootstrap_navbar do |bootstrap_navbar|
