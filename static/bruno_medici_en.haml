@@ -1,0 +1,31 @@
+- @title = "Bruno Medici Consultant - Architect"
+- @subtitle = "web - medias - cloud - opensource - high-availability - security"
+
+- flash[:notice] = "This page is printable directly from your browser"
+
+%table#cv
+  %tr
+    %td.left
+      = render partial: 'static/cv/left.en'
+
+    %td.right
+      %h2 Special skills
+      = render partial: 'static/cv/competences.en'
+
+      %br
+
+      %h2 Work experience - main projects
+
+      = render partial: 'static/2014/ftven.en'
+      = render partial: 'static/2013/societegenerale.en'
+      = render partial: 'static/2012/safran.en'
+      = render partial: 'static/2011/canal.en'
+      -#.page-break
+      = render partial: 'static/2010/creditdunord.en'
+      = render partial: 'static/2009/tgvest.en'
+      = render partial: 'static/2008/france24.en'
+      = render partial: 'static/2008/chaumont.en'
+      = render partial: 'static/2007/france24.en'
+      = render partial: 'static/2001/itoolsystems.en'
+      = render partial: 'static/2000/atomis.en'
+      = render partial: 'static/cv_misc.en'

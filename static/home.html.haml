@@ -1,0 +1,41 @@
+- @htmltitle = "Bruno Medici Consultant - Opensource, architectures web, ruby on rails"
+- @title = "Architecte systèmes d'information"
+- @subtitle = "Consultant - stratégie internet médias et sécurité"
+
+%table.twocols
+  %tr
+
+    %td.first
+      %h2 Bruno MEDICI Consultant
+      -# s%p.home
+        We're damn good at application architecture design, development and maintenance. We love well-written code, playing with APIs and modern browsers. We don't like IE6 (who does?!), unnecessary complexity and being average. We test. Then we test. And then we test more.
+
+      -# %p.home
+        We're very active in the European Ruby on Rails community. We co-organized the European Ruby Conference 2010 and we're the proud producers of the European Rails Conference, Railsberry. We're also cooking the first extremely mobile event for mobile developers‚ Mobile Mobile Conf.
+
+      %p.home
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    %td.second
+      %h3= link_to "Refonte de l'architecture VoD du groupe Canal+", static_path('bruno_medici_fr'), class: :smart
+      %p.home
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+      %h3= link_to "Architecture technique sites mobile Crédit du Nord", static_path('bruno_medici_fr'), class: :smart
+      %p.home
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+- content_for :header_extra do
+  = image_tag '/images/new/home_toprock.jpg', class: :item
+
+  -#
+
+    #homeslider
+      = link_to '', '', :class=>"prev browse left"
+      = link_to '', '',  :class=>"next browse right"
+      .items
+        = image_tag '/images/new/home_toprock.jpg', class: :item
+        = image_tag '/images/new/home_thestrip.jpg', class: :item
+        = image_tag '/images/new/home_hooverdam.jpg', class: :item
+

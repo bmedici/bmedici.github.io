@@ -1,0 +1,24 @@
+- @title = "Contact"
+
+%p
+  = "Pour tout contact, vous pouvez utiliser ce formulaire de contact. Une réponse rapide sera apportée."
+
+= form_tag contact_send_path, :method => :post do |f|
+  %label Adresse e-mail
+  %br
+  = text_field_tag :from, params[:from], class: :huge_field
+  %br
+  %br
+
+  %label Objet
+  %br
+  = text_field_tag :subject, 'Contact', class: :huge_field
+  %br
+  %br
+
+  %label Message
+  %br
+  = text_area_tag :message, params[:message], class: :huge_field, rows: 8
+  %br
+
+  = submit_tag 'Envoyer'
