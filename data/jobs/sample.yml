@@ -1,0 +1,21 @@
+title: 
+  fr: FRENCH_TITLE
+  en: ENGLISH_TITLE
+place: XXXXXXXXXXXXXXXXXXXXXXXXXX
+duration:
+  fr: 6 mois
+  en: 6 months
+keywords:
+  - KEYWORD
+  - KEYWORD
+  - KEYWORD
+  - KEYWORD
+  - KEYWORD
+  - KEYWORD
+  - KEYWORD
+what:
+  - "blabla":
+      - detail 1
+      - detail 2
+      - detail 3
+  - "à bloublou"
