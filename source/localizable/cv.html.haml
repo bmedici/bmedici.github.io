@@ -2,8 +2,6 @@
 title: Page de CV français
 ---
 
-
-
 #cv
 
   %div.row
@@ -54,19 +52,40 @@ title: Page de CV français
         %li.item PMaîtrise des technologies et standards web: HTML/CSS, AJAX, RubyOnRails, Drupal
 
 
-
       %h2 Expériences
 
-      - data.experiences.each do |item|
+      - data.jobs.each do |key, job|
+        - title = localized(job.title)
+        - year, name = key.split('_')
+
         .chapter
-          %h3= item.title
+
+          - unless job.respond_to? :title
+            %h3= "SKIPPED [#{key}]"
+            - next
+
+          %h3= "#{title} [#{year}] [#{name}]"
+
+          %p= job.keywords.join(' - ')
 
           .sidenotes
-            = image_tag("logos/#{item.logo}.png", class: "logo", title: "Société Générale")
-            .place= item.place
-            .where= item.location
-            =#.keywords DenyAll rWeb, ActivNetwork, banque, transition, coordination projet
+            = image_tag("logos/#{name}.png", class: "logo", title: job.location)
+            .place
+              = localized job.place
+            .where
+              = job.location
+              = " - "
+              = year
+              = " - "
+              = localized job.duration
+       
+          %pre= job.what.to_json
+          / %ul
+          /   - item.what.each do |w|
+          /    %li.item= w
 
 
+
+        =#.keywords DenyAll rWeb, ActivNetwork, banque, transition, coordination projet
 
 
