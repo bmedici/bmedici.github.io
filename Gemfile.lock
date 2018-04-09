@@ -109,7 +109,7 @@ GEM
     parallel (1.12.1)
     public_suffix (3.0.2)
     rack (2.0.4)
-    rack-livereload (0.3.16)
+    rack-livereload (0.3.17)
       rack
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
@@ -130,7 +130,6 @@ GEM
 
 PLATFORMS
   ruby
-  x86_64-darwin-16
 
 DEPENDENCIES
   bootstrap-sass
