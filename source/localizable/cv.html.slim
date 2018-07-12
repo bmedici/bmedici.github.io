@@ -5,12 +5,12 @@ title: Page de CV français
 
 #cv
 
-  %div.row
-    %div.3u{class: "12u$(mobile)"}
+  div.row
+    div.3u class="12u$(mobile)" 
 
-    %div.9u{class: "12u$(mobile)"}
+    div.9u class="12u$(mobile)" 
 
-      %h2 Expériences
+      h2 Expériences
 
       - jobs_sorted.each do |key, job|
         - title = localized(job.title)
@@ -22,11 +22,11 @@ title: Page de CV français
         - where << year if year
 
         .chapter.job
-          / - unless job.respond_to? :title
-          /   %h3= "SKIPPED [#{key}]"
-          /   - next
-          %h3= title
-          %p= job.keywords.join(' - ') if job.keywords.is_a? Array
+          /! - unless job.respond_to? :title
+          /!   %h3= "SKIPPED [#{key}]"
+          /!   - next
+          h3= title
+          p= job.keywords.join(' - ') if job.keywords.is_a? Array
 
           .sidenotes
             = image_tag("logos/#{name}.png", class: "logo", title: "")
@@ -34,13 +34,12 @@ title: Page de CV français
             .where= where.join(' - ')
             .location= localized(job.duration)
             .debug= "[#{year}] [#{name}]"
-
        
-          %ul
+          ul
             - if job.what.is_a?(Array)
               - job.what.each do |w|
-                %li
-                  %h4= localized w.title
+                li
+                  h4= localized w.title
                   .small= localized w.detail
 
   

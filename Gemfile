@@ -14,6 +14,7 @@ gem "jquery-middleman"
 
 gem 'mime-types'
 gem 'haml'
+gem 'slim'
 
 # gem "susy"
 # gem "addressable"
