@@ -1,11 +1,14 @@
 title: 
   fr: Responsable technique, gamme Itool
   en: Team leader, development of Itool Compta
+
 place: Atomis, Internet Services
 location: Lille (France)
+
 duration:
-  fr: 6 mois
-  en: 6 months
+  fr: 2 ans
+  en: 2 years
+
 keywords:
   - asp/saas
   - php/mysql
@@ -14,8 +17,16 @@ keywords:
   - métier
   - sécurité
 what:
-  - "blabla":
-      - detail 1
-      - detail 2
-      - detail 3
-  - "à bloublou"
+  - title:
+      fr: Mise en place d'une plateforme d'applications en ligne.
+      en: Designed an online accounting solution
+    detail:
+      fr: detail un
+      en: detail one
+
+  # fr:
+  #   - Mise en place d'une plateforme d'applications en ligne.
+  #   - Outils de gestion, compta, facturation.
+  # en:
+  #   - Designed an online accounting solution
+  #   - Built the technical basis of the « itool » line of products.
