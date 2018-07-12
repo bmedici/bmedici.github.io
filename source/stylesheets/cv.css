@@ -78,11 +78,15 @@ background-color: #eaa;
 #cv .chapter {
   page-break-inside: avoid;
   margin-bottom: 15px;
-  padding: 0;
+  padding: 2px;
   clear: both;
   /*
   border: 1px solid blue;
   */
+  }
+
+#cv .chapter.job {
+  border: 1px solid silver;
   }
 
 #cv .coordonnees {
