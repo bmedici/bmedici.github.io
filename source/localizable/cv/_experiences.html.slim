@@ -1,0 +1,35 @@
+h2 Expériences
+
+- jobs_sorted.each do |key, job|
+  - title = localized(job.title)
+  - year, name = key.split('_')
+  - location = localized(job.duration)
+  - place = localized(job.place)
+  - where = []
+  - where << location if location
+  - where << year if year
+
+  .chapter.job
+    /! - unless job.respond_to? :title
+    /!   %h3= "SKIPPED [#{key}]"
+    /!   - next
+    h3= title
+    p= job.keywords.join(' - ') if job.keywords.is_a? Array
+
+    .sidenotes
+      = image_tag("logos/#{name}.png", class: "logo", title: "")
+      .place= place
+      .where= where.join(' - ')
+      .location= localized(job.duration)
+      .debug= "[#{year}] [#{name}]"
+ 
+    ul
+      - if job.what.is_a?(Array)
+        - job.what.each do |w|
+          li
+            h4= localized w.title
+            .small= localized w.detail
+
+
+
+
