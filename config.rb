@@ -9,6 +9,14 @@ activate :automatic_image_sizes
 activate :directory_indexes
 activate :i18n, :mount_at_root => :fr
 
+activate :s3_sync do |s3_sync|
+  s3_sync.bucket                = 's3.bmconseil.com'
+  s3_sync.region                = 'eu-west-3'
+  s3_sync.aws_access_key_id     = '***REMOVED***'
+  s3_sync.aws_secret_access_key = '***REMOVED***'
+  s3_sync.path_style            = true
+end
+
 # Easier bootstrap navbars
 # activate :bootstrap_navbar do |bootstrap_navbar|
 #   bootstrap_navbar.bootstrap_version = '4.0.0'
