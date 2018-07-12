@@ -1,100 +1,10 @@
-%section#top.one.cover
-	.container
-		-# #formats
-		-# 	%span.mobile MOBILE
-		-# 	%span.narrow NARROW
-		-# 	%span.narrower NARROWER
-		-# 	%span.normal NORMAL
-		-# 	%span.wide WIDE
+= partial "intro"
 
-		%header
+= partial "portfolio"
 
-			%h2.alt
-				Hello, je suis
-				%strong Bruno Medici,
-				%br
-				ingénieur et architecte web
+= partial "about"
 
-			%p
-				XYZ, ABC, XYZ, ABC, XYZ, ABC, XYZ, ABC
+= partial "contact"
 
-		%footer
-			%a.button.scrolly{href: "#portfolio"} See my latest projects
-
-
-
-%section#portfolio.two
-	.container
-		%header
-			%h2 Portfolio
-
-		%p
-			efzezefzfezefz
-			efzefzfezefzezfefzefzefz
-			fezefzefzef
-			efzfezfezefzefefz
-			fezefzfezfez
-
-		.row
-
-			.4u{class: "12u$(mobile)"}
-				%article.item
-					%a.image.fit{href: "#"}
-						%img{src: "/images/pic02.jpg"}
-					%header
-						%h3 Lorem ipsum
-				%article.item
-					%a.image.fit{href: "#"}
-						%img{src: "/images/pic03.jpg"}
-					%header
-						%h3 Lorem ipsum
-
-			.4u{class: "12u$(mobile)"}
-				%article.item
-					%a.image.fit{href: "#"}
-						%img{src: "/images/pic04.jpg"}
-					%header
-						%h3 Lorem ipsum
-				%article.item
-					%a.image.fit{href: "#"}
-						%img{src: "/images/pic05.jpg"}
-					%header
-						%h3 Lorem ipsum
-
-
-
-
-%section#about.three
-	.container
-		%header
-			%h2 About me
-
-			%p
-				bla bla bla
-			%a.image.featured{href: "#"}
-				%img{src: "/images/pic08.jpg"}
-			%p
-				bla bla bla
-
-
-
-%section#contact.four
-	.container
-		%header
-			%h2 Contact me
-
-			%p
-				bla bla bla
-
-			%form{method: "post", action:"#"}
-				%div.row
-					%div.6u{class: "12u$(mobile)"}
-						%input{type: "text", name: "name", placeholder: "Name"}
-					%div.6u{class: "12u$(mobile)"}
-						%input{type: "text", name: "email", placeholder: "Email"}
-					%div{class: "12u$"}
-						%textarea{name: "message", placeholder: "Message"}
-					%div{class: "12u$"}
-						%input{type: "submit", value: "Send Message"}
 
 
