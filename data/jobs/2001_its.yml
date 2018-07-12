@@ -1,13 +1,16 @@
 title: 
   fr: Co-fondateur et directeur technique
   en: Co-founder and CTO of Itool Systems
+
 place:
   fr: Itool Systems, Editeur SaaS
   en: Itool Systems, SaaS software
 location: Lille (France)
+
 duration:
   fr: 6 mois
   en: 6 months
+
 keywords:
   - KEYWORD
   - KEYWORD
@@ -16,9 +19,24 @@ keywords:
   - KEYWORD
   - KEYWORD
   - KEYWORD
+ 
+
 what:
-  - "blabla":
-      - detail 1
-      - detail 2
-      - detail 3
-  - "à bloublou"
+  - title:
+      fr: Associé fondateur, membre du comité de direction FR
+      en: Associé fondateur, membre du comité de direction EN
+    detail:
+      fr: "FR Activité: progiciels de gestion et comptabilité en ligne. Lancement du portail itool.net (Experts Comptables) et itool.com (marché PME)
+    Trophée de l'innovation au Congrès National des Experts-Comptables (2001). Prix IntraBlog (2007). Filialisation puis absorption de la société Atomis"
+      en: "EN Activité: progiciels de gestion et comptabilité en ligne. Lancement du portail itool.net (Experts Comptables) et itool.com (marché PME)
+    Trophée de l'innovation au Congrès National des Experts-Comptables (2001). Prix IntraBlog (2007). Filialisation puis absorption de la société Atomis"
+
+  - title:
+      fr: Associé fondateur, membre du comité de direction FR
+      en: Associé fondateur, membre du comité de direction EN
+    detail:
+      fr: "FR Activité: progiciels de gestion et comptabilité en ligne. Lancement du portail itool.net (Experts Comptables) et itool.com (marché PME)
+    Trophée de l'innovation au Congrès National des Experts-Comptables (2001). Prix IntraBlog (2007). Filialisation puis absorption de la société Atomis"
+      en: "EN Activité: progiciels de gestion et comptabilité en ligne. Lancement du portail itool.net (Experts Comptables) et itool.com (marché PME)
+    Trophée de l'innovation au Congrès National des Experts-Comptables (2001). Prix IntraBlog (2007). Filialisation puis absorption de la société Atomis"
+
