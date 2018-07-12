@@ -6,7 +6,7 @@ page "CNAME", layout: false
 
 # Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes
-activate :directory_indexes
+# activate :directory_indexes
 activate :i18n, :mount_at_root => :fr
 
 activate :s3_sync do |s3_sync|
