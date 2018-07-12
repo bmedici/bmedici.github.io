@@ -1,0 +1,80 @@
+title: 
+  fr: Architecte plateforme video
+  en: Video platform reengineering architect
+place: France Télévisions Editions Numériques
+
+duration:
+  fr: 4 ans
+  en: 4 years
+
+keywords:
+  - KEYWORD
+  - KEYWORD
+  - KEYWORD
+  - KEYWORD
+  - KEYWORD
+  - KEYWORD
+  - KEYWORD
+
+what:
+  - title:
+      fr: Architecte de la nouvelle plateforme Replay du groupe (tous contenus, projet de 18 mois, plusieurs experts)
+      en: Lead architect of he new Replay production platform at France Télévisions (all video contents, 18 months project, many experts)
+    detail:
+      fr: 
+        - Conception intégrale de la future plateforme, workflows et choix techniques, from scratch
+        - Architecture orientée API REST, micro-services orchestrés par un automate
+        - Spécifications techniques générales et détaillées, conception des APIs, accompagnement du développement (Symfony2)
+        - "Organisation agile SCRUM sur différents aspects du projet: spécifications, développement, déploiements, mises en production partielles"
+        - En production depuis Q2 2015, >300 programmes par jour
+      en: 
+        - Full conception of the new platform, workflows and technologies, from scratch
+        - REST-API architecture based on micro-services orchestrated by an in-house scheduler
+        - General and detailed technical specifications, API authoring, developers team support and coaching
+        - Agile (Scrum) organization across every aspect of the project (specifications, development, deployments, partial
+        - Successful production since Q2 2015, fully operational 300+ programs per day
+
+  - title:
+      fr: Auteur du moteur "rest-ftp-daemon”, logiciel opensource
+      en: Author of the “rest-ftp-daemon” open source project
+    detail:
+      fr: transferts de fichiers “replay" vers les partenaires, suivi par NewRelic, déploiement CodeShip, qualité CodeClimate
+      en: in charge of all file transfers to our contractors, monitored by NewRelic, CodeShip deployments, CodeClimate quality
+
+  - title:
+      fr: Leader de la refonte du SI Video, système central de gestion des contenus numériques
+      en: Leader for the re-conception of the central video assets system
+    detail:
+      fr: 
+        - "Sensibilisation autour de l’état de l’art: SOA, REST, micro-services"
+        - Conduite du projet auprès des équipes techniques et des top-managers
+      en:
+        - "Raising awareness about state-of-the-art: SOA, REST, micro-services"
+        - Project leadership with technical teams and top managers
+
+  - title:
+      fr: Accompagnement stratégique de plusieurs projets du groupe
+      en: Strategic collaboration on several projects across the Group
+    detail:
+      fr: 
+        - cadrage architecture du projet Zoom, contenus à la demande et recommandation
+        - responsable de l’architecture pour la gestion de tags transverse
+        - évolution des services de TV connectée
+        - refonte technique des plateformes des sites de chaînes et programmes
+      en:
+        - architecture workframe for Zoom, on-demand recommended contents
+        - in charge of architecture for the cross-products tagging system
+        - connected TV services upgrades
+        - overhaul of the platform for channels and programs websites
+
+
+  - title:
+      fr: Leader du projet de push temps-réel (AMQP) entre les plateformes
+      en: Leader of the global messaging system( AMQP) for realtime notifications between
+    detail:
+      fr: 
+        - "tous produits du groupe: Pluzz, CultureBox, FranceTV Info/Sports/Education, etc"
+        - les partenaires (Molotov.tv, Orange...)
+      en: 
+        - every platform in the Group (Pluzz, CultureBox, FranceTV Info/Sports/Education...)
+        - commercial partners (Molotov.tv, Orange...) 
