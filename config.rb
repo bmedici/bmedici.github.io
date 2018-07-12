@@ -17,6 +17,11 @@ activate :s3_sync do |s3_sync|
   s3_sync.path_style            = true
 end
 
+activate :sprockets do |c|
+  # c.expose_middleman_helpers = true
+end
+
+
 # Easier bootstrap navbars
 # activate :bootstrap_navbar do |bootstrap_navbar|
 #   bootstrap_navbar.bootstrap_version = '4.0.0'
