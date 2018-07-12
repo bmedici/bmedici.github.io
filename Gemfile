@@ -14,8 +14,8 @@ gem 'middleman-s3_sync'
 # gem "addressable"
 gem "middleman-sprockets"   #, "~> 3.0.6"
 gem "bootstrap-sass"
+gem "jquery-middleman"
 
 gem 'mime-types'
 gem 'haml'
-gem "jquery-middleman"
 
