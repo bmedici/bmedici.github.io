@@ -83,6 +83,8 @@ GEM
       middleman-cli (= 4.2.1)
       middleman-core (= 4.2.1)
       sass (>= 3.4.0, < 4.0)
+    middleman-alias (0.0.17)
+      middleman-core (>= 3.3)
     middleman-bootstrap-navbar (4.0.0)
       bootstrap-navbar (~> 3.0)
       middleman (>= 3.1)

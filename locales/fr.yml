@@ -1,3 +1,7 @@
 ---
-es:
+fr:
   hello: "Salut"
+  je_suis_architecte: "ingénieur et architecte web"
+
+  paths:
+    cv-bruno-medici: "cv-bruno-medici-fr"  

@@ -1,0 +1,12 @@
+S3: custom Errors
+
+<RoutingRules>
+  <RoutingRule>
+  <Condition>
+    <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
+  </Condition>
+  <Redirect>
+    <ReplaceKeyWith>errors/404.html</ReplaceKeyWith>
+  </Redirect>
+  </RoutingRule>
+</RoutingRules>
