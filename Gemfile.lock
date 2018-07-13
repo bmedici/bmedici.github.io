@@ -183,7 +183,6 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
-  haml
   jquery-middleman
   middleman
   middleman-bootstrap-navbar

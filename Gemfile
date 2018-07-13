@@ -13,7 +13,6 @@ gem "bootstrap-sass"
 gem "jquery-middleman"
 
 gem 'mime-types'
-gem 'haml'
 gem 'slim'
 
 # gem 'middleman-pdfkit'
