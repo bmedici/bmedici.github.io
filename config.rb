@@ -1,3 +1,6 @@
+# require 'makepdf'
+require 'middleman-pdfkit'
+
 # For custom domains on github pages
 page "CNAME", layout: false
 
@@ -126,6 +129,19 @@ configure :build do
 
   # Sprockets
   activate :sprockets
+
+  # Build PDF files
+  activate :pdfkit do |p|
+    p.filenames = ['cv-bruno-medici-fr', 'cv-bruno-medici-en']
+    # p.disable_smart_shrinking = true
+    # p.quiet = false
+    # p.page_size = 'A5'
+    p.margin_top = 10
+    p.margin_right = 10
+    p.margin_bottom = 10
+    p.margin_left = 10
+    # p.encoding = 'UTF-8'
+  end
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"

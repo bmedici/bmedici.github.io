@@ -16,6 +16,11 @@ gem 'mime-types'
 gem 'haml'
 gem 'slim'
 
+# gem 'middleman-pdfkit'
+gem 'pdfkit', '~> 0.8.2'
+gem 'wkhtmltopdf_binary_provider'
+
+
 # gem "susy"
 # gem "addressable"
 # gem "middleman-favicon-maker", "~> 4.1"
