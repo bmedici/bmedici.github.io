@@ -1,0 +1,22 @@
+
+- name: RubyOnRails
+  desc: Développement RoR, architecture service, méthodes agiles
+
+- name:
+    fr: Plongée
+    en: Scuba diving
+  desc: (N2/CMAS**)
+
+- name: 
+    fr: Aviation loisirs 
+    en: 
+  desc:
+    fr: |
+      Brevet de base pilote (BB)
+      Brevet de pilote privé en cours (PPL)
+    en: |
+      EN/ Brevet de base pilote (BB)
+      EN/ Brevet de pilote privé en cours (PPL)
+
+- name: Photographie
+  desc: Studio, tourisme, portrait, éclairage, exploration urbaine
