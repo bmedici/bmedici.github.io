@@ -16,6 +16,10 @@ module CustomHelpers
     content_tag(:i, "", class: "fa fa-#{type}")
   end
 
+  def nl2br(string)
+    string.to_s.gsub("\n\r","<br />").gsub("\r", "").gsub("\n", "<br />")
+  end
+
   def localized(entry)
     loc = I18n.locale
     html = []
@@ -35,7 +39,8 @@ module CustomHelpers
       html << localized_block(:t_ok, value)
 
     # Otherwise, as it's a hash with no "loc" version, take the first one 
-    elsif value = entry.first
+    elsif pair = entry.first
+      key, value = pair
       html << localized_block(:t_fallback, value)
 
     end
@@ -45,8 +50,13 @@ module CustomHelpers
   end
 
   def localized_block style, content
-    content.to_s
-    # content_tag(:div, content.to_s, class: "t #{style}")
+    # content_tag(:div, content.to_s)
+    # content.to_s
+    if config[:debug]
+      content_tag(:span, content.to_s, class: "t #{style}")
+    else
+      content.to_s
+    end
   end
 
 end

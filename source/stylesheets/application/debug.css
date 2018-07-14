@@ -21,26 +21,27 @@
 
 .t {
     text-decoration: underline solid transparent;
-    border-right: 4px solid transparent;
+    border: 1px solid transparent;
+    /*border: none;*/
   }
 
 .t_ok {
     text-decoration-color: green;
-    border-color: green;
+    /*border-color: green;*/
   }
 
 .t_lines {
-    text-decoration-color: yellowgreen;
+    /*text-decoration-color: yellowgreen;*/
     border-color: yellowgreen;
   }
 
 .t_notrans {
     text-decoration-color: blue;
-    border-color: blue;
+    /*border-color: blue;*/
   }
 
 .t_fallback {
-    text-decoration-color: orange;
+    /*text-decoration-color: orange;*/
     border-color: orange;
   }
 
