@@ -29,12 +29,10 @@ html
 
     .wrapper
 
+      = partial "navbar"
+
       .sidebar-wrapper
         = partial "sidebar"
-
-      .lang-wrapper
-        - if current_page.data.langs.is_a? Hash
-          = partial :switch, locals: {langs: current_page.data.langs}
 
       .main-wrapper
         = yield

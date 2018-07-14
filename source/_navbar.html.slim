@@ -1,0 +1,32 @@
+- langs = current_page.data.langs
+
+= navbar fixed: :top, container: false do
+  = navbar_header brand: 'Bruno Medici Consultant', brand_link: '/'
+  = navbar_collapse do
+    = navbar_group class: 'foo', id: 'menu' do
+      / = navbar_text 'Pick an option:'
+      = navbar_item "/" do
+        = fa_icon(:home)
+        = " HOME"
+
+      = navbar_item "CV FR", '/cv'
+      = navbar_item "CV EN", '/en/cv'
+      = navbar_item fa_icon(:envelope), "/contact"
+
+      / = navbar_dropdown "Stuff" do
+      /   = navbar_dropdown_header 'Great stuff!'
+      /   = navbar_item "One", '/one'
+      /   = navbar_item "Two", '/two'
+      /   = navbar_item "Three", '/three'
+      /   - if true # check if user is admin, maybe like "if current_user.try(:admin?)"
+      /     = navbar_dropdown_divider
+      /     = navbar_item "Admin Dashboard", '/admin'
+      /     = navbar_item "Users", '/admin/users'
+
+
+    = navbar_group align: 'right' do
+      - if langs.is_a? Hash
+        - langs.each do |lang, url|
+          = navbar_item url do
+            = image_tag("langs/#{lang}.svg", width: 18, height: 13, class: :flag, alt: lang)
+

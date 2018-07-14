@@ -49,9 +49,9 @@ page "sitemap.xml", :layout => false
 # redirect "/index.html", to: "/fr/"
 
 # Easier bootstrap navbars
-# activate :bootstrap_navbar do |bootstrap_navbar|
-#   bootstrap_navbar.bootstrap_version = '4.0.0'
-# end
+activate :bootstrap_navbar do |bootstrap_navbar|
+  # bootstrap_navbar.bootstrap_version = '4.0.0'
+end
 
 # activate :blog do |blog|
 #   blog.prefix = 'posts'
