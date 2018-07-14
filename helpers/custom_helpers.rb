@@ -12,6 +12,10 @@ module CustomHelpers
     data[I18n.locale]
   end
 
+  def fa_icon type
+    content_tag(:i, "", class: "fa fa-#{type}")
+  end
+
   def localized(entry)
     loc = I18n.locale
     html = []
