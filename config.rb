@@ -29,6 +29,9 @@ activate :sprockets do |c|
 end
 
 
+#page "/index.html", :proxy => "/index.en.html"
+
+
 # Easier bootstrap navbars
 # activate :bootstrap_navbar do |bootstrap_navbar|
 #   bootstrap_navbar.bootstrap_version = '4.0.0'
@@ -83,8 +86,6 @@ end
 # Helpers
 ###
 
-# Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
 configure :development do
@@ -104,17 +105,10 @@ end
 #   # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
 # end
 
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+#
 
 set :css_dir, 'stylesheets'
-
 set :js_dir, 'javascripts'
-
 set :images_dir, 'images'
 
 # Build-specific configuration
@@ -131,7 +125,6 @@ configure :build do
   # Use relative URLs
   activate :relative_assets
 
-  # Sprockets
   activate :sprockets
 
   # Build PDF files
@@ -147,21 +140,37 @@ configure :build do
     # p.encoding = 'UTF-8'
   end
 
+# activate :favicon_maker, :icons => {
+#     "_favicon_template.png" => [
+#       { icon: "apple-touch-icon-152x152-precomposed.png" },
+#       { icon: "apple-touch-icon-114x114-precomposed.png" },
+#       { icon: "apple-touch-icon-72x72-precomposed.png" },
+#     ]
+#   }
+
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
 
-# This will push to the gh-pages branch of the repo, which will
-# host it on github pages (If this is a github repository)
-# activate :deploy do |deploy|
-#   deploy.method = :git
-#   deploy.build_before = true
-# end
-
 
 helpers do
+
   def t_title object
     return unless object.repond_to? :title
     object.title
   end
+
+  # def page_classes
+  #   path = request.path_info.dup
+  #   path << settings.index_file if path.match(%r{/$})
+  #   path = path.gsub(%r{^/}, '')
+
+  #   classes = []
+  #   parts = path.split('.')[0].split('/')
+  #   parts.each_with_index { |path, i| classes << parts.first(i+1).join('_') }
+
+  #   classes.join(' ')
+  # end
+
+
 end
