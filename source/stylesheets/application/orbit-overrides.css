@@ -1,0 +1,25 @@
+
+.lang-wrapper {
+  /*border: 1px solid silver;*/
+  background: #fff;
+  padding: 10px 60px;
+  padding-right: 300px;
+}
+
+.main-wrapper {
+  /*padding: 45px 60px !important;*/
+}
+
+.main-wrapper .section {
+  margin-bottom: 45px !important;
+}
+
+.main-wrapper .section {
+  margin-bottom: 45px !important;
+}
+
+.main-wrapper .subtitle {
+  margin-bottom: 10px;
+  /*color: rgb(121, 136, 156)*/
+  color: rgb(151, 170, 195)
+}
