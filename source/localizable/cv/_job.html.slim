@@ -18,14 +18,14 @@
   .meta
     .upper-row
       - if has_details
-        h3.job-title.deployable onclick="$(this).closest('.item').find('.jobdetails').toggle('fast');"
+        h3.jobtask-title.deployable onclick="$(this).closest('.item').find('.jobdetail').toggle('fast');"
           = localized(job.title)
           = " "
           / = fa_icon("angle-down")
           = fa_icon("chevron-circle-down")
 
       - else
-        h3.job-title= localized(job.title)
+        h3.jobtask-title= localized(job.title)
 
       .time= place
     .subtitle
@@ -36,8 +36,8 @@
         - job.what.each do |what|
           .detail
             - if what.respond_to?(:title)
-              p.job= localized(what.title)                    
               p.jobdetails= nl2br(localized(what.detail))   if what.respond_to?(:detail)   
+              p.jobtask= localized(what.title)               
 
               
 

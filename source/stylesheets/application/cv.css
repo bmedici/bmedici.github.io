@@ -1,0 +1,27 @@
+p.jobtask {
+  margin-bottom: 2px;
+  /*margin-left: 8px;*/
+  }
+
+.jobtask-title {
+  cursor: default;
+  }
+
+.subtitle {
+  margin-bottom: 8px;
+  /*color: rgb(121, 136, 156)*/
+  color: rgb(151, 170, 195)
+}
+
+.jobtask-title.deployable {
+  cursor: pointer;
+  }
+
+p.jobdetail {
+  margin-left: 12px;
+  margin-bottom: 6px;
+  font-size: 0.9em;
+  color: gray;
+  /*display: block;*/
+  display: none;
+  }
