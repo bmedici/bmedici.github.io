@@ -1,0 +1,49 @@
+doctype html
+html
+  head
+    meta charset='utf-8' 
+    title= (current_page.data.title || '')
+    meta name='description' content='' 
+    meta name='author' content='' 
+    meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" 
+    meta name="viewport" content="width=device-width, initial-scale=1" 
+
+    // javascript:
+    //   <!--[if lte IE 8]
+    //     = javascript_include_tag "ie/html5shiv.min"
+    //     = stylesheet_link_tag "ie/ie8"
+    //   <![endif]--
+    //   <!--[if lte IE 9]
+    //     = stylesheet_link_tag "ie/ie9"
+    //   <![endif]--
+
+    // %link{href: 'https://fonts.googleapis.com/css?family=Exo+2:200,400,700', type: 'text/css', rel: 'stylesheet' }
+
+    = stylesheet_link_tag :application
+    = stylesheet_link_tag :orbit
+
+    = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic"
+
+    = javascript_include_tag :application
+    = javascript_include_tag :orbit
+
+  body class=page_classes
+
+    .wrapper
+
+      - if current_page.data.langs.is_a? Hash
+        = partial :switch, locals: {langs: current_page.data.langs}
+
+      = yield
+
+    / = javascript_include_tag :prologue
+
+    footer.footer
+        div.text-center
+            small.copyright
+                = "Designed with "
+                o.fa.fa-heart
+                = " by "
+                a href="http://themes.3rdwavemedia.com" target="_blank" Xiaoying Riley
+                = " for developers"
+

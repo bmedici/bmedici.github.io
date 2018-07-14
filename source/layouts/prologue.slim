@@ -21,13 +21,14 @@ html
 
     = javascript_include_tag :application
     = stylesheet_link_tag :application
+    = stylesheet_link_tag :prologue
 
-  body
+  body class=page_classes
 
     #header
       .top
         #logo
-          = image_tag "bmc_square.png", width: 240
+          / = image_tag "bmc_square.png", width: 240
 
         nav#nav
           ul
@@ -48,6 +49,15 @@ html
 
             li= link_to "/en/cv.html", class: "top-link skel-layers-ignoreHref" do
               i.icon.fa.fa-envelope CV EN
+
+            li= link_to "/cv-bruno-medici.html", class: "top-link skel-layers-ignoreHref" do
+              i.icon.fa.fa-envelope cv-bruno-medici
+
+            li= link_to "/cv-bruno-medici-fr.html", class: "top-link skel-layers-ignoreHref" do
+              i.icon.fa.fa-envelope cv-bruno-medici-fr
+
+            li= link_to "/cv-bruno-medici-en.html", class: "top-link skel-layers-ignoreHref" do
+              i.icon.fa.fa-envelope cv-bruno-medici-en
 
             li= link_to "/timeline.html", class: "top-link skel-layers-ignoreHref" do
               i.icon.fa.fa-envelope timeline
