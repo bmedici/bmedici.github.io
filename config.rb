@@ -1,6 +1,10 @@
 # require 'makepdf'
 require 'middleman-pdfkit'
 
+
+# Activate debug if DEBUG is a non-zero integer
+set :debug, !ENV['DEBUG'].to_i.zero?
+
 # For custom domains on github pages
 page "CNAME", layout: false
 
