@@ -1,19 +1,23 @@
 # require 'makepdf'
 require 'middleman-pdfkit'
 
+set :layout,      :orbit
+set :css_dir,     'stylesheets'
+set :js_dir,      'javascripts'
+set :images_dir,  'images'
 
 # Activate debug if DEBUG is a non-zero integer
-set :debug, !ENV['DEBUG'].to_i.zero?
+set :debug,       !ENV['DEBUG'].to_i.zero?
 
 # For custom domains on github pages
-page "CNAME", layout: false
+page "CNAME",      layout: false
 
 # Turn this on if you want to make your url's prettier, without the .html
-# activate :directory_indexes
+activate :directory_indexes
 
 # Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes
-# activate :directory_indexes
+
 activate :i18n, :mount_at_root => :fr
 
 activate :s3_sync do |s3_sync|
@@ -28,18 +32,21 @@ activate :sprockets do |c|
   # c.expose_middleman_helpers = true
 end
 
+# Reload the browser automatically whenever files change
+configure :development do
+  activate :livereload
+end
+
 
 #page "/index.html", :proxy => "/index.en.html"
 
+# Root route
+# proxy "/", "localizable/index.html"
+# redirect "/index.html", to: "/fr/"
 
 # Easier bootstrap navbars
 # activate :bootstrap_navbar do |bootstrap_navbar|
 #   bootstrap_navbar.bootstrap_version = '4.0.0'
-# end
-
-# Assumes the file source/about/template.html.erb exists
-# ["tom", "dick", "harry"].each do |name|
-#   proxy "/about/#{name}.html", "/about/template.html", :locals => { :person_name => name }
 # end
 
 # activate :blog do |blog|
@@ -52,14 +59,6 @@ end
 
 # Time.zone = 'Paris'
 
-###
-# Compass
-###
-
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
 
 ###
 # Page options, layouts, aliases and proxies
@@ -87,37 +86,16 @@ end
 ###
 
 
-# Reload the browser automatically whenever files change
-configure :development do
-  activate :livereload
-end
 
-# Deploy
-# activate :deploy do |deploy|
-#   deploy.deploy_method = :git
-#   # deploy.deploy_method = :rsync
-#   # deploy.host          = 'www.example.com'
-#   # deploy.path          = '/srv/www/site'
-#   # Optional Settings
-#   # deploy.user  = 'tvaughan' # no default
-#   # deploy.port  = 5309 # ssh port, default: 22
-#   # deploy.clean = true # remove orphaned files on remote host, default: false
-#   # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
-# end
 
-#
-
-set :css_dir, 'stylesheets'
-set :js_dir, 'javascripts'
-set :images_dir, 'images'
 
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # Enable cache buster
   activate :asset_hash
@@ -126,6 +104,7 @@ configure :build do
   activate :relative_assets
 
   activate :sprockets
+  # activate :gzip
 
   # Build PDF files
   activate :pdfkit do |p|
