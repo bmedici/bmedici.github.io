@@ -1,0 +1,19 @@
+section.section.projects-section
+  h2.section-title
+    = fa_icon :archive
+    = "Projects"
+
+  .intro
+    p= lorem.paragraphs(1)
+    
+    / - jobs_sorted.each do |key, job|
+    /     = partial "cv/job", locals: {key: key, job: job}
+
+    - data.projects.each do |project|
+
+      .item
+        span.project-title
+          = link_to project.name, project.url, target: "_blank"
+        = " - "
+        span.project-tagline= project.desc
+          

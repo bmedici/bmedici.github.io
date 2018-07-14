@@ -1,0 +1,8 @@
+
+- name: rest-ftp-daemon
+  desc: A great daemon !
+  url: https://github.com/bmedici/rest-ftp-daemon
+
+- name: pushyd
+  desc: A great daemon too !
+  url: https://github.com/bmedici/pushyd
