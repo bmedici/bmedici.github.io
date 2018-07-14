@@ -18,21 +18,21 @@ module CustomHelpers
 
     # We have no translation
     if !entry.is_a? Hash
-      html << localized_block(:blue, entry.to_s)
+      html << localized_block(:t_notrans, entry.to_s)
 
     # We have a translation with many items
     elsif entry[loc].is_a?(Array)
       entry[loc].each do |line|
-        html << localized_block(:YELLOWGREEN, line)
+        html << localized_block(:t_lines, line)
       end
 
     # We have a siple translation
     elsif value = entry[loc]
-      html << localized_block(:green, value)
+      html << localized_block(:t_ok, value)
 
     # Otherwise, as it's a hash with no "loc" version, take the first one 
     elsif value = entry.first
-      html << localized_block(:orange, value)
+      html << localized_block(:t_fallback, value)
 
     end
 
@@ -40,8 +40,9 @@ module CustomHelpers
     return html.join
   end
 
-  def localized_block color, content
-    content_tag(:div, content.to_s, style: "color: #{color}")
+  def localized_block style, content
+    content.to_s
+    # content_tag(:div, content.to_s, class: "t #{style}")
   end
 
 end
