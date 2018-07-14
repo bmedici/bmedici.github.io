@@ -1,0 +1,30 @@
+- title = localized(job.title)
+- year, name = key.split('_')
+- location = localized(job.location)
+- duration = localized(job.duration)
+- place = localized(job.place)
+- where = []
+- where << location if location
+- where << year if year
+- where << duration if duration
+- where << "[#{year}] [#{name}]"
+
+/ p= job.keywords.join(' - ') if job.keywords.is_a? Array
+
+
+.item
+	.meta
+		.upper-row
+			h3.job-title = title
+			.time= place
+		.company
+			= where.join(' - ')
+
+	.details
+	  - if job.what.is_a?(Array)
+	    - job.what.each do |w|
+			p.job
+				= localized w.title
+				/ .small= localized w.detail
+			
+
