@@ -1,7 +1,6 @@
-- title = localized(job.title)
-- year, name = key.split('_')
 - location = localized(job.location)
 - duration = localized(job.duration)
+- year, name = key.split('_')
 - place = localized(job.place)
 - where = []
 - where << location if location
@@ -9,22 +8,36 @@
 - where << duration if duration
 - where << "[#{year}] [#{name}]"
 
+/ - has_details = what.respond_to?(:detail) && what.detail
+- has_details = job_has_details(job)
+
 / p= job.keywords.join(' - ') if job.keywords.is_a? Array
 
 
 .item
-	.meta
-		.upper-row
-			h3.job-title = title
-			.time= place
-		.company
-			= where.join(' - ')
+  .meta
+    .upper-row
+      - if has_details
+        h3.job-title.deployable onclick="$(this).closest('.item').find('.jobdetails').toggle('fast');"
+          = localized(job.title)
+          = " "
+          / = fa_icon("angle-down")
+          = fa_icon("chevron-circle-down")
 
-	.details
-	  - if job.what.is_a?(Array)
-	    - job.what.each do |w|
-			p.job
-				= localized w.title
-				/ .small= localized w.detail
-			
+      - else
+        h3.job-title= localized(job.title)
+
+      .time= place
+    .subtitle
+      = where.join(' - ')
+
+    - if job.what.is_a?(Array)
+      .details
+        - job.what.each do |what|
+          .detail
+            - if what.respond_to?(:title)
+              p.job= localized(what.title)                    
+              p.jobdetails= nl2br(localized(what.detail))   if what.respond_to?(:detail)   
+
+              
 

@@ -20,6 +20,15 @@ module CustomHelpers
     string.to_s.gsub("\n\r","<br />").gsub("\r", "").gsub("\n", "<br />")
   end
 
+  def job_has_details(job)
+    return false unless job.what.is_a?(Array)
+
+    # Count where detail is not empty
+    found = job.what.select{ |w| w.respond_to?(:detail) && w.detail}.count
+
+    return found > 0
+  end
+
   def localized(entry)
     loc = I18n.locale
     html = []
