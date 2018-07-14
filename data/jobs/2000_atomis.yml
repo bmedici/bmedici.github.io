@@ -18,15 +18,8 @@ keywords:
   - sécurité
 what:
   - title:
-      fr: Mise en place d'une plateforme d'applications en ligne.
+      fr: Mise en place d'une plateforme d'applications en ligne
       en: Designed an online accounting solution
-    detail:
-      fr: detail un
-      en: detail one
 
-  # fr:
-  #   - Mise en place d'une plateforme d'applications en ligne.
-  #   - Outils de gestion, compta, facturation.
-  # en:
-  #   - Designed an online accounting solution
-  #   - Built the technical basis of the « itool » line of products.
+  - title:
+      en: Built the technical basis of the « itool » line of products.

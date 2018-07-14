@@ -16,28 +16,30 @@ what:
       fr: Pilotage de la couverture de l'élection présidentielle 2007 sur le web (1 mois, situation d'urgence)
       en: Lead the 2007 coverage of the French presidential election on the web (1 month, extremely intensive)
     detail:
-      fr:
-        - "Animation de l'équipe-projet (dispositif événementiel: modérateurs, traducteurs, bloggers internationaux)"
-        - Convergence médias (diffuseur, internautes, téléspectateurs).
-        - Direct vidéo streaming, dépêches et résultats temps-réel, réactions des internautes, 5 webcams au cœur de l'information.
-        - Numéro SMS téléspectateurs. Soirées électorales, 98k+ visiteurs en direct.
-      en: 
-        - "Animated the dedicated project-oriented team: moderators, translators, 20 international bloggers."
-        - Experimentation of the media convergence (broadcaster, internet and television audience).
-        - Website providing live video streaming, real-time breaking news and campaigners results, internet visitors reactions, 5 webcams in the newsrooms, at the information source.
-        - SMS-number offering interaction to the audience.
+      fr: |
+        Animation de l'équipe-projet (dispositif événementiel: modérateurs, traducteurs, bloggers internationaux)
+        Convergence médias (diffuseur, internautes, téléspectateurs).
+        Direct vidéo streaming, dépêches et résultats temps-réel, réactions des internautes, 5 webcams au cœur de l'information.
+        Numéro SMS téléspectateurs. Soirées électorales, 98k+ visiteurs en direct.
+      en: |
+        Animated the dedicated project-oriented team: moderators, translators, 20 international bloggers.
+        Experimentation of the media convergence (broadcaster, internet and television audience).
+        Website providing live video streaming, real-time breaking news and campaigners results, internet visitors reactions, 5 webcams in the newsrooms, at the information source.
+        SMS-number offering interaction to the audience.
 
   - title:
       fr: Soutien stratégique à la DSI (5 mois)
       en: Strategic support for the IT department
     detail:
-      fr:
-        - Renforcement de l'image sur le web à l'international et dans la blogosphère.
-        - Structuration des compétences et méthodes, constitution d'équipe technique.
-        - "Différents projets ont été ensuite lancés en interne: Festival de Cannes, législatives"
-        - Rédaction de l'appel d'offre pour la nouvelle infrastructure web (CCTP)
-      en: 
-        - Strengthened the image of France24 in the world, and on the blogosphere (more than 98'000 visitors for both ballots).
-        - Built the team and the methods around the required technical skills. Many various projects were started  thereafter, within the channel's teams (Cannes Festival, general elections, etc)
-        - Conducted and wrote the call for tender for the new web infrastructure
+      fr: |
+        Renforcement de l'image sur le web à l'international et dans la blogosphère.
+        Structuration des compétences et méthodes, constitution d'équipe technique.
+        Différents projets ont été ensuite lancés en interne: Festival de Cannes, législatives
+      en: |
+        Strengthened the image of France24 in the world, and on the blogosphere (more than 98'000 visitors for both ballots).
+        Built the team and the methods around the required technical skills.
+        Many various projects were started  thereafter, within the channel's teams (Cannes Festival, general elections, etc)
 
+  - title:
+      fr: Rédaction de l'appel d'offre pour la nouvelle infrastructure web (CCTP)
+      en: Conducted and wrote the call for tender for the new web infrastructure

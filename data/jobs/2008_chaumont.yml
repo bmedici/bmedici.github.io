@@ -1,0 +1,23 @@
+title: 
+  fr: Architecte système d'information
+  en: Information system architect
+
+place:
+  fr: CHU Reims & Chaumount
+  en: Reims & Chaumount Hospitals
+location: Reims (France)
+
+duration:
+  fr: 3 mois
+  en: 3 months
+
+keywords: Médical, sécurité des données, référentiel national, LDAP, ruby on rails, PKI, postgresql
+
+what:
+  - title:
+      fr: Mise en place d'une architecture fédérant les systèmes d'information de centres hospitaliers, expertise sécurité et proposition de workflow
+      en: Set up a system federeating data for several hospitals, sase study and recommendation of a technical architecture, security expertise, workflow
+
+  - title:
+      fr: Assistance à maîtrise d'ouvrage, rédaction d'appels d'offre, suivi des développements
+      en: Project office, call for tender, facilitated developpements

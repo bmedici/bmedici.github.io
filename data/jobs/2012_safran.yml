@@ -1,0 +1,28 @@
+title: 
+  fr: Architecte - sécurité et réseau
+  en: Consulting architect - network and security
+
+place: SAFRAN Groupe & SNECMA
+location: Réau (France)
+
+duration:
+  fr: 3 mois
+  en: 3 months
+
+keywords: 50k+ utilisateurs, reversibilité, cisco, bluecoat, juniper, arkoon, ironport, BigIP, défense et sécurité
+
+what:
+  - title:
+      fr: Transfert du périmètre "Bastion groupe" des équipes SNECMA vers le Groupe SAFRAN (processus de réversibilité)
+      en: Handled transfer of skills and responsability for the whole company network bastion, from SNECMA branch team to SAFRAN headquartes
+    detail:
+      fr: |
+        Exploration du périmètre, identification des compétences
+        Reverse engineering et rétro-documentation
+        Expertise et culture internet: email, DNS, sécurité réseau et filtrage web, etc
+        Fusion de plusieurs plateformes multi-sites
+      en: |
+        Explored perimeter, methods and potential risks
+        Reverse engineering and back-documentation of main topics
+        Internet technologies culture and expertise: email, DNS, network security and web filtering, etc
+        Consolidation de diverses plateformes multi-sites

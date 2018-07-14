@@ -1,0 +1,52 @@
+title: 
+  fr: Architecte internet et sécurité
+  en: Internet and security architect
+
+place: Crédit du Nord, Société Générale
+location: Lille (France)
+
+duration:
+  fr: 1 an
+  en: 1 year
+
+keywords:
+  - KEYWORD
+  - KEYWORD
+  - KEYWORD
+  - KEYWORD
+  - KEYWORD
+  - KEYWORD
+  - KEYWORD
+
+what:
+  - title:
+      fr: Architecture technique et évolution de la plateforme Internet Clients (particuliers, professionnels, entreprises) du Crédit du Nord et de ses filiales
+      en: In charge of technical architecture and evolutions of Customers Internet platforms for Crédit du Nord and 8 branches
+    detail:
+      fr: |
+        Multiples firewalls, reverse proxies, load balancers, IPS, serveurs Redhat/OpenBSD
+        Expertise HTTP, caching, filtrage et routage niveau 7, Apache mod_rewrite
+        Répartition de charge et optimisation d'architecture, évolutions de l'annuaire Tivoli Directory Server
+        Méthodologie et outils de suivi de version (configurations plateforme Internet Clients)
+      en: |
+        Several firewalls, reverse proxies, load balancers, IPS, Redhat/OpenBSD
+        HTTP expertise, caching, filtering, L7 routing trhough Apache mod_rewrite
+        Load balancing and optimisations
+        Brought method and tools for configuration versionning and deployment
+
+  - title:
+      fr: Architecture technique du service Internet Mobile (clients des 7 banques-filiales)
+      en: Defined hosting architecture for Mobile Internet services (customers of 7 branches/banks)
+    detail:
+      fr: |
+        Spécificités des terminaux mobiles: optimisation protocole, cache, compression
+      en: |
+        Mobile-specific caching, protocols and compression
+
+  - title:
+      fr: Remise en état de la plateforme de qualification (identique à la production)
+      en: Revived staging platform to allow better testing and team work (same as production)
+
+  - title:
+      fr: Veille technologique et concurrentielle
+      en: 

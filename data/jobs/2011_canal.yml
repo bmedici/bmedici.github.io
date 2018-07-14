@@ -1,0 +1,64 @@
+title: 
+  fr: Architecte plateforme VoD cible
+  en: Urbanist &amp; architect for the new VoD platform
+
+place: CANAL+
+location: Lille (France)
+
+duration:
+  fr: 18 mois
+  en: 18 months
+
+keywords: Médias, urbanisme architecture, workflow transverse, transcodage, stockage, delivery, harmonic/rhozet
+
+
+what:
+  - title:
+      fr: Urbanisation des plateformes VoD du Groupe CANAL+
+      en: Urbanized target video-on-demand plateforms for the whole CANAL+ group
+    detail:
+      fr: |
+        Rationalisation des fonctions et des matériels pour les offres CanalSat, Canal+, CanalPlay Infinity et le Replay (encodeurs, provisioning, etc)
+        Introduction de principes SOA et d'une fonction de workflow transverse
+        Modélisation des procesus métier pour toute la chaîne de production VoD
+      en: |
+        Rationalization of systems and methods for every offer like CanalSat, Canal+, CanalPlay Infinity and replay-tv (encoders, media provisioning, etc)
+        Introduced SOA concepts and global workflow functions
+        Described and modelled business process for the entire VoD production stack
+
+  - title:
+      fr: Définition de l'architecture cible
+      en: Defined the target architecture
+    detail:
+      fr: |
+        Interfaces webservice génériques vers les fonctions d'ingestion, de transcodage et mise au format, de provisionning vers les partenaires, et de supervision
+        Rédaction des spécications et du cahier des charges technique
+      en: |
+        Generic webservice interfacing with input functions, transformation and transcoding, media files provisionning to partners.
+        Wrote technical sepcifications basis
+
+  - title:
+      fr: Pilotage de l'appel d'offres "moteur de workflow"
+      en: Lead the call for bids for the workflow engine function
+    detail:
+      fr: |
+        Processus RFI et RFP auprés de 12 acteurs majeurs du média, américains et européens (documents rédigés en anglais)
+        Phase de maquette/PoC, animation des échanges et des soutenances, analyse des réponses et restitution.
+        Projet mené directement au sein de la Direction des Technologies et du SI.
+      en: |
+        RFI and RFP with 12 major media providers, international and national partners (documents mainly written in English).
+        Proof-of-concept deployed for best solutions
+        Project ran in close cooperation with CTOs and top management
+
+  - title:
+      fr: Pilotage du projet de refonte du stockage médias pour la diffusion (> 1 petabyte)
+      en: Animated the storage restructuring project within Diffusion branch (> 1 petabyte)
+    detail:
+      fr: |
+        Refonte de l'architecture technique du stockage de travail (transcodage), de distribution et d'archivage moyen terme
+        Introduction de scalabilité horizontale et verticale
+        Animation de l'équipe-projet, spécifications et appel d'offres
+      en: |
+        Made technical recommandations for workspace storage (transcoding), distribution and long-term archives
+        Introduced horizontal and vertical scalability aspects
+

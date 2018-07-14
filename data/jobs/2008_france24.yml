@@ -1,0 +1,21 @@
+title: 
+  fr: Audit et préparation à appel d'offre
+  en: Audit and content-delivery providers selection
+
+place: FRANCE 24
+location: Paris
+
+duration:
+  fr: 1 mois
+  en: 1 months
+
+keywords: Akamai, Drupal, fort traffic
+
+what:
+  - title:
+      fr: Audit du couplage des systèmes de production de la chaîne avec certains fournisseurs critiques
+      en: Audited coupling between business-critical systems and content-delivery providers
+
+  - title:
+      fr: Préconisations d'optimisation de l'architecture, préparation du CCTP
+      en: Published optimization rcommendations for the hosting architecture, set basis for a tender session
