@@ -33,8 +33,11 @@ html
 
       - if current_page.data.langs.is_a? Hash
         = partial :switch, locals: {langs: current_page.data.langs}
+      .sidebar-wrapper
+        = partial "sidebar"
 
-      = yield
+      .main-wrapper
+        = yield
 
     / = javascript_include_tag :prologue
 
