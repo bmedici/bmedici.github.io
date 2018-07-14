@@ -15,5 +15,6 @@ section.section.projects-section
         span.project-title
           = link_to project.name, project.url, target: "_blank"
         = " - "
-        span.project-tagline= project.desc
+        span.project-tagline
+          = localized (project.desc)
           

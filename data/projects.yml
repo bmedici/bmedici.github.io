@@ -1,6 +1,8 @@
 
 - name: rest-ftp-daemon
-  desc: A great daemon !
+  desc:
+    fr: Démon micro-services de transferts de fichiers “replay" vers les partenaires, suivi par NewRelic, déploiement CodeShip, qualité CodeClimate
+    en: TODO
   url: https://github.com/bmedici/rest-ftp-daemon
 
 - name: pushyd
