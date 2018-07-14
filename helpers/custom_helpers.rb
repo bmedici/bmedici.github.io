@@ -13,7 +13,7 @@ module CustomHelpers
   end
 
   def fa_icon type
-    content_tag(:i, "", class: "fa fa-#{type}")
+    content_tag(:i, '', class: "fa fa-#{type}")
   end
 
   def nl2br(string)
@@ -48,9 +48,10 @@ module CustomHelpers
       html << localized_block(:t_ok, value)
 
     # Otherwise, as it's a hash with no "loc" version, take the first one 
-    elsif pair = entry.first
-      key, value = pair
-      html << localized_block(:t_fallback, value)
+    else
+        first = entry.reject{ |key, value| value.to_s.blank? }.first
+        key, value = first
+        html << localized_block(:t_fallback, value) if value
 
     end
 
