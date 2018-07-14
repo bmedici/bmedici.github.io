@@ -1,14 +1,19 @@
 ---
-title: CV Bruno MEDICI
+title: CV Bruno MEDICI (FR+EN)
+langs: {fr: "/cv", gb: "/en/cv"}
+# sidebar: "cv/sidebar"
 ---
 
 
-#cv
+.sidebar-wrapper
 
-  div.row
-    div.3u class="12u$(mobile)" 
-      = partial "cv/infos"
+  = partial "cv/sidebar"
 
-    div.9u class="12u$(mobile)" 
-      = partial "cv/skills"
-      = partial "cv/experiences"
+
+.main-wrapper
+
+  = partial "cv/career"
+  = partial "cv/experiences"
+  = partial "cv/projects"
+
+  
