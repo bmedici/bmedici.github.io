@@ -64,6 +64,7 @@ GEM
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
     hashie (3.5.7)
+    htmlcompressor (0.2.0)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
     ipaddress (0.8.3)
@@ -187,7 +188,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass
   jquery-middleman
-  middleman
+  middleman (~> 4.2)
   middleman-bootstrap-navbar
   middleman-favicon-maker
   middleman-livereload
