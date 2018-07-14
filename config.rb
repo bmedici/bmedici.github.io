@@ -18,6 +18,7 @@ activate :directory_indexes
 # Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes
 
+# activate :i18n, :mount_at_root => :fr
 activate :i18n, :mount_at_root => :fr
 
 activate :s3_sync do |s3_sync|
@@ -26,6 +27,7 @@ activate :s3_sync do |s3_sync|
   s3_sync.aws_access_key_id     = '***REMOVED***'
   s3_sync.aws_secret_access_key = '***REMOVED***'
   s3_sync.path_style            = true
+  # s3.prefer_gzip                = true
 end
 
 activate :sprockets do |c|
@@ -37,6 +39,8 @@ configure :development do
   activate :livereload
 end
 
+# Sitemap
+page "sitemap.xml", :layout => false
 
 #page "/index.html", :proxy => "/index.en.html"
 
@@ -106,7 +110,6 @@ configure :build do
   # Use relative URLs
   activate :relative_assets
 
-  activate :sprockets
   # activate :gzip
 
   # Build PDF files
@@ -154,5 +157,9 @@ helpers do
   #   classes.join(' ')
   # end
 
+  def link_to_locale(text, target, lang=::I18n.locale)
+    url = extensions[:i18n].localized_path(target, lang)
+    url ? super(text, url) : super(text, target)
+  end
 
 end
