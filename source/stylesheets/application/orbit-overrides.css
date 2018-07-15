@@ -1,9 +1,5 @@
-
-.lang-wrapper {
-  /*border: 1px solid silver;*/
-  background: #fff;
-  padding: 10px 60px;
-  padding-right: 300px;
+body {
+  padding-top: 50px !important;
 }
 
 .main-wrapper {
@@ -18,8 +14,7 @@
   margin-bottom: 45px !important;
 }
 
-.main-wrapper .subtitle {
-  margin-bottom: 10px;
-  /*color: rgb(121, 136, 156)*/
-  color: rgb(151, 170, 195)
+
+.sidebar-wrapper .contact-list li {
+  margin-bottom: 10px !important;
 }

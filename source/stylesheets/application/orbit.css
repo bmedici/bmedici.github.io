@@ -43,7 +43,6 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #4B6A78;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -202,7 +201,7 @@ p {
   overflow: hidden;
   margin-bottom: 2px;
 }
-.main-wrapper .job-title {
+.main-wrapper .jobtask-title {
   color: #3F4650;
   font-size: 16px;
   margin-top: 0;

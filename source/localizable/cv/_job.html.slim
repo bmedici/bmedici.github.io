@@ -36,8 +36,9 @@
         - job.what.each do |what|
           .detail
             - if what.respond_to?(:title)
-              p.jobdetails= nl2br(localized(what.detail))   if what.respond_to?(:detail)   
               p.jobtask= localized(what.title)               
+              - if what.respond_to?(:detail)        
+                p.jobdetail= nl2br(localized(what.detail))
 
               
 

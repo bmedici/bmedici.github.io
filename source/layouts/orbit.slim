@@ -21,10 +21,6 @@ html
 
     = stylesheet_link_tag :application
 
-    = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic"
-
-    = javascript_include_tag :application
-
   body class=page_classes
 
     .wrapper
@@ -39,12 +35,15 @@ html
 
     / = javascript_include_tag :prologue
 
+    = javascript_include_tag :application
+    = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic"
+
     footer.footer
-        div.text-center
-            small.copyright
-                = "Designed with "
-                o.fa.fa-heart
-                = " by "
-                a href="http://themes.3rdwavemedia.com" target="_blank" Xiaoying Riley
-                = " for developers"
+      div.text-center
+        small.copyright
+          = "Designed with "
+          o.fa.fa-heart
+          = " by "
+          a href="http://themes.3rdwavemedia.com" target="_blank" Xiaoying Riley
+          = " for developers"
 

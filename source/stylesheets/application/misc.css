@@ -1,9 +1,8 @@
-.flag {
+/*.flag {
   border: 1px solid white;
-  /*width: 20px;*/
   margin: 2px 4px;
   }
-
+*/
 .clip-circle {
   clip-path: circle(60px at center);
   /* OLD VALUE example: circle(245px, 140px, 50px); */
