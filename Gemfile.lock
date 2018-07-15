@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/bmedici/middleman-pdfkit
+  revision: 5aba345ca114948917e94db83d19c9db1fc5208c
+  specs:
+    middleman-pdfkit (0.1.0)
+      middleman-core (>= 4.2.1)
+      pdfkit (~> 0.8.2)
+      wkhtmltopdf_binary_provider
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -197,13 +206,12 @@ DEPENDENCIES
   middleman-favicon-maker
   middleman-livereload
   middleman-minify-html
+  middleman-pdfkit!
   middleman-s3_sync
   middleman-simple-thumbnailer
   middleman-sprockets
   mime-types
-  pdfkit (~> 0.8.2)
   slim
-  wkhtmltopdf_binary_provider
 
 BUNDLED WITH
    1.16.2

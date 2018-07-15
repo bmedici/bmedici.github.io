@@ -20,9 +20,9 @@ gem "jquery-middleman"
 gem 'mime-types'
 gem 'slim'
 
-# gem 'middleman-pdfkit'
-gem 'pdfkit', '~> 0.8.2'
-gem 'wkhtmltopdf_binary_provider'
+gem 'middleman-pdfkit', git: "https://github.com/bmedici/middleman-pdfkit"
+#gem '', '~> 0.8.2', path: "../"
+#gem 'wkhtmltopdf_binary_provider'
 
 
 # gem "susy"

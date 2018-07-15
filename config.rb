@@ -1,6 +1,3 @@
-# require 'makepdf'
-require 'middleman-pdfkit'
-
 set :layout,      :orbit
 set :css_dir,     'stylesheets'
 set :js_dir,      'javascripts'
