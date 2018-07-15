@@ -19,7 +19,8 @@ html
 
     // %link{href: 'https://fonts.googleapis.com/css?family=Exo+2:200,400,700', type: 'text/css', rel: 'stylesheet' }
 
-    = stylesheet_link_tag :application
+    = stylesheet_link_tag :application, media: :all
+    = stylesheet_link_tag :print, media: :print
 
   body class=page_classes
 
