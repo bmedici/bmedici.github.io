@@ -14,7 +14,12 @@ body {
   margin-bottom: 45px !important;
 }
 
-
 .sidebar-wrapper .contact-list li {
   margin-bottom: 10px !important;
+}
+
+.main-wrapper .upper-row {
+    position: relative;
+    overflow: visible !important;
+    /*margin-bottom: 2px;*/
 }

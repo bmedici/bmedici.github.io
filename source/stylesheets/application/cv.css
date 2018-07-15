@@ -25,3 +25,8 @@ p.jobdetail {
   /*display: block;*/
   display: none;
   }
+
+.cv-logo {
+  position: relative;
+  top: -4px;
+}

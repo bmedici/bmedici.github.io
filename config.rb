@@ -8,6 +8,7 @@ set :images_dir,  'images'
 
 # Activate debug if DEBUG is a non-zero integer
 set :debug,       !ENV['DEBUG'].to_i.zero?
+set :image_box,   "150x35"
 
 # For custom domains on github pages
 page "CNAME",      layout: false

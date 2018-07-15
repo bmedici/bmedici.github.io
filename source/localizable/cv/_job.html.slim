@@ -27,7 +27,12 @@
       - else
         h3.jobtask-title= localized(job.title)
 
-      .time= place
+      .time
+        - if name
+          = image_tag("logos/#{name}.png", resize_to: config[:image_box], alt: place, class: "cv-logo")
+        - else
+          = place
+
     .subtitle
       = where.join(' - ')
 
@@ -39,6 +44,4 @@
               p.jobtask= localized(what.title)               
               - if what.respond_to?(:detail)        
                 p.jobdetail= nl2br(localized(what.detail))
-
-              
 

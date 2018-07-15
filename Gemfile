@@ -8,6 +8,9 @@ gem "middleman-livereload"  #, "~> 3.1.0"
 gem "middleman-favicon-maker"
 gem 'middleman-s3_sync'
 gem "middleman-minify-html"
+gem 'middleman-meta-tags'
+gem 'middleman-simple-thumbnailer'
+
 
 gem "middleman-sprockets"   #, "~> 3.0.6"
 gem 'middleman-bootstrap-navbar'
