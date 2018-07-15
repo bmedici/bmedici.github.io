@@ -6,7 +6,7 @@
         = "Bruno"
         = " "
         span.family= "Medici"
-    h3.tagline Solutions & Web architect
+    = partial "sidebar/tagline"
 
 .contact-container.container-block
     ul.list-unstyled.contact-list
@@ -30,34 +30,11 @@
             = "Paris 13 + Lille Centre"
 
 
-
-.education-container.container-block
-    h2.container-block-title Education
-    .item
-        h4.degree MSc in Computer Science
-        h5.meta University of London
-        .time 2011 - 2012
-    .item
-        h4.degree MSc in Computer Science
-        h5.meta University of London
-        .time 2011 - 2012
+= partial "sidebar/education"
+= partial "sidebar/international"
 
 
-.languages-container.container-block
-    h2.container-block-title Languages
-    ul.list-unstyled.interests-list
-        li
-          = "French"
-          = " - "
-          span.lang-desc Native
-        li
-          = "English"
-          = " - "
-          span.lang-desc Native
-        li
-          = "English"
-          = " - "
-          span.lang-desc Native
+
 
 
 .languages-container.container-block
