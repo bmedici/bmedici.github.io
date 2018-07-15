@@ -2,8 +2,13 @@ body {
   padding-top: 50px !important;
 }
 
+.sidebar-wrapper .container-block {
+  padding-bottom: 10px !important;
+}
+
 .main-wrapper {
   /*padding: 45px 60px !important;*/
+  min-height: 1800px;
 }
 
 .main-wrapper .section {
@@ -22,4 +27,9 @@ body {
     position: relative;
     overflow: visible !important;
     /*margin-bottom: 2px;*/
+}
+
+.footer {
+  padding: 20px;
+  padding-top: 8px !important;
 }
