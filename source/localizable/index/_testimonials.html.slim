@@ -1,0 +1,16 @@
+section.section.summary-section
+  h2.section-title
+    = fa_icon :user
+    = "Testimonials"
+
+  - data.testimonials.each do |t|
+
+    .block
+      span.laquo
+      span.text= nl2br(localized(t.text))
+      span.raquo
+      hr
+      .signature
+        = t.name
+        br
+        .client= t.company
