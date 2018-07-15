@@ -17,7 +17,6 @@ html
     //     = stylesheet_link_tag "ie/ie9"
     //   <![endif]--
 
-    // %link{href: 'https://fonts.googleapis.com/css?family=Exo+2:200,400,700', type: 'text/css', rel: 'stylesheet' }
 
     = stylesheet_link_tag :application, media: :all
     = stylesheet_link_tag :print, media: :print
@@ -42,9 +41,5 @@ html
     footer.footer
       div.text-center
         small.copyright
-          = "Designed with "
-          o.fa.fa-heart
-          = " by "
-          a href="http://themes.3rdwavemedia.com" target="_blank" Xiaoying Riley
-          = " for developers"
+          = "Build ##{Time.now.strftime('%Y%m%d-%H%M%S')}"
 
