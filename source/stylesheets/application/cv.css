@@ -30,3 +30,13 @@ p.jobdetail {
   position: relative;
   top: -4px;
 }
+
+.item.job {
+  page-break-inside: avoid;
+  page-break-before: avoid;
+}
+
+
+.cv-download {
+  margin-top: 20px;
+}

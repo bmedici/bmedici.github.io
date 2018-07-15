@@ -14,7 +14,7 @@
 / p= job.keywords.join(' - ') if job.keywords.is_a? Array
 
 
-.item
+.item.job
   .meta
     .upper-row
       - if has_details
@@ -22,7 +22,7 @@
           = localized(job.title)
           = " "
           / = fa_icon("angle-down")
-          = fa_icon("chevron-circle-down")
+          span.noprint= fa_icon("chevron-circle-down")
 
       - else
         h3.jobtask-title= localized(job.title)
