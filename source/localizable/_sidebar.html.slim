@@ -1,3 +1,5 @@
+- pdf_url = "/#{current_page.path}.pdf"
+
 .profile-container
     / = image_tag "bmc_square.png", class: "profile", width: 240
     = image_tag "orbit/profile.png", class: "profile clip-circle"
@@ -7,6 +9,8 @@
         = " "
         span.family= "Medici"
     = partial "sidebar/tagline"
+
+
 
 .contact-container.container-block
     ul.list-unstyled.contact-list
