@@ -27,6 +27,7 @@ activate :i18n, :mount_at_root => :en, path: "/"
 # Tags
 activate :meta_tags
 
+# page '/*.pdf', :content_type => 'application/pdf'
 
 # S3 sync
 activate :s3_sync do |s3_sync|
@@ -52,12 +53,6 @@ end
 # Sitemap
 page "sitemap.xml", :layout => false
 
-#page "/index.html", :proxy => "/index.en.html"
-
-# Root route
-# proxy "/", "localizable/index.html"
-# redirect "/index.html", to: "/fr/"
-
 # Easier bootstrap navbars
 activate :bootstrap_navbar do |bootstrap_navbar|
   # bootstrap_navbar.bootstrap_version = '4.0.0'
@@ -72,7 +67,6 @@ end
 # end
 
 # Time.zone = 'Paris'
-
 
 ###
 # Page options, layouts, aliases and proxies
@@ -100,9 +94,6 @@ end
 ###
 
 
-
-
-
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -122,8 +113,7 @@ configure :build do
 
   # Build PDF files
   activate :pdfkit do |p|
-    p.filenames = ['cv-bruno-medici-fr', 'cv-bruno-medici-en']
-    # p.disable_smart_shrinking = true
+    # p.filenames = ['cv-bruno-medici-fr/index', 'cv-bruno-medici-en/index']
     p.quiet = false
     p.page_size = 'A4'
     p.margin_top = 10
@@ -154,24 +144,22 @@ configure :build do
 end
 
 
+# after_build do |builder|
+#      FileUtils.mv(Dir['build/templates/*'],'build/', {:force => true})
+#      FileUtils.mv(Dir['build/translations/*'],'build/', {:force => true})
+#      FileUtils.rm_rf('build/templates')
+#      FileUtils.rm_rf('build/translations')
+# end
+
+# config.middleware.use PDFKit::Middleware, {}, :only => %r[^/public]
+
+
 helpers do
 
   def t_title object
     return unless object.repond_to? :title
     object.title
   end
-
-  # def page_classes
-  #   path = request.path_info.dup
-  #   path << settings.index_file if path.match(%r{/$})
-  #   path = path.gsub(%r{^/}, '')
-
-  #   classes = []
-  #   parts = path.split('.')[0].split('/')
-  #   parts.each_with_index { |path, i| classes << parts.first(i+1).join('_') }
-
-  #   classes.join(' ')
-  # end
 
   def link_to_locale(text, target, lang=::I18n.locale)
     url = extensions[:i18n].localized_path(target, lang)
