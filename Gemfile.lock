@@ -1,10 +1,10 @@
 GIT
   remote: https://github.com/bmedici/middleman-pdfkit
-  revision: 5aba345ca114948917e94db83d19c9db1fc5208c
+  revision: d2dfc5beb01bce3893fd86797807c6b3a1630b63
   specs:
     middleman-pdfkit (0.1.0)
-      middleman-core (>= 4.2.1)
-      pdfkit (~> 0.8.2)
+      middleman-core (>= 4)
+      pdfkit (~> 0.8)
       wkhtmltopdf_binary_provider
 
 GEM
@@ -93,8 +93,6 @@ GEM
       middleman-cli (= 4.2.1)
       middleman-core (= 4.2.1)
       sass (>= 3.4.0, < 4.0)
-    middleman-alias (0.0.17)
-      middleman-core (>= 3.3)
     middleman-bootstrap-navbar (4.0.0)
       bootstrap-navbar (~> 3.0)
       middleman (>= 3.1)
@@ -130,6 +128,8 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
+    middleman-meta-tags (0.4.0)
+      middleman-core (>= 3.0.0)
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
@@ -204,6 +204,7 @@ DEPENDENCIES
   middleman-bootstrap-navbar
   middleman-favicon-maker
   middleman-livereload
+  middleman-meta-tags
   middleman-minify-html
   middleman-pdfkit!
   middleman-s3_sync

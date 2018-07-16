@@ -25,7 +25,7 @@ activate :middleman_simple_thumbnailer
 activate :i18n, :mount_at_root => :en, path: "/"
 # :path => "/langs/:locale/"
 # Tags
-# activate :meta_tags
+activate :meta_tags
 
 
 # S3 sync
