@@ -35,6 +35,8 @@ activate :s3_sync do |s3_sync|
   s3_sync.aws_access_key_id     = '***REMOVED***'
   s3_sync.aws_secret_access_key = '***REMOVED***'
   s3_sync.path_style            = true
+  s3_sync.reduced_redundancy_storage = true
+  # s3_sync.content_types = true
   # s3.prefer_gzip                = true
 end
 
