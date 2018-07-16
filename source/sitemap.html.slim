@@ -1,0 +1,5 @@
+ul
+  - sitemap.resources.each do |page|
+    li= page.url
+hr
+  / pre= sitemap.resources.to_yaml
