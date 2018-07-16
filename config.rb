@@ -7,6 +7,8 @@ set :relative_links, true
 # Activate debug if DEBUG is a non-zero integer
 set :debug,       !ENV['DEBUG'].to_i.zero?
 set :image_box,   "150x35"
+# set :cv_fr,       "cv-bruno-medici-fr-#{Time.now.strftime('%Y%m%d')}.pdf"
+# set :cv_en,       "cv-bruno-medici-en-#{Time.now.strftime('%Y%m%d')}.pdf"
 
 # For custom domains on github pages
 page "CNAME",      layout: false
@@ -21,7 +23,12 @@ activate :middleman_simple_thumbnailer
 
 # activate :i18n, :mount_at_root => :fr
 activate :i18n, :mount_at_root => :en, path: "/"
+# :path => "/langs/:locale/"
+# Tags
+# activate :meta_tags
 
+
+# S3 sync
 activate :s3_sync do |s3_sync|
   s3_sync.bucket                = 's3.bmconseil.com'
   s3_sync.region                = 'eu-west-3'
@@ -111,18 +118,24 @@ configure :build do
   # Use relative URLs
   activate :relative_assets
 
-  # activate :gzip
-
   # Build PDF files
   activate :pdfkit do |p|
     p.filenames = ['cv-bruno-medici-fr', 'cv-bruno-medici-en']
     # p.disable_smart_shrinking = true
-    # p.quiet = false
-    # p.page_size = 'A5'
+    p.quiet = false
+    p.page_size = 'A4'
     p.margin_top = 10
     p.margin_right = 10
     p.margin_bottom = 10
     p.margin_left = 10
+
+    # p.page_width = 3000
+    # p.dpi = 10
+    # p.print_media_type = true
+
+    # p.page_width = '169.33'
+    # p.page_height = '95.25'
+
     # p.encoding = 'UTF-8'
   end
 
