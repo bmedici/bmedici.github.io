@@ -2,6 +2,7 @@ set :layout,      :orbit
 set :css_dir,     'stylesheets'
 set :js_dir,      'javascripts'
 set :images_dir,  'images'
+set :relative_links, true
 
 # Activate debug if DEBUG is a non-zero integer
 set :debug,       !ENV['DEBUG'].to_i.zero?
