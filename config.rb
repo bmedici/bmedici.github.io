@@ -20,7 +20,7 @@ activate :automatic_image_sizes
 activate :middleman_simple_thumbnailer
 
 # activate :i18n, :mount_at_root => :fr
-activate :i18n, :mount_at_root => :fr
+activate :i18n, :mount_at_root => :en, path: "/"
 
 activate :s3_sync do |s3_sync|
   s3_sync.bucket                = 's3.bmconseil.com'
