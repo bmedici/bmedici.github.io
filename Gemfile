@@ -24,6 +24,7 @@ gem 'middleman-pdfkit', git: "https://github.com/bmedici/middleman-pdfkit"
 #gem '', '~> 0.8.2', path: "../"
 #gem 'wkhtmltopdf_binary_provider'
 
+gem "mini_magick"
 
 # gem "susy"
 # gem "addressable"

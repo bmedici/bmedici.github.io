@@ -211,6 +211,7 @@ DEPENDENCIES
   middleman-simple-thumbnailer
   middleman-sprockets
   mime-types
+  mini_magick
   slim
 
 BUNDLED WITH
