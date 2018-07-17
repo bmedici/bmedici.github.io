@@ -1,7 +1,7 @@
 # Middleman configuration
-set :css_dir,     'stylesheets'
-set :js_dir,      'javascripts'
-set :images_dir,  'images'
+set :css_dir,     'css'
+set :js_dir,      'js'
+set :images_dir,  'img'
 set :relative_links, false
 # Time.zone = 'Paris'
 
