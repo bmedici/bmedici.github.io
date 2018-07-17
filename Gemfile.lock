@@ -1,11 +1,7 @@
 GIT
   remote: https://github.com/bmedici/middleman-pdfkit
-  revision: d2dfc5beb01bce3893fd86797807c6b3a1630b63
+  revision: 0bbf304e08bf053a57ab0de18f3430cb90f407dd
   specs:
-    middleman-pdfkit (0.1.0)
-      middleman-core (>= 4)
-      pdfkit (~> 0.8)
-      wkhtmltopdf_binary_provider
 
 GEM
   remote: https://rubygems.org/
@@ -133,6 +129,10 @@ GEM
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
+    middleman-pdfkit (0.2.0)
+      middleman-core (>= 4)
+      pdfkit (~> 0.8)
+      wkhtmltopdf_binary_provider
     middleman-s3_sync (4.0.3)
       ansi (~> 1.5.0)
       fog-aws (>= 0.1.1)
@@ -206,7 +206,7 @@ DEPENDENCIES
   middleman-livereload
   middleman-meta-tags
   middleman-minify-html
-  middleman-pdfkit!
+  middleman-pdfkit
   middleman-s3_sync
   middleman-simple-thumbnailer
   middleman-sprockets
