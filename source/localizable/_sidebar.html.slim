@@ -1,50 +1,9 @@
 - pdf_url = "/#{current_page.path}.pdf"
 
-.profile-container
-    / = image_tag "bmc_square.png", class: "profile", width: 240
-    = image_tag "profile/bruno.png", class: "profile clip-circle"
-
-    h1.name
-        = "Bruno"
-        = " "
-        span.family= "Medici"
-    = partial "sidebar/tagline"
 
 
-.contact-container.container-block
-    ul.list-unstyled.contact-list
-        li.email
-            = fa_icon :envelope
-            = link_to "cvweb@bmconseil.com", "mailto: cvweb@bmconseil.com" 
-        li.phone
-            = fa_icon :phone
-            = link_to "+33 611 647 608", "tel:+33 611 647 608"
-        li.website
-            = fa_icon :globe
-            = link_to "bmconseil.com", "https://bmconseil.com", target: "_blank"
-        li.linkedin
-            = fa_icon :linkedin
-            = link_to "brunomedici", "https://www.linkedin.com/in/brunomedici/", target: "_blank"
-        li.github
-            = fa_icon :github
-            = link_to "bmedici", "https://github.com/bmedici", target: "_blank"
-        li.address
-            = fa_icon "map-marker"
-            = "Paris 13 + Lille Centre"
-
-
-= partial "sidebar/education"
-= partial "sidebar/international"
-
-
-
-.languages-container.container-block
-    h2.container-block-title Interests
-    ul.list-unstyled.interests-list
-      - data.interests.each do |item|
-        li
-          = localized(item.name)
-          = " - "
-          span.lang-desc
-            = nl2br(localized(item.desc))
-        
+  = partial "sidebar/profile"
+  = partial "sidebar/contact"
+  = partial "sidebar/education"
+  = partial "sidebar/international"
+  = partial "sidebar/interests"

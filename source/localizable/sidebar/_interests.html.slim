@@ -1,0 +1,10 @@
+.languages-container.container-block
+  h2.container-block-title Interests
+  ul.list-unstyled.interests-list
+    - data.interests.each do |item|
+      li
+        = localized(item.name)
+        = " - "
+        span.lang-desc
+          = nl2br(localized(item.desc))
+      
