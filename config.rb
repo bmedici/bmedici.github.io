@@ -118,6 +118,10 @@ configure :build do
   # Enable cache buster
   activate :asset_hash
 
+  # Ignore original files
+  ignore 'stylesheets/application/*.css'  
+  ignore 'javascripts/application/*.css'  
+
   # Use relative URLs
   activate :relative_assets
 
