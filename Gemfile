@@ -9,7 +9,8 @@ gem "middleman-favicon-maker"
 gem 'middleman-s3_sync'
 gem "middleman-minify-html"
 gem 'middleman-meta-tags'
-gem 'middleman-simple-thumbnailer'
+gem "middleman-simple-thumbnailer", git: "https://github.com/kubenstein/middleman-simple-thumbnailer"
+#gem "middleman-simple-thumbnailer", path: "../middleman-simple-thumbnailer"
 
 
 gem "middleman-sprockets"   #, "~> 3.0.6"
@@ -24,6 +25,7 @@ gem 'middleman-pdfkit' #, git: "https://github.com/bmedici/middleman-pdfkit"
 # gem 'middleman-pdfkit', git: "https://github.com/bmedici/middleman-pdfkit"
 
 gem "mini_magick"
+gem "minitest"
 
 # gem "susy"
 # gem "addressable"
