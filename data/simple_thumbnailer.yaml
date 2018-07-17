@@ -1,0 +1,2 @@
+- path: "logos/*.png"
+  resize_to: "150x35"

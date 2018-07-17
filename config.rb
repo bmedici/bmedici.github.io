@@ -27,7 +27,9 @@ activate :directory_indexes
 # Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes
 
-activate :middleman_simple_thumbnailer
+activate :middleman_simple_thumbnailer, use_specs: true
+#, update_specs: true
+
 
 # activate :i18n, :mount_at_root => :fr
 activate :i18n, :mount_at_root => :en, path: "/"
