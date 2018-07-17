@@ -87,15 +87,15 @@ configure :build do
   # Minify HTML on build
   activate :minify_html
 
+  # Use relative URLs
+  activate :relative_assets
+
   # Enable cache buster
-  # activate :asset_hash
+  activate :asset_hash
 
   # Ignore original files
   ignore 'stylesheets/application/*.css'  
   ignore 'javascripts/application/*.css'  
-
-  # Use relative URLs
-  activate :relative_assets
 
   # Build PDF files
   activate :pdfkit do |p|
