@@ -10,6 +10,14 @@ set :image_box,   "150x35"
 # set :cv_fr,       "cv-bruno-medici-fr-#{Time.now.strftime('%Y%m%d')}.pdf"
 # set :cv_en,       "cv-bruno-medici-en-#{Time.now.strftime('%Y%m%d')}.pdf"
 
+
+# Blank site ?
+set :blank,       false
+if !ENV['BLANK'].to_i.zero?
+  set :build_dir, 'build/full'
+  set :blank,       true
+end
+
 # For custom domains on github pages
 page "CNAME",      layout: false
 

@@ -5,11 +5,12 @@ langs:
   en: "/"
 ---
 
+- if config[:blank]
+  = partial "index/placeholder"
+  = partial "index/placeholder"
+  = partial "index/placeholder"
 
-
-
-
-= partial "index/testimonials"
+- else
   = partial "index/intro"
   = partial "index/references"
   = partial "index/testimonials"

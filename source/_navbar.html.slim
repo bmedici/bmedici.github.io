@@ -1,7 +1,11 @@
 - langs = current_page.data.langs
 
 = navbar fixed: :top, container: false, class: :noprint do
-  = navbar_header brand: 'Bruno Medici Consultant', brand_link: '/'
+  - if config[:blank]
+    = navbar_header brand: 'TITLE', brand_link: '/'
+  - else
+    = navbar_header brand: 'Bruno Medici Consultant', brand_link: '/'
+
   = navbar_collapse do
     = navbar_group class: 'foo', id: 'menu' do
       / = navbar_text 'Pick an option:'
@@ -9,8 +13,10 @@
         = fa_icon(:home)
         = " HOME"
 
-      = navbar_item "CV", '/cv-bruno-medici-fr'
-      = navbar_item "RESUME", '/cv-bruno-medici-en'
+      - unless config[:blank]
+        = navbar_item "CV", '/cv-bruno-medici-fr'
+        = navbar_item "RESUME", '/cv-bruno-medici-en'
+
       = navbar_item fa_icon(:envelope), "contact"
 
       / = navbar_dropdown "Stuff" do
@@ -22,7 +28,6 @@
       /     = navbar_dropdown_divider
       /     = navbar_item "Admin Dashboard", '/admin'
       /     = navbar_item "Users", '/admin/users'
-
 
     = navbar_group align: 'right' do
       - if langs.is_a? Hash

@@ -1,7 +1,10 @@
 - pdf_url = "/#{current_page.path}.pdf"
 
 
+- if config[:blank]
+  = partial "sidebar/placeholder"
 
+- else
   = partial "sidebar/profile"
   = partial "sidebar/contact"
   = partial "sidebar/education"
