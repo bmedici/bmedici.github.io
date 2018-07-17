@@ -47,9 +47,14 @@ activate :s3_sync do |s3_sync|
   s3_sync.aws_secret_access_key = '***REMOVED***'
   s3_sync.path_style            = true
   s3_sync.reduced_redundancy_storage = true
+  s3_sync.version_bucket             = false
+  s3_sync.index_document             = 'index.html'
+  s3_sync.error_document             = '404.html'
+
   # s3_sync.content_types = true
   # s3.prefer_gzip                = true
 end
+default_caching_policy max_age: 60
 
 activate :sprockets do |c|
   # c.expose_middleman_helpers = true
