@@ -100,10 +100,10 @@ configure :build do
   # Build PDF files
   activate :pdfkit do |p|
     p.filenames = {
-      'cv-bruno-medici-fr/index' => 'cv-bruno-medici-fr.pdf',
-      'cv-bruno-medici-en/index' => 'cv-bruno-medici-en.pdf',
+      'cv/cv-bruno-medici-fr/index' => 'cv/cv-bruno-medici-fr.pdf',
+      'cv/cv-bruno-medici-en/index' => 'cv/cv-bruno-medici-en.pdf',
      }
-    # p.filenames = ['cv-bruno-medici-fr/index', 'cv-bruno-medici-en/index']
+    # p.filenames = ['cv/cv-bruno-medici-fr/index', 'cv/cv-bruno-medici-en/index']
     p.disable_smart_shrinking = true
     p.quiet = false
     p.page_size = 'A4'
