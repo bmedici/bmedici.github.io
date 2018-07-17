@@ -1,9 +1,5 @@
 module CustomHelpers
 
-  def test
-    "testing123"
-  end
-
   def jobs_sorted
     data.jobs.sort_by{|k,v| k}.reverse
   end
