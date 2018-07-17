@@ -1,5 +1,4 @@
 # Middleman configuration
-set :layout,      :orbit
 set :css_dir,     'stylesheets'
 set :js_dir,      'javascripts'
 set :images_dir,  'images'
