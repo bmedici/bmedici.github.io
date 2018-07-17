@@ -1,14 +1,15 @@
+# Middleman configuration
 set :layout,      :orbit
 set :css_dir,     'stylesheets'
 set :js_dir,      'javascripts'
 set :images_dir,  'images'
-set :relative_links, true
+set :relative_links, false
+# Time.zone = 'Paris'
+
 
 # Activate debug if DEBUG is a non-zero integer
 set :debug,       !ENV['DEBUG'].to_i.zero?
 set :image_box,   "150x35"
-# set :cv_fr,       "cv-bruno-medici-fr-#{Time.now.strftime('%Y%m%d')}.pdf"
-# set :cv_en,       "cv-bruno-medici-en-#{Time.now.strftime('%Y%m%d')}.pdf"
 
 
 # Blank site ?
@@ -18,26 +19,28 @@ if !ENV['BLANK'].to_i.zero?
   set :blank,       true
 end
 
+
+# Sitemap
+page "sitemap.xml", :layout => false
+
+
 # For custom domains on github pages
 page "CNAME",      layout: false
+
 
 # Turn this on if you want to make your url's prettier, without the .html
 activate :directory_indexes
 
+
 # Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes
-
 activate :middleman_simple_thumbnailer, use_specs: true
-#, update_specs: true
 
 
-# activate :i18n, :mount_at_root => :fr
+# Localization and meta tags
 activate :i18n, :mount_at_root => :en, path: "/"
-# :path => "/langs/:locale/"
-# Tags
 activate :meta_tags
 
-# page '/*.pdf', :content_type => 'application/pdf'
 
 # S3 sync
 activate :s3_sync do |s3_sync|
@@ -50,28 +53,92 @@ activate :s3_sync do |s3_sync|
   s3_sync.version_bucket             = false
   s3_sync.index_document             = 'index.html'
   s3_sync.error_document             = '404.html'
-
   # s3_sync.content_types = true
   # s3.prefer_gzip                = true
 end
 default_caching_policy max_age: 60
 
+
+# Asset pipeline
 activate :sprockets do |c|
   # c.expose_middleman_helpers = true
 end
+
 
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
 end
 
-# Sitemap
-page "sitemap.xml", :layout => false
 
 # Easier bootstrap navbars
 activate :bootstrap_navbar do |bootstrap_navbar|
   # bootstrap_navbar.bootstrap_version = '4.0.0'
 end
+
+
+# Build-specific configuration
+configure :build do
+  # For example, change the Compass output style for deployment
+  activate :minify_css
+
+  # Minify Javascript on build
+  activate :minify_javascript
+
+  # Minify HTML on build
+  activate :minify_html
+
+  # Enable cache buster
+  # activate :asset_hash
+
+  # Ignore original files
+  ignore 'stylesheets/application/*.css'  
+  ignore 'javascripts/application/*.css'  
+
+  # Use relative URLs
+  activate :relative_assets
+
+  # Build PDF files
+  activate :pdfkit do |p|
+    p.filenames = {
+      'cv-bruno-medici-fr/index' => 'cv-bruno-medici-fr.pdf',
+      'cv-bruno-medici-en/index' => 'cv-bruno-medici-en.pdf',
+     }
+    # p.filenames = ['cv-bruno-medici-fr/index', 'cv-bruno-medici-en/index']
+    p.disable_smart_shrinking = true
+    p.quiet = false
+    p.page_size = 'A4'
+    p.margin_top = 10
+    p.margin_right = 10
+    p.margin_bottom = 10
+    p.margin_left = 10
+    # p.page_width = 3000
+    # p.dpi = 10
+    # p.print_media_type = true
+    # p.page_width = '169.33'
+    # p.page_height = '95.25'
+    # p.encoding = 'UTF-8'
+  end
+
+  # activate :favicon_maker, :icons => {
+  #     "_favicon_template.png" => [
+  #       { icon: "apple-touch-icon-152x152-precomposed.png" },
+  #       { icon: "apple-touch-icon-114x114-precomposed.png" },
+  #       { icon: "apple-touch-icon-72x72-precomposed.png" },
+  #     ]
+  #   }
+end
+
+
+# after_build do |builder|
+#      FileUtils.mv(Dir['build/templates/*'],'build/', {:force => true})
+#      FileUtils.mv(Dir['build/translations/*'],'build/', {:force => true})
+#      FileUtils.rm_rf('build/templates')
+#      FileUtils.rm_rf('build/translations')
+# end
+
+# config.middleware.use PDFKit::Middleware, {}, :only => %r[^/public]
+
 
 # activate :blog do |blog|
 #   blog.prefix = 'posts'
@@ -81,7 +148,6 @@ end
 #   blog.paginate = true
 # end
 
-# Time.zone = 'Paris'
 
 ###
 # Page options, layouts, aliases and proxies
@@ -108,111 +174,5 @@ end
 # Helpers
 ###
 
-
-# Build-specific configuration
-configure :build do
-  # For example, change the Compass output style for deployment
-  activate :minify_css
-
-  # Minify Javascript on build
-  activate :minify_javascript
-
-  # Minify HTML on build
-  activate :minify_html
-
-  # Enable cache buster
-  activate :asset_hash
-
-  # Ignore original files
-  ignore 'stylesheets/application/*.css'  
-  ignore 'javascripts/application/*.css'  
-
-  # Use relative URLs
-  activate :relative_assets
-
-  # Build PDF files
-  activate :pdfkit do |p|
-    p.filenames = {
-      'cv-bruno-medici-fr/index' => 'cv-bruno-medici-fr.pdf',
-      'cv-bruno-medici-en/index' => 'cv-bruno-medici-en.pdf',
-     }
-    # p.filenames = ['cv-bruno-medici-fr/index', 'cv-bruno-medici-en/index']
-    p.disable_smart_shrinking = true
-    p.quiet = false
-    p.page_size = 'A4'
-    p.margin_top = 10
-    p.margin_right = 10
-    p.margin_bottom = 10
-    p.margin_left = 10
-
-    # p.page_width = 3000
-    # p.dpi = 10
-    # p.print_media_type = true
-
-    # p.page_width = '169.33'
-    # p.page_height = '95.25'
-
-    # p.encoding = 'UTF-8'
-  end
-
-# activate :favicon_maker, :icons => {
-#     "_favicon_template.png" => [
-#       { icon: "apple-touch-icon-152x152-precomposed.png" },
-#       { icon: "apple-touch-icon-114x114-precomposed.png" },
-#       { icon: "apple-touch-icon-72x72-precomposed.png" },
-#     ]
-#   }
-
-  # Or use a different image path
-  # set :http_prefix, "/Content/images/"
-end
-
-
-# after_build do |builder|
-#      FileUtils.mv(Dir['build/templates/*'],'build/', {:force => true})
-#      FileUtils.mv(Dir['build/translations/*'],'build/', {:force => true})
-#      FileUtils.rm_rf('build/templates')
-#      FileUtils.rm_rf('build/translations')
-# end
-
-# config.middleware.use PDFKit::Middleware, {}, :only => %r[^/public]
-
-
 helpers do
-
-  def t_title object
-    return unless object.repond_to? :title
-    object.title
-  end
-
-  def link_to_locale(text, target, lang=::I18n.locale)
-    url = extensions[:i18n].localized_path(target, lang)
-    url ? super(text, url) : super(text, target)
-  end
-
-  def get_content(page = current_page)
-    # if page.data.layout == 'orbit'
-    page.render({layout: :orbit})
-  end
-
-  def pdf_for(pagename)
-    page = sitemap.find_resource_by_path(pagename)
-    pdf_for_debug pagename, "found: #{page.class}"
-    pdf_for_debug pagename, "url: #{page.url}"
-
-    html = get_content(page)
-    pdf_for_debug pagename, "html: #{html.bytesize}"
-
-    kit = ::PDFKit.new(html)
-    # kit = ::PDFKit.new('<html><body>HELLO</body></html>')
-    pdf = kit.to_pdf
-    pdf_for_debug pagename, "pdf: #{pdf.bytesize}"
-
-    return pdf
-  end
-
-  def pdf_for_debug(pagename, message)   
-    puts "pdf_for [#{pagename}] #{message}"
-  end
-
 end
