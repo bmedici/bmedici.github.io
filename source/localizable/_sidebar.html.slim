@@ -1,14 +1,16 @@
 - pdf_url = "/#{current_page.path}.pdf"
 
-
 - if config[:blank]
+
   = partial "sidebar/placeholder"
 
 - else
+
   = partial "sidebar/profile"
   = partial "sidebar/contact"
-  = partial "sidebar/education"
-  = partial "sidebar/languages"
-  = partial "sidebar/interests"
 
+  - if current_page.data.cvmode
+    = partial "sidebar/education"
+    = partial "sidebar/languages"
+    = partial "sidebar/interests"
     = partial "sidebar/timestamp"

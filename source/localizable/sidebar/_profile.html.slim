@@ -1,9 +1,20 @@
 .profile-container
-  / = image_tag "bmc_square.png", class: "profile", width: 240
   = image_tag "bruno.png", class: "profile clip-circle"
 
   h1.name
     = "Bruno"
     = " "
     span.family= "Medici"
-  = partial "sidebar/tagline"
+      
+    h3.tagline = nl2br(t('tagline'))
+
+    - if current_page.data.cvmode
+      .download-and-print.noprint
+        .item
+          = fa_icon "file"
+          = " "
+          = link_to "PDF", "cv/cv-bruno-medici-#{I18n.locale}.pdf"
+        .item
+          = fa_icon "print"
+          = " "
+          = link_to t('print'), 'javascript:window.print()'
