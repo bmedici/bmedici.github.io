@@ -23,10 +23,35 @@ body {
 @page {
   size: A4 portrait;
   margin: 1.4cm 1.1cm 1.4cm 1.1cm;
+
+  header, footer { 
+    display: none; 
   }
 
+  @top-right {
+    content: "Page " counter(page);
+  }
+
+  @bottom-left {
+    content: "Page " counter(page);
+  }
+
+  @bottom-right {
+    content: "Page " counter(page);
+  }
+
+  @top-left {
+    content: "Page " counter(page);
+  }
+
+  @top-center {
+    content: "";
+  }
 
 }
+
+
+
 
 .wrapper {
   /*width: 300px;*/
@@ -40,22 +65,20 @@ body {
 }
 
 .jobtask-title {
-  font-size: 0.9em !important;
+  font-size: 0.8em !important;
   }
 
 p.jobdetail {
   display: block;
   color: gray !important;
   border-left: none;
+  font-size: 0.8em;
   }  
 
 .stuff-container .meta ,
-.stuff-container .lang-desc
+.stuff-container .stuff-desc
 {
-  /*color: rgba(255, 255, 255, 0.6) !important;*/
   font-size: 0.9em;
-  color: gray !important;
-  }
 }
 
 .main-wrapper {
@@ -65,12 +88,18 @@ p.jobdetail {
   padding-right: 280px;
   }
 
-.main-wrapper,
-.sidebar-wrapper,
-.profile-container {
-  padding-top: 0 !important;
-  }
 
+.item.job {
+  page-break-inside: avoid;
+  page-break-before: avoid;
+}
+
+
+.stuff-container
+ {
+  page-break-inside: avoid;
+  page-break-before: avoid;
+}
 
 
 a[href]:after {
