@@ -34,11 +34,6 @@ p.jobdetail {
   /*top: -2px;*/
 }
 
-.item.job {
-  page-break-inside: avoid;
-  page-break-before: avoid;
-}
-
 .download {
   margin-top: 20px;
 }

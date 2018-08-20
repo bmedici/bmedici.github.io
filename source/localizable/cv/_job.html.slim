@@ -7,11 +7,7 @@
 - where << year if year
 - where << duration if duration
 - where << "[#{year}] [#{name}]" if @debug
-
-/ - has_details = what.respond_to?(:detail) && what.detail
 - has_details = job_has_details(job)
-
-/ p= job.keywords.join(' - ') if job.keywords.is_a? Array
 
 
 .item.job

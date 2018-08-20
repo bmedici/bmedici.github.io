@@ -92,6 +92,9 @@ configure :build do
 
   # Enable cache buster
   activate :asset_hash
+  # activate :asset_hash do |opts|
+  #   opts.exts += $(.ico)
+  # end
 
   # Ignore original files
   ignore 'stylesheets/application/*.css'  
