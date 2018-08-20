@@ -1,0 +1,34 @@
+- name:
+    fr: Ingénieur Télécom Lille
+    en: Engineering master degree
+  details:
+    - ENIC Télécom Lille (France), 2006
+    - fr: "Communication mobiles: GSM, UMTS"
+      en: "Mobile communications: GSM, UMTS"
+    - fr: Marketing des technologies de l'information
+      en: Marketing of information technologies
+
+- name:
+    fr: Stages / séminaires
+    en: Training and workshops
+  details:
+    - RailsConf 2010/Baltimore, 2009/Las Vegas, 2007/Berlin
+    - ParisOnRails 2007 (Paris)
+    - PHP Conference 2004/Amsterdam, 2002/Munich
+    - Cisco CSPFF & CSPFA (PIX Firewall Advanced)
+    - PSC1 civil emergency prevention
+
+- name:
+    fr: DUT Télécoms et réseaux
+    en: DUT Networks & Telecoms
+  details:
+    - IUT, Nice-Sophia, 2000
+    - fr:
+      en: Higher National Diploma
+
+
+- name: Baccalauréat Scientifique
+  details:
+    - fr:
+      en: School diploma in Sciences
+    - 1998

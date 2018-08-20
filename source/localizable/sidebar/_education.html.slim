@@ -1,0 +1,9 @@
+.stuff-container.container-block
+  h2.container-block-title =t('education')
+  ul.list-unstyled.interests-list
+    - data.education.each do |item|
+      li
+        div= localized(item.name)
+        - item.details.each do |detail|
+          div.stuff-desc= localized(detail)
+
