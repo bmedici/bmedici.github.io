@@ -1,6 +1,12 @@
 ---
 en:
 
+  tagline: |
+    Freelance
+    Web architect
+  print: Print
+
+
   paths:
     cv: "cv/cv-bruno-medici-en"
     index: 

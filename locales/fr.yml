@@ -1,6 +1,9 @@
 ---
 fr:
 
+  tagline: Architecte web indépendant
+  print: Imprimer
+
   paths:
     cv: "cv/cv-bruno-medici-fr"
     index: "home-fr"
