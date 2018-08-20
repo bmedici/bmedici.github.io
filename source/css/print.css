@@ -75,6 +75,13 @@ p.jobdetail {
   font-size: 0.8em;
   }  
 
+
+.stuff-container
+ {
+  page-break-inside: avoid;
+  page-break-before: avoid;
+}
+
 .stuff-container .meta ,
 .stuff-container .stuff-desc
 {
@@ -95,11 +102,6 @@ p.jobdetail {
 }
 
 
-.stuff-container
- {
-  page-break-inside: avoid;
-  page-break-before: avoid;
-}
 
 
 a[href]:after {
