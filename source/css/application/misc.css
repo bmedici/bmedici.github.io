@@ -10,4 +10,13 @@
 }
 
 
+.download-and-print {
+	margin-top: 20px;
+	/*border: 1px solid red;*/
+}
 
+.download-and-print .item {
+	margin: 0 6px;
+	/*border: 1px solid green;*/
+	display: inline-block;
+}
