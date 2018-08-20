@@ -117,24 +117,24 @@ p {
   margin-top: 0;
   margin-bottom: 5px;
 }
-.sidebar-wrapper .education-container .item {
+.sidebar-wrapper .stuff-container .item {
   margin-bottom: 15px;
 }
-.sidebar-wrapper .education-container .item:last-child {
+.sidebar-wrapper .stuff-container .item:last-child {
   margin-bottom: 0;
 }
-.sidebar-wrapper .education-container .meta {
+.sidebar-wrapper .stuff-container .meta {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
   margin-bottom: 0px;
   margin-top: 0;
 }
-.sidebar-wrapper .education-container .time {
+.sidebar-wrapper .stuff-container .time {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
   margin-bottom: 0px;
 }
-.sidebar-wrapper .languages-container .lang-desc {
+.sidebar-wrapper .stuff-container .lang-desc {
   color: rgba(255, 255, 255, 0.6);
 }
 .sidebar-wrapper .languages-list {
