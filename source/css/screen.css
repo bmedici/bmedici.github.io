@@ -9,7 +9,7 @@
   .main-wrapper {
     padding: 20px;
   }
-  .main-wrapper .job-logo {
+  .job .job-logo {
     position: static;
     display: block;
     margin-top: 5px;

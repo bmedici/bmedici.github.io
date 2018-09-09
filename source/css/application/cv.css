@@ -11,7 +11,7 @@ p.jobtask {
 }
 
 
-.jobtask-title {
+.job-title {
   cursor: default;
   }
 
@@ -21,7 +21,7 @@ p.jobtask {
   color: rgb(151, 170, 195)
 }
 
-.jobtask-title.deployable {
+.job-title.deployable {
   cursor: pointer;
   }
 
