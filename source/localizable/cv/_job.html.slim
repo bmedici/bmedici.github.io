@@ -5,10 +5,9 @@
 - where = []
 - where << location if location
 - where << year if year
-- where << duration if duration
+- where << duration unless duration.blank?
 - where << "[#{year}] [#{name}]" if @debug
 - has_details = job_has_details(job)
-
 
 .item.job
   .meta
