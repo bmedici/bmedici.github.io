@@ -23,12 +23,6 @@ body {
   margin-bottom: 10px !important;
 }
 
-.main-wrapper .upper-row {
-    position: relative;
-    overflow: visible !important;
-    /*margin-bottom: 2px;*/
-}
-
 .footer {
   padding: 20px;
   padding-top: 8px !important;

@@ -12,18 +12,18 @@
 
 .item.job
   .meta
-    .upper-row
+    .job-header
       - if has_details
-        h3.jobtask-title.deployable onclick="$(this).closest('.item').find('.jobdetail').toggle('fast');"
+        h3.job-title.deployable onclick="$(this).closest('.item').find('.jobdetail').toggle('fast');"
           = localized(job.title)
           = " "
           / = fa_icon("angle-down")
           span.noprint= fa_icon("chevron-circle-down")
 
       - else
-        h3.jobtask-title= localized(job.title)
+        h3.job-title= localized(job.title)
 
-      .time
+      .job-logo
         - if name
           = image_tag("logos/#{name}.png", resize_to: config[:image_box], alt: place, class: "cv-logo")
         - else

@@ -10,6 +10,11 @@ p.jobtask {
   color: #97AAC3;
 }
 
+.job-header {
+    position: relative;
+    overflow: visible !important;
+    /*margin-bottom: 2px;*/
+}
 
 .job-title {
   cursor: default;
