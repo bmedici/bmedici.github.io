@@ -1,11 +1,47 @@
 title: 
-  fr: Architecte Solutions
-  en: Solutions Architect
+  fr: Architecte Solutions - Digital
+  en: Solutions Architect - Digital
 
 place: La Française des Jeux (FDJ)
-location: Paris
+location: Paris (France)
 
 duration:
-  fr: "-"
-  en: "-"
+  fr:
+  en:
+
+what:
+
+  - title:
+      fr: En charge de l'architecture front pour le Domaine Digital
+      en: 
+    detail:
+      fr: |
+        Architectue de la solution aux Projets
+        Sensibilisation du management aux principes et concepts
+        Choix technologiques, modélisation, implémentation avec les éqiupes
+        Pérénisation des choix par l'échange avec les autres entités
+      en: |
+        
+
+  - title:
+      fr: Conversion à l'intégration et au déploiement continus (CI/CD)
+      en: 
+    detail:
+      fr: |
+        Introduction de la containerisation sur Docker/Swarm et hébergement cloud public+privé
+        Mise en place de pipelines automatisées pour les nouveaux projets
+        Sensibilisation et conversion des équipes de qualification et d'autres entités
+      en: |
+        
+
+  - title:
+      fr: Construction d'une équipe pilote - agilité, langage+framework modernes, lean management
+      en: 
+    detail:
+      fr: |
+        Introduction de NodeJS et MongoDB
+        Automatisation complète du développement, build, tests, déploiement
+        Implication forte des développeurs, des testeurs, du métier et de la qualification
+      en: |
+        
 
