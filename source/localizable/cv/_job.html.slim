@@ -32,13 +32,13 @@
     .subtitle
       = where.join(' - ')
 
-    - if job.what.is_a?(Array)
-      .details
-        - job.what.each do |what|
-          .detail
-            - if what.respond_to?(:title)
-              p.jobtask= localized(what.title)               
-              - if what.respond_to?(:detail)        
-                p.jobdetail= nl2br(localized(what.detail))
+  - if job.what.is_a?(Array)
+    .details
+      - job.what.each do |what|
+        .detail
+          - if what.respond_to?(:title)
+            p.jobtask= localized(what.title)               
+            - if what.respond_to?(:detail)        
+              p.jobdetail= nl2br(localized(what.detail))
 
   hr.noprint
