@@ -3,6 +3,14 @@ p.jobtask {
   /*margin-left: 8px;*/
   }
 
+.job .job-logo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #97AAC3;
+}
+
+
 .jobtask-title {
   cursor: default;
   }

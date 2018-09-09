@@ -208,12 +208,6 @@ p {
   margin-bottom: 0;
   font-weight: 500;
 }
-.main-wrapper .time {
-  position: absolute;
-  right: 0;
-  top: 0;
-  color: #97AAC3;
-}
 .main-wrapper .company {
   margin-bottom: 10px;
   color: #97AAC3;
