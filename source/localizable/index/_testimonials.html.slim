@@ -1,0 +1,29 @@
+section.section.restimonials-section
+  h2.section-title
+    = fa_icon :comments
+    = "Testimonials"
+
+  / - data.testimonials.each do |t|
+
+  /   .block
+  /     span.laquo
+  /     span.text= nl2br(localized(t.text))
+  /     span.raquo
+  /     hr
+  /     .signature
+  /       = t.name
+  /       br
+  /       .client= t.company
+
+  .cd-testimonials-wrapper.cd-container
+    .cd-testimonials
+      - data.testimonials.each do |t|
+        li
+          p= nl2br(localized(t.text))
+          .cd-author
+            = image_tag 'img/avatar-2.jpg'
+            ul.cd-author-info
+              li= t.name
+              li= t.company
+
+  / == IO.read('source/localizable/index/testimonials.html')

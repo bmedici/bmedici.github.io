@@ -1,0 +1,8 @@
+.references-section .reference-logo {
+  display: inline-block;
+  float: left;
+  margin: 8px 12px;
+  padding: 4px;
+  /*border: 1px solid silver;*/
+  height: 50px;
+}
