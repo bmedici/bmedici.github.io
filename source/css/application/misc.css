@@ -20,3 +20,7 @@
 	/*border: 1px solid green;*/
 	display: inline-block;
 }
+
+.clear_float {
+  clear: both;
+  }
