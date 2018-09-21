@@ -13,7 +13,6 @@ p.jobtask {
 .job-header {
     position: relative;
     overflow: visible !important;
-    /*margin-bottom: 2px;*/
 }
 
 .job-title {

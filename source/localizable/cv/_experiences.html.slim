@@ -1,7 +1,0 @@
-section.section.experiences-section
-  h2.section-title
-    = fa_icon :briefcase
-    = "Experiences"
-  
-  - jobs_collection.each do |job|
-    = partial "cv/job", locals: {job: job}

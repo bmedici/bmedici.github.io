@@ -2,6 +2,7 @@
 - duration = localized(job.duration)
 - place = localized(job.place)
 - where = []
+- where << place if place
 - where << location if location
 - where << job.year if job.year
 - where << duration unless duration.blank?
