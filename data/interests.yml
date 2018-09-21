@@ -1,5 +1,5 @@
 - name: RubyOnRails
-  desc: Développement RoR, architecture service, méthodes agiles
+  desc: Dev/R&D
 
 - name:
     fr: Plongée
@@ -8,7 +8,7 @@
 
 - name: 
     fr: Aviation loisirs 
-    en: 
+    en: Private pilot
   desc:
     fr: |
       Brevet de base pilote (BB)
@@ -18,7 +18,7 @@
       EN/ Brevet de pilote privé en cours (PPL)
 
 - name: Photographie
-  desc: Studio, tourisme, portrait, éclairage, exploration urbaine
+  desc: Studio, tourisme, portrait, urbex
 
 - name: 
     fr: Président de LilleSansFil (<2005)
