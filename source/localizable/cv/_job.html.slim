@@ -1,12 +1,11 @@
 - location = localized(job.location)
 - duration = localized(job.duration)
-- year, name = key.split('_')
 - place = localized(job.place)
 - where = []
 - where << location if location
-- where << year if year
+- where << job.year if job.year
 - where << duration unless duration.blank?
-- where << "[#{year}] [#{name}]" if @debug
+- where << "[#{job.year}] [#{job.name}]" if @debug
 - has_details = job_has_details(job)
 
 .item.job
@@ -23,8 +22,8 @@
         h3.job-title= localized(job.title)
 
       .job-logo
-        - if name
-          = image_tag("logos/#{name}.png", resize_to: config[:image_box], alt: place, class: "cv-logo")
+        - if job.name
+          = image_tag("logos/#{job.name}.png", resize_to: config[:image_box], alt: place, class: "cv-logo")
         - else
           = place
 

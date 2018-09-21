@@ -4,6 +4,23 @@ module CustomHelpers
     data.jobs.sort_by{|k,v| k}.reverse
   end
 
+  def jobs_collection
+    data.jobs.sort_by{|k,v| k}.reverse.collect do |key, job|
+      job_enriched(key, job)
+    end
+  end
+
+  def job_enriched key, job
+    year, name = key.split('_')
+    job.name = name
+    job.year = year
+    job
+  end
+
+  # def jobs_randomized
+  #   data.jobs.shuffle
+  # end
+
   def ldata
     data[I18n.locale]
   end

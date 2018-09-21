@@ -3,5 +3,5 @@ section.section.experiences-section
     = fa_icon :briefcase
     = "Experiences"
   
-  - jobs_sorted.each do |key, job|
-      = partial "cv/job", locals: {key: key, job: job}
+  - jobs_collection.each do |job|
+    = partial "cv/job", locals: {job: job}
