@@ -3,19 +3,20 @@ section.section.restimonials-section
     = fa_icon :comments
     = "Testimonials"
 
-  / - data.testimonials.each do |t|
+  .noscreen
+    - data.testimonials.each do |t|
 
-  /   .block
-  /     span.laquo
-  /     span.text= nl2br(localized(t.text))
-  /     span.raquo
-  /     hr
-  /     .signature
-  /       = t.name
-  /       br
-  /       .client= t.company
+      .block
+        span.laquo
+        span.text= nl2br(localized(t.text))
+        span.raquo
+        hr
+        .signature
+          = t.name
+          br
+          .client= t.company
 
-  .cd-testimonials-wrapper.cd-container
+  .cd-testimonials-wrapper.cd-container.noprint
     .cd-testimonials
       - data.testimonials.each do |t|
         li
