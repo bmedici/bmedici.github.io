@@ -1,0 +1,7 @@
+section.section.summary-section
+  h2.section-title
+    = fa_icon "hands-helping"
+    = t('can_help')
+  
+  - data.skills.each.each do |item|
+    = partial "cv/skill", locals: {skill: item}

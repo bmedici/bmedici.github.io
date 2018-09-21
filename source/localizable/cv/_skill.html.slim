@@ -1,0 +1,20 @@
+/ - has_details = job_has_details(job)
+
+.item.job
+  .meta
+    .job-header
+      - if true
+        h3.job-title.deployable onclick="$(this).closest('.item').find('.jobdetail').toggle('fast');"
+          = localized(skill.title)
+          = " "
+          span.noprint= fa_icon("chevron-circle-down")
+
+      - else
+        h3.job-title= localized(skill.title)
+
+  - if skill.details.is_a?(Array)
+    .details
+      - skill.details.each do |what|
+        .detail
+          p.jobtask= localized(what)               
+  

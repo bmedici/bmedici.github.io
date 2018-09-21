@@ -1,0 +1,18 @@
+- title: 
+    fr: Compétence 1
+    en: Skill 1
+  details:
+    - fr: Détail 1a
+      en: Detail 1a
+    - fr: Détail 1b
+      en: Detail 1b
+          
+- title: 
+    fr: Compétence 2
+    en: Skill 2
+  details:
+    - fr: Détail 2a
+      en: Detail 2a
+    - fr: Détail 2b
+      en: Detail 2b
+          
