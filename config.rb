@@ -116,7 +116,7 @@ configure :build do
     p.margin_left = 10
     # p.page_width = 3000
     # p.dpi = 10
-    # p.print_media_type = true
+    p.print_media_type = true
     # p.page_width = '169.33'
     # p.page_height = '95.25'
     # p.encoding = 'UTF-8'

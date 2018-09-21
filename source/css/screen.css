@@ -1,3 +1,4 @@
+.noscreen {display:none;}
 
 
 /* Extra small devices (phones, less than 768px) */
@@ -9,7 +10,7 @@
   .main-wrapper {
     padding: 20px;
   }
-  .job .job-logo {
+  .job .job-place {
     position: static;
     display: block;
     margin-top: 5px;

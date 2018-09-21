@@ -21,7 +21,7 @@
       - else
         h3.job-title= localized(job.title)
 
-      .job-logo
+      .job-place
         - if job.name
           = image_tag("logos/#{job.name}.png", resize_to: config[:image_box], alt: place, class: "cv-logo")
         - else

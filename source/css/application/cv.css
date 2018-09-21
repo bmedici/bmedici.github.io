@@ -3,11 +3,11 @@ p.jobtask {
   /*margin-left: 8px;*/
   }
 
-.job .job-logo {
+.job .job-place {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  align: right;
 }
 
 .job-header {
