@@ -27,10 +27,10 @@ what:
     detail:
       fr: |
         Mentoring des tech-leads et évengélisation permantente
-        Ateliers hebdomadaires auprès des équipes pour évoquer les sujets, partager et apporter des solutions concrètes aux projets
+        Ateliers hebdomadaires auprès des équipes - partager et apporter des solutions concrètes aux projets
         Diverses présentations effectuées (retours d'expérience, messaging temps-réel sur RabbitMQ, ...)
       en: |
-
+        
 
   - title:
       fr: Automatisation et mise en place de CI/CD (sur containers et cloud privé)

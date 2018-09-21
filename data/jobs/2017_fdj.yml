@@ -12,11 +12,22 @@ duration:
 what:
 
   - title:
-      fr: En charge de l'architecture front pour le Domaine Digital
+      fr: Encadrement des équipes de développement
       en: 
     detail:
       fr: |
-        Architectue de la solution aux Projets
+        Mentoring des tech-leads et évengélisation permantente, ateliers hebdomadaires
+        Diverses présentations effectuées: retours d'expérience, messaging sur RabbitMQ...
+        Définition des solutions d'architecture pour les projets
+      en: |
+        
+
+  - title:
+      fr: Définition de l'architecture mmicroservices pour le Domaine Digital
+      en: 
+    detail:
+      fr: |
+        Définition et mise en œuvre de la démarche de migration vers cette architecture 
         Sensibilisation du management aux principes et concepts
         Choix technologiques, modélisation, implémentation avec les éqiupes
         Pérénisation des choix par l'échange avec les autres entités
@@ -24,7 +35,7 @@ what:
         
 
   - title:
-      fr: Conversion à l'intégration et au déploiement continus (CI/CD)
+      fr: Conversion à l'intégration/déploiement continus (CI/CD) et Docker
       en: 
     detail:
       fr: |
@@ -35,11 +46,11 @@ what:
         
 
   - title:
-      fr: Construction d'une équipe pilote - agilité, langage+framework modernes, lean management
+      fr: Montage d'une équipe pilote sur technos modernes + lean management
       en: 
     detail:
       fr: |
-        Introduction de NodeJS et MongoDB
+        Introduction de NodeJS et MongoDB dans l'entreprise
         Automatisation complète du développement, build, tests, déploiement
         Implication forte des développeurs, des testeurs, du métier et de la qualification
       en: |
