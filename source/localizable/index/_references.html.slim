@@ -1,6 +1,14 @@
-section.section.summary-section
+section.section.references-section
   h2.section-title
-    = fa_icon :user
+    = fa_icon :comments
     = "References"
   div.summary
     p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can download this free resume/CV template here. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.
+
+  - jobs_collection.collect(&:name).uniq.each do |job_name|
+    .reference
+      = image_tag("logos/#{job_name}.png", resize_to: config[:image_box], class: "reference-logo")
+    
+  div.clear_float
+
+  / = partial "index/testimonials"

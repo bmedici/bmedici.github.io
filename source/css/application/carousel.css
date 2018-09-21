@@ -152,12 +152,12 @@ Main components
     line-height: 1.4;
   }
   .cd-author .cd-author-info li:first-child {
-    font-size: 16px;
-    font-size: 1rem;
+    /* font-size: 16px; */
+    font-size: 1em;
   }
   .cd-author .cd-author-info li:last-child {
-    font-size: 14px;
-    font-size: 0.875rem;
+    /* font-size: 14px; */
+    font-size: 0.75em;
   }
 }
 
