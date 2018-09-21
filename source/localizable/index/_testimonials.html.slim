@@ -22,7 +22,7 @@ section.section.restimonials-section
         li
           p= nl2br(localized(t.text))
           .cd-author
-            = image_tag 'img/avatar-2.jpg'
+            = image_tag "photos/#{t.photo}"
             ul.cd-author-info
               li= t.name
               li= t.company

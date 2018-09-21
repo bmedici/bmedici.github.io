@@ -1,6 +1,7 @@
 - name: Eric Steer
   company: Rue Du Commerce / Suricats Consulting
   logo: canalplus
+  photo: eric_steer
   text:
     fr: |
       Bruno a fait un excellent travail pour Rue du Commerce, en arrivant à convaincre et fédérer les équipes IT, grâce à son expertise technique, sa capacité de persuasion, et à une abnégation à tout épreuve !
@@ -10,6 +11,7 @@
 - name: Alain Fontaine
   company: Doctena
   logo: doctena
+  photo: alain_fontaine
   text:
     fr:  |
       We were referred to Bruno in the early stages of Doctena's international expansion when we needed assistance with event-driven message bus architecture and general platform interoperability.
@@ -21,6 +23,7 @@
 - name: Arnaud Drillon
   company: France Télévisions
   logo: canalplus
+  photo: arnaud_drillon
   text:
     fr: 
     en: |
@@ -31,6 +34,7 @@
 - name: David Dewailly
   company: Crédit du Nord
   logo: creditdunord
+  photo: david_dewailly
   text:
     fr: |
       J'ai collaboré avec Bruno pendant ma mission à la DSI du Credit du Nord.
