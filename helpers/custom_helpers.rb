@@ -17,6 +17,10 @@ module CustomHelpers
     job
   end
 
+  def pdf_filename lang=::I18n.locale
+    "CV Bruno MEDICI #{Time.now.strftime('%Y%m%d')} #{lang.upcase}"
+  end
+
   # def jobs_randomized
   #   data.jobs.shuffle
   # end

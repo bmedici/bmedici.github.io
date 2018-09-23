@@ -6,10 +6,14 @@ set :relative_links, false
 # Time.zone = 'Paris'
 
 
+# Load helpers
+require 'helpers/custom_helpers' 
+include CustomHelpers 
+
+
 # Activate debug if DEBUG is a non-zero integer
 set :debug,       !ENV['DEBUG'].to_i.zero?
 set :image_box,   "150x35"
-
 
 # Blank site ?
 set :blank,       false
@@ -103,8 +107,8 @@ configure :build do
   # Build PDF files
   activate :pdfkit do |p|
     p.filenames = {
-      'cv/cv-bruno-medici-fr/index' => 'cv/cv-bruno-medici-fr.pdf',
-      'cv/cv-bruno-medici-en/index' => 'cv/cv-bruno-medici-en.pdf',
+      'cv/cv-bruno-medici-fr/index' => "cv/#{pdf_filename('fr')}.pdf",
+      'cv/cv-bruno-medici-en/index' => "cv/#{pdf_filename('en')}.pdf",
      }
     # p.filenames = ['cv/cv-bruno-medici-fr/index', 'cv/cv-bruno-medici-en/index']
     p.disable_smart_shrinking = true
