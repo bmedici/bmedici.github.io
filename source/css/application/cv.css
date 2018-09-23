@@ -7,7 +7,8 @@ p.jobtask {
   position: absolute;
   right: 0;
   top: 0;
-  align: right;
+  text-align: right;
+  display: inline-block;
 }
 
 .job-header {
@@ -17,6 +18,7 @@ p.jobtask {
 
 .job-title {
   cursor: default;
+  display: inline-block;
   }
 
 .subtitle {
