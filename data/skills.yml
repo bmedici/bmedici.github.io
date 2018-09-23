@@ -1,51 +1,51 @@
 - title: 
-    fr: Architecture web et médias - pragmatique
-    en: Skill 1
+    fr: Architecture web et médias pragmatique
+    en: Pragmatic web and medias architecture
   details:
     - fr: Plateformes web à forte charge (VoD, e-commerce, médias d'information)
-      en: Detail 2a
+      en: Critical and high-load hosting platforms (VoD, e-commerce, information medias)
     - fr: Définir les infrastructure techniques du SI
-      en: Detail 1b
+      en: Define technical infrastructure guidelines
     - fr: Accompagner les équipes dans l'implémentation et la montée en compétence
-      en: Detail 1b
+      en: Mentor teams in implementation and skill development
           
 - title: 
     fr: Modernisation technologique - accompagnement du changement
-    en: Skill 2
+    en: Tech modernization - change management
   details:
     - fr: Mise en oeuvre de micro-services, containerization (Docker)
-      en: Detail 2b        
-    - fr: Virtualisation et migration vers le Cloud privé/public
-      en: Detail 2b        
-    - fr: Mutation full DevOps & intégration continue CI/CD
-      en: Detail 2b
+      en: Implementing micro-service architevture, containerization (Docker)
+    - fr: Virtualisation et migration vers le cloud (privé/public)
+      en: Virtualization and cloud migration (private/public)
+    - fr: Transformation full DevOps & intégration continue CI/CD
+      en: Full-Devlops transformation & continuous integration CI/CD
           
-          
+
 - title: 
     fr: Pilotage de projets d'innovation - CTO
-    en: Skill 2
+    en: Innovation management - CTO
   details:
     - fr: Riche connaisance du secteur médias/web - technologies, enjeux, tendances
-      en: Detail 2b
+      en: 
     - fr: Structuration d'équipe, conception, réalisation, mise en production, support
-      en: Detail 2b
+      en: 
     - fr: Analyse fonctionelle, planification, choix technologiques et arbitrages
-      en: Detail 2a
+      en: 
     - fr: Appels d'offre, recherches de prestataires et partenaires
-      en: Detail 2b
+      en: 
           
 - title: 
     fr: Domaines d'expertise technique
-    en: Expertise areas
+    en: Technical expertise areas
   details:
     - fr: Plateformes à forte charge (VoD, e-commerce, médias d'information)
-      en: Detail 2a
+      en: Critical and high-load hosting platforms (VoD, e-commerce, information medias)
     - fr: Ecosystèmes opensource (Debian, Apache, MySQL, Postfix, Nginx, DNS)
-      en: Detail 2a
+      en: 
     - fr: HTML/CSS, Git, RubyOnRails
-      en: Detail 2a
+      en: 
     - fr: Ecosystèmes IoT, domotique
-      en: Detail 2b
+      en: 
     - fr: Architecture réseau L2/L3/L4/L7, proxies, VLAN 802.1q
-      en: Detail 2a
+      en: 
           
