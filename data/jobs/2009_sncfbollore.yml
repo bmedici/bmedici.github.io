@@ -13,15 +13,15 @@ keywords: Audit, architecture, embedded, service portals, industrial, ruby on ra
 
 what:
   - title:
-      fr: Mise en place d'une plateforme de service embarquée avec accès internet à bord des rames TGV-Est
+      fr: Mise en place d'une offre de services embarqués avec accès internet dans les rames TGV-Est
       en: Defined and built a service platform with internet access, aboard of TGV-Est trains
     detail:
       fr: |
-        Audit et qualification de l'architecture technique proposée par le consortium Orange, Cap Gemini, Alstom, Eutelsat.
+        Audit et qualification de l'architecture technique proposée par le consortium Orange, Cap Gemini, Alstom, Eutelsat
         Recommandations d'évolution, étude de l'offre commerciale envisageable.
         Accompagnement du montage de la joint venture Bolloré-SNCF, projet phare soutenu par le plan de relance Sarkozy
       en: |
-        Audited and qualified the technical architecture proposed by the consortium: Orange, Cap Gemini, Alstom, Eutelsat.
+        Audited and qualified the technical architecture proposed by the consortium Orange, Cap Gemini, Alstom, Eutelsat
         Recommanded modifications and improvements, worked on the possible commercial offers based on this.
         Participated in the founding of the joint venture between Bollore-SNCF
 

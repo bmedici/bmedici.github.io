@@ -20,30 +20,41 @@ keywords:
   - KEYWORD
   - KEYWORD
  
-
 what:
   - title:
-      fr: Itool Systems conçoit et commercialise des applications de gestion en ligne pour TPE/PME et Experts comptables
-      en: Itool Systems creates and sells online business solutions for SMC and Professional Accounants
-
-  - title:
-      en: Coordinated development, support, marketing, and partners' activities
-    detail:
-      en: |
-        Business: web-based accounting software, business-critical tools for our customers
-        Obtained an Innovation Trophy at the Accountants Annual Congress in 2001. IntraBlog Award in 2007. Integrated and then absorbed Atomis
-
-  - title:
-      en: Analyzed customers requests, managed development team (5)
-    detail:
-      en: |
-        Realizations as a team leader: Itool Compta, Itool Facto, Itool Scan, Itool GED, APG Facto, press routing solutions, data-exchange hub with partners
-        Designed billing infrastructure and online registration processes
-
-  - title:
       fr: Associé fondateur, membre du comité de direction
-      en: Production executive, in charge of quality of services, platform/clusters architect
+      en: Associat and co-founder, board member
     detail:
-      fr:  >
-        Activité: progiciels de gestion et comptabilité en ligne. Lancement du portail itool.net (Experts Comptables) et itool.com (marché PME)
-        Trophée de l'innovation au Congrès National des Experts-Comptables (2001). Prix IntraBlog (2007). Filialisation puis absorption de la société Atomis
+      fr: |
+        Itool Systems conçoit et commercialise des applications de gestion en ligne pour TPE/PME et Experts comptables
+        Lancement du portail itool.net (Experts Comptables) et itool.com (marché PME)
+        Trophée de l'innovation au Congrès National des Experts-Comptables (2001), Prix IntraBlog (2007).
+        Filialisation puis absorption de la société Atomis
+      en: |
+        Itool Systems creates and sells online business solutions for SMC and Professional Accounants
+        Launched portal itool.net (Prof accountants) and itool.com (SME market)
+        Obtained an Innovation Trophy at the Accountants Annual Congress in 2001, IntraBlog Award in 2007.
+        Integrated and then absorbed Atomis
+
+
+  - title:
+      fr: Architecte et responsable production & qualité des services, encadrement du développement (5)
+      en: Architect and production executive, development team manager (5)
+    detail:
+      fr: |
+        Conception du système de facturation et du processus de souscriptions en ligne
+        Veille technologique, ergonomie des applications, méthodes de développement.
+        Réalisations à la tête de cette équipe: Itool Compta, Itool Facto, Itool Scan, Itool GED, APG Facto, intranets routage presse
+        Plateforme critique (20 serveurs sur 4 sites) certifiée par le laboratoire SPC d'IBM.
+        Disponibilité moyenne 99,96% classé n°1 par ip-label en mai 2005
+      en: |
+        Designed billing infrastructure and online registration processes.
+        Supplied technological intelligence, ergonomics of applications, development methodology.
+        Realizations as a team leader: Itool Compta, Itool Facto, Itool Scan, Itool GED, APG Facto, press routing solutions, data-exchange hub with partners.
+        Robustness-oriented hosting (20 servers over 4 sites) certified by IBM's SPC lab.
+        Service availability avg 99,96% ranked n1 by ip-label in May 2005
+
+
+
+
+
