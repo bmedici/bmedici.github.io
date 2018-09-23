@@ -9,16 +9,13 @@
       en: Marketing of information technologies
 
 - name:
-    fr: Stages / séminaires
+    fr: Formation continue
     en: Training and workshops
   details:
     - Google Cloud Platform Fundamentals and Architecting (Paris)
-    - RailsConf 2010/Baltimore
-    - RailsConf 2009/Las Vegas, 2007/Berlin
-    - RailsConf 2007/Berlin
+    - RailsConf 2010/Baltimore, 2009/Las Vegas, 2007/Berlin
     - ParisOnRails 2007/Paris
-    - PHP Conference 2004/Amsterdam
-    - PHP Conference 2002/Munich
+    - PHP Conference 2004/Amsterdam, 2002/Munich
     - Cisco CSPFF & CSPFA (PIX Firewall Advanced)
     - PSC1 civil emergency prevention
 
@@ -35,4 +32,3 @@
   details:
     - fr:
       en: School diploma in Sciences
-    - 1998
