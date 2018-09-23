@@ -3,10 +3,11 @@
     fr: |
       Transferts de fichiers industriel vers en FTP/sFTP/FTPs/S3 piloté par une API RESTful.
       Instrumenté par NewRelic, build par CodeShip+BuddyWorks, qualité du code avec CodeClimate.
-      En production depuis 2015 pour France Télévisions - transferts vidéo 100+ fichiers 2TB+ quotidiens.
+      En production depuis 2015 pour France Télévisions - 300+ fichiers vidéo 2TB+ quotidiens.
     en: |
       Industrial-grade files transfers on FTP/sFTP/FTPs/S3 controlled by a RESTful API.
       Instrumented by NewRelic, build by CodeShip+BuddyWorks, code quality by CodeClimate.
+      Deployed in production since 2016 for France Télécisions - transferring 300+ video files 2TB+ daily.
   url: https://github.com/bmedici/rest-ftp-daemon
 
 - name: rbpm - Ruby Business Process Manager
@@ -21,12 +22,13 @@
       Utilisé par France Télévisions pour transmettre les évènements de début/fin de programme à des plateformes VoD.
     en: |
       Realtime events diffusion from an AMQP broker to partners on HTTP POST requests.
+      Used by France Télévisions to propagate start/end program events to VoD platforms
   url: https://github.com/bmedici/pushyd
  
 
 - name: service-graph
   desc:
     fr: Service de calcul et de représentation des dépendances entre microservices hébergés à partir des repositories Gitlab.
-    en: Dependencies computing and graphing among microservices hosted on GITlab repositories
+    en: Dependencies computing and graphing among microservices wich are detected on Gitab.
   url: https://gitlab.com/bmconseil/service-graph
 
