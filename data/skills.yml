@@ -1,51 +1,41 @@
 - title: 
-    fr: Architecture web et médias pragmatique
-    en: Pragmatic web and medias architecture
+    fr: Pilotage de projets d'innovation - CTO
+    en: Innovative projects management - CTO
+  details:
+    - fr: Expérience du secteur médias/web - technologies, enjeux, tendances
+      en: Wide culture of the medias and web area - technologies, concernes, trends
+    - fr: Structuration d'équipe, conception, réalisation, mise en production, support
+      en: Team build-up, design, realization, deployment, support
+    - fr: Analyse fonctionelle, planification, choix technologiques et arbitrages
+      en: Functionnal analysis, planning, technology choices and decisions
+    - fr: Appels d'offre, recherches de prestataires et partenaires
+      en: Calls for tender, partners and contractors identification
+          
+- title: 
+    fr: Architecture web et médias - accompagnement pragmatique du changement
+    en: Pragmatic web and medias architecture - pragmatic change management
   details:
     - fr: Plateformes web à forte charge (VoD, e-commerce, médias d'information)
       en: Critical and high-load hosting platforms (VoD, e-commerce, information medias)
-    - fr: Définir les infrastructure techniques du SI
-      en: Define technical infrastructure guidelines
-    - fr: Accompagner les équipes dans l'implémentation et la montée en compétence
-      en: Mentor teams in implementation and skill development
-          
-- title: 
-    fr: Modernisation technologique - accompagnement du changement
-    en: Tech modernization - change management
-  details:
+    - fr: Définition des infrastructure techniques et urbanisation du SI
+      en: Defining technical infrastructure guidelines and urbanization
+    - fr: Accompagnement des équipes dans l'implémentation et la montée en compétence
+      en: Mentoring teams in implementation and skill development
     - fr: Mise en oeuvre de micro-services, containerization (Docker)
       en: Implementing micro-service architevture, containerization (Docker)
     - fr: Virtualisation et migration vers le cloud (privé/public)
       en: Virtualization and cloud migration (private/public)
-    - fr: Transformation full DevOps & intégration continue CI/CD
-      en: Full-Devlops transformation & continuous integration CI/CD
-          
 
-- title: 
-    fr: Pilotage de projets d'innovation - CTO
-    en: Innovation management - CTO
-  details:
-    - fr: Riche connaisance du secteur médias/web - technologies, enjeux, tendances
-      en: 
-    - fr: Structuration d'équipe, conception, réalisation, mise en production, support
-      en: 
-    - fr: Analyse fonctionelle, planification, choix technologiques et arbitrages
-      en: 
-    - fr: Appels d'offre, recherches de prestataires et partenaires
-      en: 
-          
 - title: 
     fr: Domaines d'expertise technique
     en: Technical expertise areas
   details:
     - fr: Plateformes à forte charge (VoD, e-commerce, médias d'information)
       en: Critical and high-load hosting platforms (VoD, e-commerce, information medias)
-    - fr: Ecosystèmes opensource (Debian, Apache, MySQL, Postfix, Nginx, DNS)
-      en: 
-    - fr: HTML/CSS, Git, RubyOnRails
-      en: 
-    - fr: Ecosystèmes IoT, domotique
-      en: 
-    - fr: Architecture réseau L2/L3/L4/L7, proxies, VLAN 802.1q
-      en: 
-          
+    - fr: Mise en place DevOps & intégration continue CI/CD
+      en: DevOps transformation & continuous integration CI/CD
+    - HTML/CSS, Git, RubyOnRails, DNS, Debian, MySQL/MariaDB, Apache/Nginx, Postfix
+    - fr: Architecture réseau du L2 au L7, proxies, VLAN 802.1q
+      en: Network architecture from L2 to L7, proxies, VLAN 802.1q
+    - fr: Ecosystèmes IoT et domotique, plateformes distribuées
+      en: IoT ecosystems and smart home, distributed platforms
