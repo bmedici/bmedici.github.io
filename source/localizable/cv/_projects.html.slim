@@ -1,11 +1,12 @@
 section.section.projects-section
   h2.section-title
-    = fa_icon :archive
+    = fa_icon "share-alt"
     = t('projects')
 
   .intro
     / p= lorem.paragraphs(1)
     - data.projects.each do |project|
       .item
-        span.project-title = link_to(project.name, project.url, target: "_blank")+" - "
-        span.project-tagline = localized(project.desc)
+        .project-title
+          = link_to(project.name, project.url, target: "_blank")
+        .project-tagline = localized(project.desc)
