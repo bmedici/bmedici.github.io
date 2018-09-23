@@ -1,10 +1,8 @@
-- name: RubyOnRails
-  desc: Dev/R&D
-
 - name:
     fr: Plongée
     en: Scuba diving
-  desc: N2/CMAS**/PE60
+  desc: |
+    N2 PA40/PE60 TDI Deep+Nitrox
 
 - name: 
     fr: Aviation loisirs 
@@ -14,11 +12,25 @@
       Brevet de base pilote (BB)
       Brevet de pilote privé en cours (PPL)
     en: |
-      EN/ Brevet de base pilote (BB)
-      EN/ Brevet de pilote privé en cours (PPL)
+      Ultra-light licence (BB)
+      Private pilot license upcoming (PPL)
 
-- name: Photographie
-  desc: Studio, tourisme, portrait, urbex
+- name:
+    fr: Photographie
+    en: Photography
+  desc:
+    fr: Studio, tourisme, portrait, exploration urbaine
+    end: Stdio, tourism, portrain, urban exploration
+
+- name:
+    fr: Domotique
+    en: Smart Home
+  desc:
+    fr: Utilisation & conception de modules
+    en: User & custom modules creation
+      
+- name: RubyOnRails
+  desc: Dev/R&D
 
 - name: 
     fr: Président de LilleSansFil (<2005)
