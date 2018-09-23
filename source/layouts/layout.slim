@@ -22,8 +22,10 @@ html
     = stylesheet_link_tag :application, media: :all
     = stylesheet_link_tag :print, media: :print
     = stylesheet_link_tag :screen, media: :screen
-    / = stylesheet_link_tag "https://use.fontawesome.com/releases/v5.3.1/css/all.css", integrity: "sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU", crossorigin: "anonymous"
+    = stylesheet_link_tag "https://use.fontawesome.com/releases/v5.3.1/css/all.css", integrity: "sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU", crossorigin: "anonymous"
+    = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic"
     = stylesheet_link_tag :debug, media: :screen if config[:debug] 
+
 
   body class=page_classes
 
@@ -41,6 +43,5 @@ html
     / = javascript_include_tag :prologue
 
     = javascript_include_tag :application
-    = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic"
 
     footer.footer
