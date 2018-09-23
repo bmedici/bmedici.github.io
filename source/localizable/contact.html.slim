@@ -2,4 +2,16 @@
 title: Bruno MEDICI Consultant
 ---
 
-= "CONTACT PAGE"
+section.section.contacts-section
+  h2.section-title
+    = fa_icon :envelope
+    = "Contact"
+
+  = form_tag "https://formspree.io/cvweb2@bmconseil.com", method: "POST" do
+    p= text_field_tag :name, placeholder: "Name / nom"
+    p= email_field_tag :email, placeholder: "Email"
+    p= text_area_tag :message, placeholder: "Message", rows: 12
+    = hidden_field_tag :_next, value: "https://bmconseil.com/thankyou"
+    = hidden_field_tag :_subject, value: "[bmconseil.com] Contact form"
+    = hidden_field_tag :_gotcha, style: "display:none"
+    p= submit_tag "Send / envoyer"

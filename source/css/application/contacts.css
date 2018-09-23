@@ -1,0 +1,6 @@
+
+.contacts-section input,
+.contacts-section textarea
+ {
+  width: 400px;
+}
