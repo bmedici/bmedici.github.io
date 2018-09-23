@@ -8,7 +8,7 @@ html, body {
   transform: scale(1);
   zoom: 100%;
   */
-  font-size: 12px;
+  font-size: 11px;
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -22,7 +22,8 @@ body {
 
 @page {
   size: A4 portrait;
-  margin: 1.4cm 1.1cm 1.4cm 1.1cm;
+  margin: 1.4cm 0.8cm 1.2cm 0.8cm;
+  margin: 1cm 0;
 
   header, footer { 
     display: none; 
@@ -99,10 +100,17 @@ p.jobdetail {
   page-break-before: avoid;
 }
 
-
-
+p {
+  line-height: 1.2;
+}
 
 a[href]:after {
    content:"" !important;
   }
+
+.cv-logo {
+  width: 75%;
+  height: 75%;
+}
+
 
