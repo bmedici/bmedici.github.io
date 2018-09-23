@@ -20,25 +20,28 @@ keywords:
 
 what:
   - title:
-      fr: Re-conception de la nouvelle plateforme Replay du groupe (tous contenus, projet de 18 mois, plusieurs experts)
+      fr: Conception de la nouvelle plateforme Replay du groupe - tous contenus, 18 mois avec plusieurs experts
       en: Lead architect of the new Replay production platform at France Télévisions (all video contents, 18 months project, many experts)
     detail:
       fr: |
-        Conception intégrale de la future plateforme, workflows et choix techniques, from scratch
+        Conception from scratch de la future plateforme, définition des workflows et choix techniques
         Architecture orientée API REST, micro-services orchestrés par un automate
         Spécifications techniques générales et détaillées, conception des APIs, accompagnement du développement (Symfony2)
-        Organisation agile SCRUM sur différents aspects du projet - spécifications, développement, déploiements, mises en production partielles
+        Organisation SCRUM des spécifications, développement, déploiements, au deploiement continu
         En production depuis Q2 2015, >300 programmes par jour
       en: |
-        Full conception of the new platform, workflows and technologies, from scratch
+        Full conception of the new platform from scratch, designed workflows and technologies
         REST-API architecture based on micro-services orchestrated by an in-house scheduler
         General and detailed technical specifications, API authoring, developers team support and coaching
-        Agile (Scrum) organization across every aspect of the project (specifications, development, deployments, partial
+        End-to-end SCRUM from specifications, development, deployments, aiming continuous deployment
         Successful production since Q2 2015, fully operational 300+ programs per day
 
   - title:
-      fr: Créateur du moteur "rest-ftp-daemon”, projet micro-service opensource (voir Projets ci-dessous)
-      en: Creator of the “rest-ftp-daemon” open source micro-service project (see Projects below)
+      fr: Créateur du moteur "rest-ftp-daemon”, projet micro-service opensource
+      en: Creator of the “rest-ftp-daemon” open source micro-service project
+    detail:
+      fr: voir Projets opensource plus bas
+      en: see Opensource projects below
 
   - title:
       fr: Leader de la refonte du SI Video, système central de gestion des contenus numériques
@@ -48,7 +51,7 @@ what:
         Sensibilisation autour de l’état de l’art: SOA, REST, micro-services
         Conduite du projet auprès des équipes techniques et des top-managers
       en: |
-        Raising awareness about state-of-the-art: SOA, REST, micro-services
+        Raised awareness about state-of-the-art: SOA, REST, micro-services
         Project leadership with technical teams and top managers
 
   - title:

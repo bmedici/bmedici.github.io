@@ -4,7 +4,7 @@ title:
 
 place:
   fr: Itool Systems, Editeur SaaS
-  en: Itool Systems, SaaS software
+  en: Itool Systems, SaaS software editor
 location: Lille (France)
 
 duration:
@@ -36,24 +36,29 @@ what:
         Obtained an Innovation Trophy at the Accountants Annual Congress in 2001, IntraBlog Award in 2007.
         Integrated and then absorbed Atomis
 
-
   - title:
-      fr: Architecte et responsable production & qualité des services, encadrement du développement (5)
-      en: Architect and production executive, development team manager (5)
+      fr: Architecte et responsable production & qualité des services
+      en: Architect and production executive
     detail:
       fr: |
         Conception du système de facturation et du processus de souscriptions en ligne
-        Veille technologique, ergonomie des applications, méthodes de développement.
-        Réalisations à la tête de cette équipe: Itool Compta, Itool Facto, Itool Scan, Itool GED, APG Facto, intranets routage presse
         Plateforme critique (20 serveurs sur 4 sites) certifiée par le laboratoire SPC d'IBM.
         Disponibilité moyenne 99,96% classé n°1 par ip-label en mai 2005
       en: |
         Designed billing infrastructure and online registration processes.
-        Supplied technological intelligence, ergonomics of applications, development methodology.
-        Realizations as a team leader: Itool Compta, Itool Facto, Itool Scan, Itool GED, APG Facto, press routing solutions, data-exchange hub with partners.
         Robustness-oriented hosting (20 servers over 4 sites) certified by IBM's SPC lab.
         Service availability avg 99,96% ranked n1 by ip-label in May 2005
 
+  - title:
+      fr: Encadrement du développement (5)
+      en: Development team manager (5)
+    detail:
+      fr: |
+        Réalisations à la tête de cette équipe: Itool Compta, Itool Facto, Itool Scan, Itool GED, APG Facto, intranets routage presse
+        Veille technologique, ergonomie des applications, méthodes de développement.
+      en: |
+        Realizations as a team leader: Itool Compta, Itool Facto, Itool Scan, Itool GED, APG Facto, press routing solutions, data-exchange hub with partners.
+        Supplied technological intelligence, ergonomics of applications, development methodology.
 
 
 
