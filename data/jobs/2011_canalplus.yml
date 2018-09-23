@@ -55,7 +55,7 @@ what:
       en: Animated the storage restructuring project within Diffusion branch (> 1 petabyte)
     detail:
       fr: |
-        Refonte de l'architecture technique du stockage de transcodage, de distribution et d'archivage moyen terme
+        Architecture technique du stockage de transcodage, de distribution et d'archivage moyen terme
         Animation de l'équipe-projet, spécifications et appel d'offres, horizontale et verticale
       en: |
         Technical recommandations for transcoding storage, distribution and long-term archives
