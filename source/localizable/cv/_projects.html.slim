@@ -4,17 +4,8 @@ section.section.projects-section
     = "Projects"
 
   .intro
-    p= lorem.paragraphs(1)
-    
-    / - jobs_sorted.each do |key, job|
-    /     = partial "cv/job", locals: {key: key, job: job}
-
+    / p= lorem.paragraphs(1)
     - data.projects.each do |project|
-
       .item
-        span.project-title
-          = link_to project.name, project.url, target: "_blank"
-        = " - "
-        span.project-tagline
-          = localized (project.desc)
-          
+        span.project-title = link_to(project.name, project.url, target: "_blank")+" - "
+        span.project-tagline = localized(project.desc)
