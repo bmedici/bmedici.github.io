@@ -43,7 +43,7 @@ what:
     detail:
       fr: |
         Processus RFI et RFP auprés de 12 acteurs majeurs du média, américains et européens (documents rédigés en anglais)
-        Phase de maquette/PoC, animation des échanges et des soutenances, analyse des réponses et restitution.
+        Maquette et PoC, animation des échanges et des soutenances, étude des réponses et restitution.
         Projet mené directement au sein de la Direction des Technologies et du SI.
       en: |
         RFI and RFP with 12 major media providers, international and national partners (documents mainly written in English).
@@ -55,10 +55,9 @@ what:
       en: Animated the storage restructuring project within Diffusion branch (> 1 petabyte)
     detail:
       fr: |
-        Refonte de l'architecture technique du stockage de travail (transcodage), de distribution et d'archivage moyen terme
-        Introduction de scalabilité horizontale et verticale
-        Animation de l'équipe-projet, spécifications et appel d'offres
+        Refonte de l'architecture technique du stockage (transcodage), de distribution et d'archivage moyen terme
+        Animation de l'équipe-projet, spécifications et appel d'offres, horizontale et verticale
       en: |
         Made technical recommandations for workspace storage (transcoding), distribution and long-term archives
-        Introduced horizontal and vertical scalability aspects
+        Animated the project team, defined specifications, horizontal and vertical scalability
 

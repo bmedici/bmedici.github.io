@@ -20,7 +20,7 @@ keywords:
 
 what:
   - title:
-      fr: Re-design Conception de la plateforme Replay du groupe (tous contenus, 18 mois avec plusieurs experts)
+      fr: Re-design de la plateforme VoD du groupe (tous contenus, 18 mois, plusieurs experts)
       en: Re-designed the new Replay production platform at France Télévisions (all contents, 18-months project, several experts)
     detail:
       fr: |
@@ -37,11 +37,11 @@ what:
         Successful production since Q2 2015, fully operational 300+ programs per day
 
   - title:
-      fr: Créateur du moteur "rest-ftp-daemon”, projet micro-service opensource
+      fr: Auteur du moteur "rest-ftp-daemon”, projet micro-service opensource
       en: Creator of the “rest-ftp-daemon” open source micro-service project
     detail:
-      fr: voir Projets opensource plus bas
-      en: see Opensource projects below
+      fr: Voir Projets opensource plus bas
+      en: See Opensource projects below
 
   - title:
       fr: Leader de la refonte du SI Video, système central de gestion des contenus numériques
@@ -59,19 +59,23 @@ what:
       en: Strategic collaboration on several projects across the Group
     detail:
       fr: |
-        cadrage architecture du projet Zoom, contenus à la demande et recommandation
-        responsable de l’architecture pour la gestion de tags transverse
-        évolution des services de TV connectée
-        refonte technique des plateformes des sites de chaînes et programmes
+        Cadrage architecture du projet Zoom, contenus à la demande et recommandation
+        Responsable de l’architecture pour la gestion de tags transverse
+        Evolution des services de TV connectée
+        Refonte technique des plateformes des sites de chaînes et programmes
       en: |
-        architecture workframe for Zoom, on-demand recommended contents
-        in charge of architecture for the cross-products tagging system
-        connected TV services upgrades
-        overhaul of the platform for channels and programs websites
+        Architecture workframe for Zoom, on-demand recommended contents
+        In charge of architecture for the cross-products tagging system
+        Connected TV services upgrades
+        Overhaul of the platform for channels and programs websites
 
   - title:
-      fr: Leader du projet de push temps-réel (AMQP) entre les plateformes
-      en: Leader of the global messaging system( AMQP) for realtime notifications between
+      fr: Initiation du projet de push temps-réel (AMQP) entre les plateformes
+      en: Initiated the global messaging system (AMQP) for realtime notifications
     detail:
-      fr: tous produits du groupe (Pluzz, CultureBox, FranceTV Info/Sports/Education) et les partenaires (Molotov.tv, Orange...)
-      en: every platform in the Group (Pluzz, CultureBox, FranceTV Info/Sports/Education...) and commercial partners (Molotov.tv, Orange...) 
+      fr: |
+        Tous produits du groupe (Pluzz, CultureBox, FranceTV Info/Sports/Education)
+        Partenaires (Molotov.tv, Orange...)
+      en: |
+        Every platform in the Group (Pluzz, CultureBox, FranceTV Info/Sports/Education...)
+        Commercial partners (Molotov.tv, Orange...) 
