@@ -6,7 +6,9 @@ fr:
   education: Formation
   languages: International
   interests: Centres d'intérêt
-  can_help: Je peux vous aider
+  jobs: Parcours - principales missions
+  projects: Projets opensource
+  skills: Domaines de compétence
 
   paths:
     cv: "cv/cv-bruno-medici-fr"

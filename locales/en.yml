@@ -8,8 +8,9 @@ en:
   education: Education
   languages: International
   interests: Interests
-  can_help: I can help you
-
+  jobs: Work experiences
+  projects: Opensource projects
+  skills: Main skills
 
   paths:
     cv: "cv/cv-bruno-medici-en"
