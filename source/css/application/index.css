@@ -1,0 +1,25 @@
+/*.flag {
+  border: 1px solid white;
+  margin: 2px 4px;
+  }
+*/
+p.intro {
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+
+.download-and-print {
+	margin-top: 20px;
+	/*border: 1px solid red;*/
+}
+
+.download-and-print .item {
+	margin: 0 6px;
+	/*border: 1px solid green;*/
+	display: inline-block;
+}
+
+.clear_float {
+  clear: both;
+  }
