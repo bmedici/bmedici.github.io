@@ -2,9 +2,14 @@ body {
   padding-top: 50px !important;
 }
 
-.sidebar-wrapper .container-block {
+/* .sidebar-wrapper .container-block {
   padding-bottom: 10px !important;
+} */
+
+.sidebar-wrapper {
+  min-height: 0 !important;
 }
+
 
 .main-wrapper {
   /*padding: 45px 60px !important;*/
