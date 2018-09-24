@@ -107,23 +107,17 @@ configure :build do
   # Build PDF files
   activate :pdfkit do |p|
     p.filenames = {
-      'cv/cv-bruno-medici-fr/index' => "cv/#{pdf_filename('fr')}.pdf",
-      'cv/cv-bruno-medici-en/index' => "cv/#{pdf_filename('en')}.pdf",
+      'cv/cv-bruno-medici-fr/index' => "cv/#{pdf_filename('fr-auto')}.pdf",
+      'cv/cv-bruno-medici-en/index' => "cv/#{pdf_filename('en-auto')}.pdf",
      }
-    # p.filenames = ['cv/cv-bruno-medici-fr/index', 'cv/cv-bruno-medici-en/index']
-    p.disable_smart_shrinking = true
-    p.quiet = false
+    p.disable_smart_shrinking = false
+    p.quiet = true
     p.page_size = 'A4'
-    p.margin_top = 10
-    p.margin_right = 10
-    p.margin_bottom = 10
-    p.margin_left = 10
-    # p.page_width = 3000
-    # p.dpi = 10
+    p.margin_top = '1.4cm'
+    p.margin_right = '0.8cm'
+    p.margin_bottom = '1.2cm'
+    p.margin_left = '0.8cm'
     p.print_media_type = true
-    # p.page_width = '169.33'
-    # p.page_height = '95.25'
-    # p.encoding = 'UTF-8'
   end
 
   # activate :favicon_maker, :icons => {
@@ -142,8 +136,6 @@ end
 #      FileUtils.rm_rf('build/templates')
 #      FileUtils.rm_rf('build/translations')
 # end
-
-# config.middleware.use PDFKit::Middleware, {}, :only => %r[^/public]
 
 
 # activate :blog do |blog|
