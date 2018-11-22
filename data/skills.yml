@@ -9,7 +9,7 @@
     - fr: Analyse fonctionelle, planification, choix technologiques et arbitrages
       en: Functionnal analysis, planning, technology choices and decisions
     - fr: Appels d'offre, recherches de prestataires et partenaires
-      en: Calls for tender, partners and contractors identification
+      en: Requests for bid, partners and contractors identification
           
 - title: 
     fr: Architecture web et médias - conduite pragmatique du changement
@@ -22,7 +22,7 @@
     - fr: Accompagnement des équipes dans l'implémentation et la montée en compétence
       en: Mentoring teams in implementation and skill development
     - fr: Mise en oeuvre de micro-services, containerization (Docker)
-      en: Implementing micro-service architevture, containerization (Docker)
+      en: Implementing micro-service architecture, containerization (Docker)
     - fr: Virtualisation et migration vers le cloud (privé/public)
       en: Virtualization and cloud migration (private/public)
 
