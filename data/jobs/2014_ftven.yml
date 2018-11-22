@@ -38,14 +38,14 @@ what:
 
   - title:
       fr: Auteur du moteur "rest-ftp-daemon”, projet micro-service opensource
-      en: Creator of the “rest-ftp-daemon” open source micro-service project
+      en: Initiated and build the “rest-ftp-daemon” open source micro-service project
     detail:
       fr: Voir Projets opensource plus bas
       en: See Opensource projects below
 
   - title:
       fr: Leader de la refonte du SI Video, système central de gestion des contenus numériques
-      en: Leader for the re-conception of the central video assets system
+      en: Led re-conception of the central video assets system
     detail:
       fr: |
         Sensibilisation autour de l’état de l’art: SOA, REST, micro-services
@@ -56,16 +56,16 @@ what:
 
   - title:
       fr: Accompagnement stratégique de plusieurs projets du groupe
-      en: Strategic collaboration on several projects across the Group
+      en: Led strategic collaboration on several projects across the Group
     detail:
       fr: |
-        Cadrage architecture du projet Zoom, contenus à la demande et recommandation
+        Cadrage architecture du projet Zoom (contenus à la demande et recommandation)
         Responsable de l’architecture pour la gestion de tags transverse
         Evolution des services de TV connectée
         Refonte technique des plateformes des sites de chaînes et programmes
       en: |
-        Architecture workframe for Zoom, on-demand recommended contents
-        In charge of architecture for the cross-products tagging system
+        Defined architecture workframe for Zoom (on-demand recommendation of content)
+        Managed architecture for the cross-products tagging system
         Connected TV services upgrades
         Overhaul of the platform for channels and programs websites
 
@@ -77,5 +77,5 @@ what:
         Tous produits du groupe (Pluzz, CultureBox, FranceTV Info/Sports/Education)
         Partenaires (Molotov.tv, Orange...)
       en: |
-        Every platform in the Group (Pluzz, CultureBox, FranceTV Info/Sports/Education...)
-        Commercial partners (Molotov.tv, Orange...) 
+        Connecting each platform of the Group (Pluzz, CultureBox, FranceTV Info/Sports/Education...)
+        Interacted with commercial partners (Molotov.tv, Orange...) 

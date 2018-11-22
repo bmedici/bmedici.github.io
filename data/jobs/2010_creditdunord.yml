@@ -21,7 +21,7 @@ keywords:
 what:
   - title:
       fr: Architecture technique et évolution de la plateforme Internet Clients
-      en: Technical architecture and evolutions of Customers Internet platforms
+      en: Practiced technical architecture and evolutions of Customers Internet platforms
     detail:
       fr: |
         Clients particuliers, professionnels, entreprises du Crédit du Nord et de ses huit filiales
@@ -29,8 +29,8 @@ what:
         Expertise HTTP, caching, filtrage et routage niveau 7, Apache mod_rewrite
         Méthodologie et outils de suivi de version des configurations des plateformes
       en: |
-        Several firewalls, reverse proxies, load balancers, IPS, Redhat/OpenBSD
-        HTTP expertise, caching, filtering, L7 routing trhough Apache mod_rewrite
+        Worked with several several firewalls, reverse proxies, load balancers, IPS, Redhat/OpenBSD
+        Brought HTTP expertise, caching, filtering, L7 routing trhough Apache mod_rewrite
         Introduced methods and tools for configuration versionning and deployment
 
   - title:
@@ -41,5 +41,5 @@ what:
         Spécificités des terminaux mobiles: optimisation protocole, cache, compression
         Remise en état de la plateforme de qualification (identique à la production)
       en: |
-        Mobile-specific caching, protocols and compression
+        Implemented mobile-specific caching, protocols and compression
         Revived staging platform to allow better testing and team work (same as production)
