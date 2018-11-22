@@ -107,8 +107,8 @@ configure :build do
   # Build PDF files
   activate :pdfkit do |p|
     p.filenames = {
-      'cv/cv-bruno-medici-fr/index' => "cv/#{pdf_filename('fr-auto')}.pdf",
-      'cv/cv-bruno-medici-en/index' => "cv/#{pdf_filename('en-auto')}.pdf",
+      'cv/cv-bruno-medici-fr/index' => "cv/#{cv_filename('fr-auto')}.pdf",
+      'cv/cv-bruno-medici-en/index' => "cv/#{cv_filename('en-auto')}.pdf",
      }
     p.disable_smart_shrinking = false
     p.quiet = true

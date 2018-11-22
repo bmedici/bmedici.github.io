@@ -22,6 +22,10 @@ module CustomHelpers
     "CV Bruno MEDICI #{lang.upcase}"
   end
 
+  def cv_filename stamp=Time.now.strftime('%Y%m%d'), lang=::I18n.locale
+    "CV Bruno MEDICI #{stamp} #{lang.upcase} ".strip
+  end
+
   # def jobs_randomized
   #   data.jobs.shuffle
   # end
