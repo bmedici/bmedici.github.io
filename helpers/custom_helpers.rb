@@ -46,9 +46,21 @@ module CustomHelpers
     return false unless job.what.is_a?(Array)
 
     # Count where detail is not empty
-    found = job.what.select{ |w| w.respond_to?(:detail) && w.detail}.count
+    details = job.what.reject{ |what| job_what_localized_detail(what).nil?}
 
-    return found > 0
+    return details.count > 0
+  end
+
+  def job_what_localized_detail what
+    # Skip if no detail key
+    return nil unless what.respond_to? :detail
+
+    # Localize the body
+    content = localized(what.detail)
+    return nil if content.blank?
+
+    # Return that content
+    return content 
   end
 
   def localized(entry)

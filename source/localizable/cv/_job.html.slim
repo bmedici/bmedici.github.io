@@ -34,10 +34,11 @@
   - if job.what.is_a?(Array)
     .details
       - job.what.each do |what|
+        - content = job_what_localized_detail(what)
+
         .detail
           - if what.respond_to?(:title)
-            p.jobtask= localized(what.title)               
-            - if what.respond_to?(:detail)        
-              p.jobdetail= nl2br(localized(what.detail))
+            p.jobtask= localized(what.title)  
+            p.jobdetail= nl2br(content) unless content.nil?
 
   hr.noprint
