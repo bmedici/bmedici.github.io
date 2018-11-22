@@ -23,20 +23,20 @@ what:
       en: |
         Defined and executed the migration towards this service-based architecture
         Raised management's awareness about state-of-the-art - SOA, REST, micro-services
-        Tech choices, data modeling, execution along with teams
+        Handled tech choices, data modeling, execution along with teams
         Enforced choices by exchange with other business units
 
   - title:
       fr: Encadrement et orientation des équipes de développement
-      en: 
+      en:  Supervised and guided development teams
     detail:
       fr: |
         Mentoring des tech-leads par des ateliers hebdomadaires
         Diverses présentations effectuées - retours d'expérience, messaging sur RabbitMQ...
         Définition des solutions d'architecture pour les projets courants
       en: |
-        Tech-lead mentoring with weekly workshops
-        Several internal talks - projects feedback, RabbitMQ messaging...
+        Montored tech-lead developpers with weekly workshops
+        Orgaznized and presented several internal talks - projects feedback, RabbitMQ messaging...
         Defined architecture solutions for day-to-day projects
 
   - title:
@@ -49,12 +49,12 @@ what:
         Pédagogie et conversion des équipes de qualification et de production
       en: |
         Introduced containerization on Docker Swarm hosted on a public cloud provider
-        Build automated pipelines for the new development projects
-        Teaching and conversion of quality assessment teams and production teams
+        Built automated pipelines for the new development projects
+        Offered guidance and skills development for quality assessment and production teams
 
   - title:
       fr: Création d'une équipe pilote sur NodeJS/MongoDB + lean management
-      en: Built a referece team based on NodeJS/MongoDB + lean management
+      en: Built a reference team based on NodeJS/MongoDB + lean management
     detail:
       fr: |
         Introduction de NodeJS et MongoDB dans l'entreprise
@@ -62,7 +62,7 @@ what:
         Implication forte des développeurs, des testeurs, du métier et de la qualification
       en: |
         Introduced NodeJS and MongoDB technologies all across the company
-        Full automatisation of the development process - build, test, deploy
-        Strong involvment of developers, testers, business experts and quality teams
+        Implemented full automatization of the development process - build, test, deploy
+        Obtainted strong involvement of developers, testers, business experts and quality teams
         
 

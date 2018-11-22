@@ -22,7 +22,7 @@ what:
         Introduction de principes SOA et d'une fonction de workflow transverse
         Modélisation des procesus métier pour toute la chaîne de production VoD
       en: |
-        Rationalization of systems and methods for every offer like CanalSat, Canal+, CanalPlay Infinity and replay-tv (encoders, media provisioning, etc)
+        Proposed architecture rationalization systems (ARM) and methods for every offer like CanalSat, Canal+, CanalPlay Infinity and replay-tv (encoders, media provisioning, etc)
         Introduced SOA concepts and global workflow functions
         Described and modelled business process for the entire VoD production stack
 
@@ -31,11 +31,11 @@ what:
       en: Defined the target architecture
     detail:
       fr: |
-        Interfaces webservice génériques vers les fonctions d'ingestion, de transcodage et mise au format, de provisionning vers les partenaires, et de supervision
+        Standardisation des interfaces webservice vers les fonctions d'ingestion, de transcodage et mise au format, de provisionning vers les partenaires, et de supervision
         Rédaction des spécications et du cahier des charges technique
       en: |
-        Generic webservice interfacing with input functions, transformation and transcoding, media files provisionning to partners.
-        Wrote technical sepcifications basis
+        Standardized webservice interfaces with ingest functions, transformation and transcoding, media files provisionning to partners.
+        Wrote technical specifications basis
 
   - title:
       fr: Pilotage de l'appel d'offres "moteur de workflow"
@@ -46,18 +46,18 @@ what:
         Maquette et PoC, animation des échanges et des soutenances, étude des réponses et restitution.
         Projet mené directement au sein de la Direction des Technologies et du SI.
       en: |
-        RFI and RFP with 12 major media providers, international and national partners (documents mainly written in English).
-        Proof-of-concept deployed for best solutions
-        Project ran in close cooperation with CTOs and top management
+        Coordinated RFI and RFP with 12 major media providers, international and national partners (documents mainly written in English).
+        Organized proofs-of-concept for the top 5 solutions
+        Ran project in close cooperation with CTOs and top management
 
   - title:
       fr: Pilotage du projet de refonte du stockage médias pour la diffusion (> 1 petabyte)
-      en: Animated the storage restructuring project within Diffusion branch (> 1 petabyte)
+      en: Managed the storage restructuring project within Diffusion branch (> 1 petabyte)
     detail:
       fr: |
         Architecture technique du stockage de transcodage, de distribution et d'archivage moyen terme
         Animation de l'équipe-projet, spécifications et appel d'offres, horizontale et verticale
       en: |
-        Technical recommandations for transcoding storage, distribution and long-term archives
-        Animated the project team, defined specifications, horizontal and vertical scalability
+        Made technical recommandations for transcoding storage, distribution and long-term archives
+        Led the project team, defined specifications, horizontal and vertical scalability
 

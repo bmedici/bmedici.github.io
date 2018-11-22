@@ -13,7 +13,7 @@ duration:
 what:
   - title:
       fr: Affinage de la trajectoire de transformation de la DSI
-      en: 
+      en: Refined the transformation trajectory of the ISD
     detail:
       fr: |
         Formalisation par la cartographie et l'illustration des principes
@@ -21,9 +21,11 @@ what:
         Sensibilisation de la Direction aux concepts d'architecture introduits
       en: |
         
+        
+        
   - title:
       fr: Animation de la démarche d'architecture auprès des équipes
-      en: 
+      en: Led architectural approach development with teams
     detail:
       fr: |
         Mentoring des tech-leads et évengélisation permantente
@@ -34,7 +36,7 @@ what:
 
   - title:
       fr: Automatisation et mise en place de CI/CD (sur containers et cloud privé)
-      en: 
+      en: Automated and implemented CI/CD (on containers and private cloud) practices
     detail:
       fr: |
         Conversion des équipes à la production d'imges Docker pour la production
@@ -44,7 +46,7 @@ what:
         
   - title:
       fr: Maquettes techniques des briques de la nouvelle architecture
-      en: 
+      en: Developed technical models for the new architecture
     detail:
       fr: |
         Développement de micro-services modèles pour l'exemple (Ruby, Sinatra, MongoDB)
