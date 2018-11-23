@@ -151,6 +151,8 @@ GEM
       parallel
       ruby-progressbar
       unf
+    middleman-sitemap (0.0.13)
+      middleman-core (>= 3.2.2)
     middleman-sprockets (4.1.1)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
@@ -217,6 +219,7 @@ DEPENDENCIES
   middleman-pdfkit
   middleman-s3_sync
   middleman-simple-thumbnailer!
+  middleman-sitemap
   middleman-sprockets
   mime-types
   mini_magick

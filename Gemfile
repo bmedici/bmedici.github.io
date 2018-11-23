@@ -28,6 +28,7 @@ gem 'middleman-pdfkit' #, git: "https://github.com/bmedici/middleman-pdfkit"
 gem "mini_magick"
 gem "minitest"
 
+gem "middleman-sitemap"
 gem "htmlbeautifier"
 
 # gem "susy"

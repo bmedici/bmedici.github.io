@@ -30,7 +30,9 @@ activate :google_analytics do |ga|
 end
 
 # Sitemap
-page "sitemap.xml", :layout => false
+activate :sitemap, hostname: "https://bmconseil.com"
+# page "sitemap.xml", :layout => false
+# page "sitemap.html"
 
 
 # For custom domains on github pages
