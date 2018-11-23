@@ -2,8 +2,8 @@
 fr:
 
   tagline: |
-    Architecte web indépendant
-    & CTO
+    Architecte web
+    indépendant & CTO
   print: Imprimer
   education: Formation
   languages: International
@@ -13,5 +13,5 @@ fr:
   skills: Domaines de compétence
 
   paths:
-    cv: "cv/cv-bruno-medici-fr"
-    index: "home-fr"
+    cv: "cv-bruno-medici-fr"
+    index: "fr"
