@@ -1,14 +1,15 @@
+# Libs
+require 'builder'
+require 'helpers/custom_helpers' 
+include CustomHelpers 
+
+
 # Middleman configuration
 set :css_dir,     'css'
 set :js_dir,      'js'
 set :images_dir,  'img'
 set :relative_links, false
 # Time.zone = 'Paris'
-
-
-# Load helpers
-require 'helpers/custom_helpers' 
-include CustomHelpers 
 
 
 # Activate debug if DEBUG is a non-zero integer
@@ -94,7 +95,7 @@ configure :build do
   activate :minify_javascript
 
   # Minify HTML on build
-  activate :minify_html
+  # activate :minify_html
 
   # Use relative URLs
   activate :relative_assets
@@ -134,6 +135,11 @@ configure :build do
   #   }
 end
 
+# Beautify all HTML pages
+after_build do
+  system('htmlbeautifier -t 1 build/*.html')
+  system('htmlbeautifier -t 1 build/*/*.html')
+end
 
 # after_build do |builder|
 #      FileUtils.mv(Dir['build/templates/*'],'build/', {:force => true})

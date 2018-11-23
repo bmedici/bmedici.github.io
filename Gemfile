@@ -28,6 +28,8 @@ gem 'middleman-pdfkit' #, git: "https://github.com/bmedici/middleman-pdfkit"
 gem "mini_magick"
 gem "minitest"
 
+gem "htmlbeautifier"
+
 # gem "susy"
 # gem "addressable"
 # gem "middleman-favicon-maker", "~> 4.1"
