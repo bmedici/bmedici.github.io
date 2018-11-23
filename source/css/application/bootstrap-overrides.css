@@ -1,3 +1,8 @@
 .navbar-default {
   background-color: #f5f5f5 !important;
 }
+
+.jumbotron {
+  background: none !important;
+  border: 1px solid silver;
+}
