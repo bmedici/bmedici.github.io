@@ -74,6 +74,15 @@ end
 default_caching_policy max_age: 60
 
 
+# Redirects
+data.redirects.each do |target, origins|
+  origins.each do |origin|
+    printf("REDIRECT | %-30s | %s \n", origin, target)
+    redirect "#{origin}/index.html", to: target
+  end
+end
+
+
 # Asset pipeline
 activate :sprockets do |c|
   # c.expose_middleman_helpers = true
