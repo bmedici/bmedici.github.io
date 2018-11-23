@@ -28,7 +28,7 @@ gem 'middleman-pdfkit' #, git: "https://github.com/bmedici/middleman-pdfkit"
 gem "mini_magick"
 gem "minitest"
 
-gem "middleman-sitemap"
+gem "middleman-sitemap", :git => "https://github.com/matsu911/middleman-sitemap" 
 gem "htmlbeautifier"
 
 # gem "susy"

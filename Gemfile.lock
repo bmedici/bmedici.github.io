@@ -6,6 +6,13 @@ GIT
       middleman-core (~> 4)
       mini_magick (~> 4)
 
+GIT
+  remote: https://github.com/matsu911/middleman-sitemap
+  revision: b52c2256d4188761122804cbb79ceb6cd1afdf6b
+  specs:
+    middleman-sitemap (0.0.13)
+      middleman-core (>= 3.2.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -151,8 +158,6 @@ GEM
       parallel
       ruby-progressbar
       unf
-    middleman-sitemap (0.0.13)
-      middleman-core (>= 3.2.2)
     middleman-sprockets (4.1.1)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
@@ -219,7 +224,7 @@ DEPENDENCIES
   middleman-pdfkit
   middleman-s3_sync
   middleman-simple-thumbnailer!
-  middleman-sitemap
+  middleman-sitemap!
   middleman-sprockets
   mime-types
   mini_magick
