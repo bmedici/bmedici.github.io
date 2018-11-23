@@ -17,6 +17,7 @@ gem "middleman-sprockets"   #, "~> 3.0.6"
 gem 'middleman-bootstrap-navbar'
 gem "bootstrap-sass"
 gem "jquery-middleman"
+gem 'middleman-google-analytics', '~> 3.0'
 
 gem 'mime-types'
 gem 'slim'

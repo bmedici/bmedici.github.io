@@ -23,6 +23,11 @@ if !ENV['BLANK'].to_i.zero?
 end
 
 
+# Google analytics
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-1775113-5'
+end
+
 # Sitemap
 page "sitemap.xml", :layout => false
 
