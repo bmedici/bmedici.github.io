@@ -1,10 +1,12 @@
 - langs = current_page.data.langs
+/ - brand_logo = image_tag asset_path(:images, 'logo_bmc_300.png'),
+/     title: "Bruno Medici Consultant"
 
 = navbar fixed: :top, container: false, class: :noprint do
-  - if config[:blank]
-    = navbar_header brand: 'TITLE', brand_link: '/'
-  - else
-    = navbar_header brand: 'Bruno Medici Consultant', brand_link: '/'
+  / - if config[:blank]
+  /   = navbar_header brand: 'TITLE', brand_link: '/'
+  / - else
+  /   = navbar_header brand: brand_logo, brand_link: '/', brand_image: "jjj"
 
   = navbar_collapse do
     = navbar_group class: 'foo', id: 'menu' do
@@ -14,8 +16,8 @@
         = " HOME"
 
       - unless config[:blank]
-        = navbar_item "RESUME", '/cv/cv-bruno-medici-en'
-        = navbar_item "CV", '/cv/cv-bruno-medici-fr'
+        = navbar_item "RESUME", '/cv-bruno-medici-en'
+        = navbar_item "CV", '/cv-bruno-medici-fr'
 
       = navbar_item fa_icon(:envelope), "/contact"
 
