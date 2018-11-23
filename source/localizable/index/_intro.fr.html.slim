@@ -1,11 +1,13 @@
 .container
 
-  h1.alt
-    = "Hello, je suis "
-    strong Bruno Medici,
-    = " architecte web et CTO."
-  
-  p.intro
-    = "J'accompagne votre transformation digitale et l'innovation technologique, par une approche pragmatique orientée sur la qualité et technologies."
+  .row
+    .col-md-2
+      / = image_tag asset_path(:images, 'logo_bmc_300.png')
+
+    .col-md-4
+      h1.alt
+        = "Hello, je suis architecte web et CTO"
+      p.intro
+        = "J'accompagne votre transformation digitale et l'innovation technologique, par une approche pragmatique orientée sur la qualité et technologies."
 
 / Si je devais mettre en avant disons 3 points, ce seraient "techno", "full devops" (du dev à l'infra), et "pragmatique" (Qui préfère voir les choses de façon concrète, qui favorise la pratique et l’expérience. Contraire : spéculatif, théorique. Étymologie : du grec "pragmatikos" qui est dans l'action. )
