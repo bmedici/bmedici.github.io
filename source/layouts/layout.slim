@@ -7,7 +7,9 @@ html
     - else
       title= current_page.data.title
     meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" 
-    meta name="viewport" content="width=device-width, initial-scale=1" 
+    meta name="viewport" content="width=device-width, initial-scale=1"
+    - auto_display_meta_tags
+    = display_meta_tags
 
     // javascript:
     //   <!--[if lte IE 8]

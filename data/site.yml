@@ -1,4 +1,23 @@
+customize_by_frontmatter: true
+
 site: Bruno MEDICI Consultant
-description: 
+creator: Bruno Medici
+description: Web and medias architecture, change management, technical leadership
+keywords:
+  - architecture
+  - cto
+  - consulting
+  - conseil
+  - direction technique
+  - devops
+  - continuous integration
+  - intégration continue
+  - state of the art
+  - web application
+  - architecte
+  - agile
+  - accompagnement du changement
+  - change management
 twitter_card: 
-twitter_author:
+twitter_author: Bruno Medici
+
