@@ -59,18 +59,21 @@ activate :meta_tags
 
 
 # S3 sync
-activate :s3_sync do |s3_sync|
-  s3_sync.bucket                = 's3.bmconseil.com'
-  s3_sync.region                = 'eu-west-3'
   s3_sync.aws_access_key_id     = '***REMOVED***'
   s3_sync.aws_secret_access_key = '***REMOVED***'
-  s3_sync.path_style            = true
-  s3_sync.reduced_redundancy_storage = true
-  s3_sync.version_bucket             = false
-  s3_sync.index_document             = 'index.html'
-  s3_sync.error_document             = '404.html'
-  # s3_sync.content_types = true
-  # s3.prefer_gzip                = true
+activate :s3_sync do |config|
+  # config.bucket                = 's3.bmconseil.com'
+  # config.bucket                = 'dev.bmconseil.com'
+  # config.content_types = true
+  config.bucket                     = 'bmconseil.com'
+  config.region                     = 'eu-west-3'
+  config.path_style                 = true
+  config.reduced_redundancy_storage = true
+  config.version_bucket             = false
+  config.index_document             = 'index.html'
+  config.error_document             = '404/index.html'
+  config.version_bucket             = true
+  config.prefer_gzip                = true
 end
 default_caching_policy max_age: 60
 
@@ -129,8 +132,8 @@ configure :build do
   # Build PDF files
   activate :pdfkit do |p|
     p.filenames = {
-      'cv-bruno-medici-fr/index' => "cv/#{cv_filename('fr-auto')}.pdf",
-      'cv-bruno-medici-en/index' => "cv/#{cv_filename('en-auto')}.pdf",
+      'cv-bruno-medici-fr/index' => cv_filename(nil, 'fr-auto'),
+      'cv-bruno-medici-en/index' => cv_filename(nil, 'en-auto'),
      }
     p.disable_smart_shrinking = false
     p.quiet = true
@@ -142,13 +145,11 @@ configure :build do
     p.print_media_type = true
   end
 
-  # activate :favicon_maker, :icons => {
-  #     "_favicon_template.png" => [
 
   # Github pages
   activate :deploy do |deploy|
     deploy.deploy_method = :git
-    deploy.remote = 'git@github.com:bmedici/bmedici.github.io.git'
+    # deploy.remote = 'git@github.com:bmedici/bmedici.github.io.git'
     deploy.branch = 'master'
     # deploy.branch = 'gh-pages'
   end
