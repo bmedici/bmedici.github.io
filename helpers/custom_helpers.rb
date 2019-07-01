@@ -30,7 +30,7 @@ def cv_name stamp = nil, lang = nil
 end
 
 def cv_filename stamp = nil, lang = nil
-  "/cv/#{cv_name(stamp, lang)}.pdf"
+  "cv/#{cv_name(stamp, lang)}.pdf"
 end
 
 # def jobs_randomized

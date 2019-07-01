@@ -13,9 +13,7 @@
       .item
         = fa_icon "file"
         = " "
-        = link_to t('download_cv'), cv_filename(config[:current_cv])
-        pre
-          = asset_path('.pdf', cv_filename(config[:current_cv]))
+        = link_to t('download_cv'), '/' + cv_filename(config[:current_cv])
 
       / .item
       /   = fa_icon "print"
