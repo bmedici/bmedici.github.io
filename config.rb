@@ -41,7 +41,7 @@ page "CNAME",      layout: false
 
 
 # Error page
-# page '404.html',  layout: true
+# page '404.html',    layout: true
 
 
 # Turn this on if you want to make your url's prettier, without the .html
