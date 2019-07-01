@@ -8,14 +8,16 @@
       
     h3.tagline = nl2br(t('tagline'))
 
-    - if current_page.data.cvmode
-      .download-and-print.noprint
-        .item
-          = fa_icon "file"
-          = " "
-          = link_to "PDF", "/cv/#{cv_filename('20181123')}.pdf"
+    / - if current_page.data.cvmode
+    .download-and-print.noprint
+      .item
+        = fa_icon "file"
+        = " "
+        = link_to t('download_cv'), cv_filename(config[:current_cv])
+        pre
+          = asset_path('.pdf', cv_filename(config[:current_cv]))
 
-        .item
-          = fa_icon "print"
-          = " "
-          = link_to t('print'), 'javascript:window.print()'
+      / .item
+      /   = fa_icon "print"
+      /   = " "
+      /   = link_to t('print'), 'javascript:window.print()'

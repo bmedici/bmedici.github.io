@@ -15,6 +15,7 @@ set :relative_links, false
 # Activate debug if DEBUG is a non-zero integer
 set :debug,       !ENV['DEBUG'].to_i.zero?
 set :image_box,   "150x35"
+set :current_cv,  "20181123"
 
 # Blank site ?
 set :blank,       false

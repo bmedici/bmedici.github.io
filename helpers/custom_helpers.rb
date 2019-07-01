@@ -17,16 +17,23 @@ module CustomHelpers
     job
   end
 
-  def pdf_filename lang=::I18n.locale
-#    "CV Bruno MEDICI #{Time.now.strftime('%Y%m%d')} #{lang.upcase}"
-    "cv-bruno-medici-#{lang.upcase}"
-  end
+#   def pdf_filename lang=::I18n.locale
+# #    "CV Bruno MEDICI #{Time.now.strftime('%Y%m%d')} #{lang.upcase}"
+#     "cv-bruno-medici-#{lang.upcase}"
+#   end
 
-  def cv_filename stamp=Time.now.strftime('%Y%m%d'), lang=::I18n.locale
-    "cv-bruno-medici-#{stamp}-#{lang.downcase}"
-  end
+def cv_name stamp = nil, lang = nil
+  stamp ||= Time.now.strftime('%Y%m%d')
+  lang ||= ::I18n.locale
+  # "cv-bruno-medici-#{stamp}-#{lang.downcase}"
+  "CV Bruno MEDICI #{stamp} #{lang.upcase}"
+end
 
-  # def jobs_randomized
+def cv_filename stamp = nil, lang = nil
+  "cv/#{cv_name(stamp, lang)}.pdf"
+end
+
+# def jobs_randomized
   #   data.jobs.shuffle
   # end
 
