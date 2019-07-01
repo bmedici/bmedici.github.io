@@ -9,6 +9,7 @@ gem "middleman-favicon-maker"
 gem 'middleman-s3_sync'
 gem "middleman-minify-html"
 gem 'middleman-meta-tags'
+gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 gem "middleman-simple-thumbnailer", git: "https://github.com/kubenstein/middleman-simple-thumbnailer"
 #gem "middleman-simple-thumbnailer", path: "../middleman-simple-thumbnailer"
 

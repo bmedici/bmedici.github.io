@@ -143,6 +143,16 @@ configure :build do
 
   # activate :favicon_maker, :icons => {
   #     "_favicon_template.png" => [
+
+  # Github pages
+  activate :deploy do |deploy|
+    deploy.deploy_method = :git
+    # deploy.remote = 'git@github.com:bmedici/bmedici.github.io.git'
+    # deploy.branch = 'master'
+    deploy.branch = 'gh-pages'
+  end
+
+
   #       { icon: "apple-touch-icon-152x152-precomposed.png" },
   #       { icon: "apple-touch-icon-114x114-precomposed.png" },
   #       { icon: "apple-touch-icon-72x72-precomposed.png" },
