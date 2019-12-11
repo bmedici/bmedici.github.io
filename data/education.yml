@@ -9,20 +9,25 @@
       en: Marketing of technologies
 
 - name:
+    fr: Congrés et communauté
+    en: International conferences
+  details:
+    - Elixir Conf 2020 Varsaw
+    - Rails Conf 2010 Baltimore
+    - Rails Conf 2009 Las Vegas
+    - Rails Conf 2007 Berlin
+    - Paris On Rails 2007 Paris
+    - PHP Conf 2004 Amsterdam
+    - PHP Conf 2002 Munich
+
+- name:
     fr: Formation continue
     en: Training and workshops
   details:
-    - ElixirConf EU 2020/Varsaw
     - Google Cloud Platform Fundamentals and Architecting (Paris)
-    - RailsConf 2010/Baltimore
-    - RailsConf 2009/Las Vegas
-    - RailsConf 2007/Berlin
-    - ParisOnRails 2007/Paris
-    - PHP Conf 2004/Amsterdam
-    - PHP Conf 2002/Munich
     - Cisco CSPFF & CSPFA (PIX Firewall Advanced)
     - PSC1 civil emergency prevention
-
+  
 - name:
     fr: DUT Télécoms et réseaux
     en: DUT Networks & Telecoms
