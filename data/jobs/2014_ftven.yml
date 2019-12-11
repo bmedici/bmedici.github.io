@@ -17,18 +17,18 @@ keywords:
 
 what:
   - title:
-      fr: Re-conception de la plateforme VoD et replay du groupe, sur tous les contenus (18 mois, mutliples experts)
-      en: Built the new replay platform, handling all the contents (18-months project, several experts)
+      fr: Re-conception de la plateforme VoD et replay du groupe tous les contenus (18 mois, mutliples experts)
+      en: Built the new replay platform handling all the contents (18-months project, several experts)
     detail:
       fr: |
         Mise en place d'une architecture micro-services RESTful, orchestrés par un automate interne
         Rationalisation des workflows métier, conception des APIs, accompagnement du développement (PHP/Symfony2)
-        Démarche itérative et agile sur tous les pans projet (spécifications, développement) jusqu'au deploiement continu
+        Démarche itérative et agile sur tous les pans projet (spécifications, développement, déploiement continu)
         En production depuis Q2 2015, traitement >300 programmes par jour
       en: |
         Defined a new REST-API and micro-services-based architecture, orchestrated by our in-house scheduler
         Studied and rationalized VoD business workflows, defined APIs, coached development teams(PHP/Symfony2)
-        Iterated over specifications, development, and deployment, aiming to continuous deployment
+        Iterated over specifications, development, aiming to continuous deployment)
         Successful production since Q2 2015, fully operational 300+ programs per day
 
   - title:
@@ -56,8 +56,8 @@ what:
       fr: |
         Cadrage architecture du projet Zoom (contenus à la demande et recommandation)
         Responsable de l’architecture pour la gestion de tags transverse
-        Evolution des services de TV connectée, refonte technique des plateformes des sites de chaînes et programmes
+        Evolution des services de TV connectée, refonte technique des sites "chaînes et programmes"
       en: |
         Defined architecture workframe for Zoom (on-demand recommendation of content)
         Managed architecture for the cross-products tagging system
-        Connected TV services upgrades, overhaul of the platform for channels and programs websites
+        Connected TV services upgrades, overhaul of the platform for "channels and programs" websites
