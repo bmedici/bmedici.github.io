@@ -41,8 +41,8 @@ end
     data[I18n.locale]
   end
 
-  def fa_icon type
-    content_tag(:i, '', class: "fa fa-#{type}")
+  def fa_icon type, title=""
+    content_tag(:i, '', class: "fa fa-#{type}", title: title)
   end
 
   def nl2br(string)

@@ -60,8 +60,6 @@ activate :meta_tags
 
 
 # S3 sync
-  s3_sync.aws_access_key_id     = '***REMOVED***'
-  s3_sync.aws_secret_access_key = '***REMOVED***'
 # activate :s3_sync do |config|
 #   # config.bucket                = 's3.bmconseil.com'
 #   # config.bucket                = 'dev.bmconseil.com'
@@ -154,6 +152,7 @@ configure :build do
     # deploy.remote = 'git@github.com:bmedici/bmedici.github.io.git'
     deploy.branch = 'master'
     # deploy.branch = 'gh-pages'
+    deploy.build_before = false
   end
 
 
