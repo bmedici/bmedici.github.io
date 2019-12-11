@@ -95,11 +95,18 @@ p.jobdetail {
   padding-right: 280px;
   }
 
-
+/* 
 .item.job {
   page-break-inside: avoid;
   page-break-before: avoid;
+} */
+
+.avoid-page-break {
+  page-break-inside: avoid;
+  page-break-before: avoid;
+  border: 1px dotted orange;
 }
+
 
 p {
   line-height: 1.2;
