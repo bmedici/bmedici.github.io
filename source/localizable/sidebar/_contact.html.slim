@@ -1,20 +1,22 @@
 .contact-container.container-block
   ul.list-unstyled.contact-list
-      li.email
-          = fa_icon :envelope
-          = link_to "cvweb2@bmconseil.com", "mailto: cvweb2@bmconseil.com" 
-      li.phone
-          = fa_icon :phone
-          = link_to "+33 611 647 608", "tel:+33 611 647 608"
-      li.website
-          = fa_icon :globe
-          = link_to "bmconseil.com", "https://bmconseil.com", target: "_blank"
-      li.linkedin
-          = fa_icon :linkedin
-          = link_to "brunomedici", "https://www.linkedin.com/in/brunomedici/", target: "_blank"
-      li.github
-          = fa_icon :github
-          = link_to "bmedici", "https://github.com/bmedici", target: "_blank"
-      li.address
-          = fa_icon "map-marker"
-          = "Paris 13 + Lille Centre"
+    li.email
+        = fa_icon :envelope
+        = link_to "cvweb2@bmconseil.com", "mailto: cvweb2@bmconseil.com" 
+    li.phone
+        = fa_icon :phone
+        = link_to "+33 611 647 608", "tel:+33 611 647 608"
+
+    li.address
+        = fa_icon "map-marker"
+        = "Paris 13 + Lille Centre"
+
+    - data.socials.each do |soc|
+      li.noscreen class=soc.icon
+        = fa_icon soc.icon
+        = link_to soc.label, soc.url
+    
+    li.social.noprint
+      - data.socials.each do |soc|
+        = link_to fa_icon(soc.icon), soc.url, title: soc.label, target: "_blank"
+        = " "
