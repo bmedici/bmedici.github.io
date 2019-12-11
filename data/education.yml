@@ -1,21 +1,25 @@
 - name:
-    fr: Ingénieur Télécom Lille
+    fr: Ingénieur Télécom Lille 2007
     en: Engineering master degree
   details:
-    - ENIC Télécom Lille (France), 2006
-    - fr: "Communication mobiles: GSM, UMTS"
-      en: "Mobile communications: GSM, UMTS"
-    - fr: Marketing des technologies de l'information
-      en: Marketing of information technologies
+    - IMT Lille-Douai
+    - fr: Communication mobiles
+      en: Mobile communications
+    - fr: Marketing des technologies
+      en: Marketing of technologies
 
 - name:
     fr: Formation continue
     en: Training and workshops
   details:
+    - ElixirConf EU 2020/Varsaw
     - Google Cloud Platform Fundamentals and Architecting (Paris)
-    - RailsConf 2010/Baltimore, 2009/Las Vegas, 2007/Berlin
+    - RailsConf 2010/Baltimore
+    - RailsConf 2009/Las Vegas
+    - RailsConf 2007/Berlin
     - ParisOnRails 2007/Paris
-    - PHP Conference 2004/Amsterdam, 2002/Munich
+    - PHP Conf 2004/Amsterdam
+    - PHP Conf 2002/Munich
     - Cisco CSPFF & CSPFA (PIX Firewall Advanced)
     - PSC1 civil emergency prevention
 
