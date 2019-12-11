@@ -149,7 +149,7 @@ configure :build do
   # Github pages
   activate :deploy do |deploy|
     deploy.deploy_method = :git
-    # deploy.remote = 'git@github.com:bmedici/bmedici.github.io.git'
+    deploy.remote = 'git@github.com:bmedici/bmedici.github.io.git'
     deploy.branch = 'master'
     # deploy.branch = 'gh-pages'
     deploy.build_before = false
