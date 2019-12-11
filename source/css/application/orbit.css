@@ -63,7 +63,7 @@ p {
   color: #fff;
 }
 .sidebar-wrapper .profile-container {
-  padding: 30px;
+  padding: 20px 30px;
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
@@ -103,7 +103,7 @@ p {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
-  padding: 30px;
+  padding: 20px 30px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
@@ -194,7 +194,7 @@ p {
   margin-bottom: 60px;
 }
 .main-wrapper .experiences-section .item {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .main-wrapper .job-header {
   position: relative;
@@ -219,7 +219,7 @@ p {
   margin-bottom: 5px;
 }
 .main-wrapper .projects-section .intro {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
@@ -242,7 +242,7 @@ p {
   background: #6c92a3;
 }
 .footer {
-  padding: 30px;
+  padding: 20px 30px;
   padding-top: 60px;
 }
 .footer .copyright {
