@@ -4,6 +4,7 @@ title:
 
 place: RueDuCommerce
 location: Paris (France)
+url: https://www.rueducommerce.fr/
 
 duration:
   fr: 1 an
@@ -12,37 +13,23 @@ duration:
 
 what:
   - title:
-      fr: Affinage de la trajectoire de transformation de la DSI
-      en: Refined the transformation trajectory of the ISD
+      fr: Formalisation la trajectoire de transformation de la DSI et animation de la démarche 
+      en: Refined the transformation trajectory of the IT department and led the movement
     detail:
       fr: |
-        Formalisation par la cartographie et l'illustration des principes
-        Phasing des étapes de transformation et de l'accompagnement des équipes
-        Sensibilisation de la Direction aux concepts d'architecture introduits
-      en: |
-        
-        
-        
-  - title:
-      fr: Animation de la démarche d'architecture auprès des équipes
-      en: Led architectural approach development with teams
-    detail:
-      fr: |
-        Mentoring des tech-leads et évengélisation permantente
-        Ateliers hebdomadaires auprès des équipes - partager et apporter des solutions concrètes aux projets
+        Sensibilisation de la Direction par la cartographie et l'illustration des principes d'architecture
+        Mentoring des tech-leads et évengélisation permantente (ateliers hebdomadaires)
         Diverses présentations effectuées (retours d'expérience, messaging temps-réel sur RabbitMQ, ...)
       en: |
         
-
   - title:
       fr: Automatisation et mise en place de CI/CD (sur containers et cloud privé)
-      en: Automated and implemented CI/CD (on containers and private cloud) practices
+      en: Automated and implemented CI/CD practices (on containers and private cloud)
     detail:
       fr: |
         Conversion des équipes à la production d'imges Docker pour la production
         Mise en oeuvre du pattern BFF pour les fronts - agrégation de services et séparation data/vue
       en: |
-        
         
   - title:
       fr: Maquettes techniques des briques de la nouvelle architecture
