@@ -62,21 +62,22 @@ activate :meta_tags
 # S3 sync
   s3_sync.aws_access_key_id     = '***REMOVED***'
   s3_sync.aws_secret_access_key = '***REMOVED***'
-activate :s3_sync do |config|
-  # config.bucket                = 's3.bmconseil.com'
-  # config.bucket                = 'dev.bmconseil.com'
-  # config.content_types = true
-  config.bucket                     = 'bmconseil.com'
-  config.region                     = 'eu-west-3'
-  config.path_style                 = true
-  config.reduced_redundancy_storage = true
-  config.version_bucket             = false
-  config.index_document             = 'index.html'
-  config.error_document             = '404/index.html'
-  config.version_bucket             = true
-  config.prefer_gzip                = true
-end
-default_caching_policy max_age: 60
+# activate :s3_sync do |config|
+#   # config.bucket                = 's3.bmconseil.com'
+#   # config.bucket                = 'dev.bmconseil.com'
+#   # config.content_types = true
+
+#   config.bucket                     = 'bmconseil.com'
+#   config.region                     = 'eu-west-3'
+#   config.path_style                 = true
+#   config.reduced_redundancy_storage = true
+#   config.version_bucket             = false
+#   config.index_document             = 'index.html'
+#   config.error_document             = '404/index.html'
+#   config.version_bucket             = true
+#   config.prefer_gzip                = true
+# end
+# default_caching_policy max_age: 60
 
 
 # Redirects

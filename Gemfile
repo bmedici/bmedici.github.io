@@ -6,7 +6,7 @@ source 'https://rubygems.org'
 gem "middleman"             , "~>4.2"
 gem "middleman-livereload"  #, "~> 3.1.0"
 gem "middleman-favicon-maker"
-gem 'middleman-s3_sync'
+# gem 'middleman-s3_sync'
 gem "middleman-minify-html"
 gem 'middleman-meta-tags'
 gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
