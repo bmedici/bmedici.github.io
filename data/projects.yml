@@ -18,17 +18,17 @@
 - name: pushyd - Realtime push messages proxy
   desc:
     fr: |
-      Diffusion en temps-réel d'évènements AMQP vers des partenaires en HTTP POST.
+      Diffusion en temps-réel d'évènements AMQP vers des partenaires (HTTP POST).
       Utilisé par France Télévisions pour transmettre les évènements de début/fin de programme à des plateformes VoD.
     en: |
-      Realtime events diffusion from an AMQP broker to partners on HTTP POST requests.
-      Used by France Télévisions to propagate start/end program events to VoD platforms
+      Realtime events diffusion from an AMQP broker to partners (HTTP POST).
+      Used by France Télévisions to propagate start/end program events to VoD partners
   url: https://github.com/bmedici/pushyd
  
 
 - name: service-graph
   desc:
-    fr: Service de calcul et de représentation des dépendances entre microservices hébergés à partir des repositories Gitlab.
-    en: Dependencies computing and graphing among microservices wich are detected on Gitab.
+    fr: Calcul et représentation des dépendances entre microservices, à partir des repositories Gitlab.
+    en: Dependencies computing and graphing between microservices, scanned on Gitab repositories.
   url: https://gitlab.com/bmconseil/service-graph
 
