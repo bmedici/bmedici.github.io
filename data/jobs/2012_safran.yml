@@ -4,6 +4,7 @@ title:
 
 place: SAFRAN Groupe & SNECMA
 location: Réau (France)
+url: https://www.safran-group.com/
 
 duration:
   fr: 3 mois
@@ -13,8 +14,8 @@ keywords: 50k+ utilisateurs, reversibilité, cisco, bluecoat, juniper, arkoon, i
 
 what:
   - title:
-      fr: Réversibilité du "Bastion groupe" des équipes SNECMA vers le Groupe SAFRAN
-      en: Migrated skills and responsability for the whole company network bastion, from SNECMA branch to SAFRAN headquartes
+      fr: Migration du "Bastion réseau groupe" de la filiale SNECMA vers le Groupe 
+      en: Took over skills and responsability of network security from SNECMA branch to headquarters
     detail:
       fr: |
         Exploration du périmètre, identification des compétences
@@ -26,8 +27,5 @@ what:
         Consolidation de diverses plateformes multi-sites
 
   - title:
-      fr: Expertise technologies et culture internet
-      en: Brought internet technologies culture and expertise
-    details:
-      fr: email, DNS, sécurité réseau et filtrage web, etc
-      en: email, DNS, network security and web filtering, etc
+      fr: Expertise technique et culture internet (email, DNS, sécurité réseau, filtrage web)
+      en: Brought internet technologies expertise about email, DNS, network security and web filtering
