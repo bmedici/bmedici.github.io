@@ -1,9 +1,10 @@
 title: 
-  fr: Architecte portail multimédia embarqué TGV
-  en: Architect onboard service platform on TGV trains
+  fr: Architecture du portail multimédia embarqué TGV
+  en: Architected onboard service platform on TGV trains
 
 place: SNCF/BOLLORE
 location: Paris (France)
+url: https://bollore.com/
 
 duration:
   fr: 6 mois
@@ -26,9 +27,13 @@ what:
         Participated in the founding of the joint venture between Bollore-SNCF, key public project
 
   - title:
-      fr: Définition d'architecture technique et service, en embarqué et sur liaison sol/bord
-      en: Defined technical functionnal architecture for onboard and ground-train link
-
-  - title:
-      fr: Direction du développement des interfaces spécifiques à l'environnement embarqué
-      en: Directed development of embedded-specific interfaces
+      fr: |
+        Définition d'architecture technique et service, en embarqué et sur liaison sol/bord
+      en: |
+        Defined technical functionnal architecture for onboard and ground-train link
+    detail:
+      fr: |
+        Direction du développement des interfaces spécifiques à l'environnement embarqué
+      en: |
+        Directed development of embedded-specific interfaces
+  
