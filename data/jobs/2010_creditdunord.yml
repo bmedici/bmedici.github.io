@@ -4,6 +4,7 @@ title:
 
 place: Crédit du Nord, Société Générale
 location: Lille (France)
+url: https://www.credit-du-nord.fr/
 
 duration:
   fr: 1 an
@@ -24,7 +25,6 @@ what:
       en: Practiced technical architecture and evolutions of Customers Internet platforms
     detail:
       fr: |
-        Clients particuliers, professionnels, entreprises du Crédit du Nord et de ses huit filiales
         Multiples firewalls, reverse proxies, load balancers, IPS, serveurs Redhat/OpenBSD
         Expertise HTTP, caching, filtrage et routage niveau 7, Apache mod_rewrite
         Méthodologie et outils de suivi de version des configurations des plateformes
