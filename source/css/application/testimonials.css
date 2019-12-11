@@ -1,0 +1,130 @@
+.laquo {
+  /* background: url(/img/laquo.png) no-repeat; */
+  /* content: open-quote; */
+  width: 14px;
+  height: 11px;
+  left: 0;
+  position: relative;
+  top: -6px;
+  margin: 0 6px;
+  display: inline-block;
+}
+
+/* .raquo {
+  background: url(/img/raquo.png) no-repeat;
+  width: 13px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  margin: 0 2px;
+} */
+
+.block {
+  width: 280px;
+  padding: 20px 25px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid silver;
+  display: inline-block;
+}
+
+/*.text {
+  display: inline-block;
+}
+*/
+.signature {
+  text-align: right;
+}
+
+.signature .client {
+  color: grey;
+}
+
+
+
+.cd-testimonials-wrapper {
+  position: relative;
+  /*width: 90%;*/
+  max-width: 768px;
+  /*background-color: #39393c;*/
+/*  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+*/  margin: 2em auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 20px 40px 20px;
+  z-index: 1;
+}
+
+
+.cd-testimonials-wrapper ul {
+  list-style: none;
+}
+/* 
+.cd-testimonials-wrapper::after {
+  content: '\201C';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  padding-top: 0;
+  margin-left: -20px;
+  font-family: "Georgia", serif;
+  color: silver;
+  font-size: 120px;
+  text-align: center;
+  display: none;
+}
+ */
+@media only screen and (min-width: 768px) {
+  .cd-testimonials-wrapper {
+    /*margin: 2em auto;*/
+    /*padding: 64px 50px 114px;*/
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .cd-testimonials-wrapper::after {
+    /* quotation mark visible */
+    display: block;
+  }
+}
+
+.cd-testimonials {
+  /*color: black;*/
+  text-align: center;
+}
+.cd-testimonials::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.cd-testimonials > li {
+  position: absolute;
+  opacity: 0;
+}
+.cd-testimonials > li:first-child {
+  position: relative;
+  opacity: 1;
+}
+.cd-testimonials p {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  padding: 0 14px;
+}
+@media only screen and (min-width: 768px) {
+  .cd-testimonials p {
+    font-size: 22px;
+    font-size: 1.375rem;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .cd-testimonials p {
+    /*font-size: 26px;*/
+    font-size: 1.15em;
+    line-height: 1.6;
+  }
+}
