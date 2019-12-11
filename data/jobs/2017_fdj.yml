@@ -4,6 +4,7 @@ title:
 
 place: La Française des Jeux (FDJ)
 location: Paris (France)
+url: https://www.fdj.fr/
 
 duration:
   fr:
@@ -12,19 +13,17 @@ duration:
 what:
 
   - title:
-      fr: Définition de l'architecture mmicroservices pour le Groupe
+      fr: Orientation vers l'architecture microservices pour le Groupe
       en: Defined the target micro-services architecture
     detail:
       fr: |
-        Définition et mise en œuvre de la démarche de migration vers cette architecture orientée services
-        Sensibilisation du management autour de l’état de l’art - SOA, REST, micro-services
-        Choix technologiques, modélisation, implémentation avec les éqiupes
-        Pérénnisation des choix par l'échange avec les autres entités
+        Mise en œuvre des patterns REST et micro-services
+        Sensibilisation du management et d'autres équipes autour des patterns et de l’état de l’art 
+        Choix technologiques, modélisation, implémentation avec les équipes
       en: |
-        Defined and executed the migration towards this service-based architecture
-        Raised management's awareness about state-of-the-art - SOA, REST, micro-services
+        Defined and executed the migration to REST and micro-services patterns
+        Raised management and other teams awareness to state-of-the-art patterns
         Handled tech choices, data modeling, execution along with teams
-        Enforced choices by exchange with other business units
 
   - title:
       fr: Encadrement et orientation des équipes de développement
@@ -32,37 +31,33 @@ what:
     detail:
       fr: |
         Mentoring des tech-leads par des ateliers hebdomadaires
-        Diverses présentations effectuées - retours d'expérience, messaging sur RabbitMQ...
-        Définition des solutions d'architecture pour les projets courants
+        Multiples présentations effectuées - retours d'expérience, messaging sur RabbitMQ...
+        Responsabilité de la solution d'architecture pour les projets courants
       en: |
         Montored tech-lead developpers with weekly workshops
         Orgaznized and presented several internal talks - projects feedback, RabbitMQ messaging...
-        Defined architecture solutions for day-to-day projects
+        In charge of projects architecture dfnition for day-to-day projects
 
   - title:
-      fr: Conversion à l'intégration/déploiement continus (CI/CD) avec Docker
-      en: Moved to continuous integration and deployment (CI/CD) with Docker
+      fr: Mise en place de l'intégration/déploiement continus (CI/CD) avec Docker
+      en: Set up continuous integration and deployment (CI/CD) using Docker
     detail:
       fr: |
-        Introduction de la containerisation sur Docker Swarm hébergé sur un cloud public
-        Mise en place de pipelines automatisées pour les nouveaux projets de développement
+        Containerisation sur Docker Swarm et pipelines automatiques pour les nouveaux projets
         Pédagogie et conversion des équipes de qualification et de production
       en: |
-        Introduced containerization on Docker Swarm hosted on a public cloud provider
-        Built automated pipelines for the new development projects
+        Containerization on Docker Swarm and automated pipelines for new projects
         Offered guidance and skills development for quality assessment and production teams
 
   - title:
-      fr: Création d'une équipe pilote sur NodeJS/MongoDB + lean management
+      fr: Construction équipe pilote sur NodeJS/MongoDB + lean management
       en: Built a reference team based on NodeJS/MongoDB + lean management
     detail:
       fr: |
-        Introduction de NodeJS et MongoDB dans l'entreprise
-        Automatisation complète du développement - build, tests, déploiement
+        Introduction de la première stack NodeJS et MongoDB dans l'entreprise
+        Automatisation complète du développement (build, tests, déploiement)
         Implication forte des développeurs, des testeurs, du métier et de la qualification
       en: |
-        Introduced NodeJS and MongoDB technologies all across the company
-        Implemented full automatization of the development process - build, test, deploy
+        Introduced the first NodeJS and MongoDB stack company-wide
+        Implemented full automatization of the development process (build, test, deploy)
         Obtainted strong involvement of developers, testers, business experts and quality teams
-        
-
