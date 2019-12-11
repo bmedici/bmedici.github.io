@@ -39,7 +39,7 @@ p.jobdetail {
   color: gray;
   /*display: block;*/
   display: none;
-  border-left: 2px solid silver;
+  border-left: 2px dotted silver;
   /*text-align: justify-all;*/
   }
 
