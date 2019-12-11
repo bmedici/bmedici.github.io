@@ -30,7 +30,9 @@
     en: User & custom modules creation
       
 - name: RubyOnRails
-  desc: Dev/R&D
+  desc:
+    fr: Dev, R&D, multiples services en ligne
+    en: Dev, R&D, various online services
 
 - name: 
     fr: Président de LilleSansFil (<2005)
