@@ -2,7 +2,7 @@ customize_by_frontmatter: true
 
 site: Bruno MEDICI Consultant
 creator: Bruno Medici
-description: Web and medias architecture, change management, technical leadership
+description: BMC bmconseil: web and medias, architecture, digital transformation, technical expertise, CTO
 keywords:
   - architecture
   - cto
@@ -11,6 +11,9 @@ keywords:
   - direction technique
   - devops
   - continuous integration
+  - docker
+  - ci/cd
+  - mongodb
   - intégration continue
   - state of the art
   - web application
