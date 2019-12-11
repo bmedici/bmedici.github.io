@@ -4,6 +4,7 @@ title:
 
 place: FRANCE 24
 location: Paris (France)
+url: https://france24.com/
 
 duration:
   fr: 1 mois
@@ -18,4 +19,4 @@ what:
 
   - title:
       fr: Préconisations d'optimisation de l'architecture, préparation du CCTP
-      en: Published optimization rcommendations for the hosting architecture, set basis for a tender session
+      en: Published optimization rcommendations for the hosting architecture, basis for a tender session
