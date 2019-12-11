@@ -2,18 +2,8 @@ body {
   padding-top: 50px !important;
 }
 
-/* .sidebar-wrapper .container-block {
-  padding-bottom: 10px !important;
-} */
-
 .sidebar-wrapper {
   min-height: 0 !important;
-}
-
-
-.main-wrapper {
-  /*padding: 45px 60px !important;*/
-  /*min-height: 1800px;*/
 }
 
 .main-wrapper .section {
@@ -25,6 +15,6 @@ body {
 }
 
 .footer {
-  padding: 20px;
-  padding-top: 8px !important;
+  padding: 0 !important;
+  /* padding-top: 8px !important; */
 }
