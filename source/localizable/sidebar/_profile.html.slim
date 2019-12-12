@@ -13,7 +13,7 @@
       .item
         = fa_icon "file"
         = " "
-        = link_to t('download_cv'), '/' + cv_filename(config[:current_cv])
+        = link_to t('download_cv'), '/' + cv_filename(config[:current_cv]), target: "_blank"
 
       / .item
       /   = fa_icon "print"
