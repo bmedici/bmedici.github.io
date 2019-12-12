@@ -1,2 +1,5 @@
-- path: "logos/*.png"
-  resize_to: "150x35"
+---
+- path: logos/*.png
+  resize_to: 150x35
+- path: bruno1.jpeg
+  resize_to: '135'

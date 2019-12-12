@@ -71,8 +71,10 @@ body {
 p.jobdetail {
   display: block !important;
   color: gray !important;
-  border-left: none;
-  font-size: 0.8em;
+  /* border-left: none; */
+  border-left: 8px solid #eee;
+  margin-left: 2px;
+  font-size: 0.75em;
   }  
 
 
@@ -104,7 +106,7 @@ p.jobdetail {
 .avoid-page-break {
   page-break-inside: avoid;
   page-break-before: avoid;
-  border: 1px dotted orange;
+  /* border: 1px dotted orange; */
 }
 
 
