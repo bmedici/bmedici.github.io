@@ -25,6 +25,8 @@
       en: Implementing micro-service architecture, containerization (Docker)
     - fr: Virtualisation et migration vers le cloud (privé/public)
       en: Virtualization and cloud migration (private/public)
+    - fr: Architectures API-First, JAMStack
+      en: API-First, JAMStack architectures
 
 - title: 
     fr: Domaines d'expertise technique
