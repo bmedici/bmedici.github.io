@@ -100,14 +100,28 @@ end
     return html.join
   end
 
+  
   def localized_block style, content
-    # content_tag(:div, content.to_s)
-    # content.to_s
-    if config[:debug]
-      content_tag(:span, content.to_s, class: "t #{style}")
-    else
-      content.to_s
-    end
+    return content.to_s unless config[:debug]
+    return content_tag(:span, content.to_s, class: "t #{style}")
   end
+
+
+  def label_for(object, general_key)
+    # We have an explicite entry for this locale
+    localized_key = sprintf('%s_%s', general_key.to_s, I18n.locale)
+    if object[localized_key]
+      return localized_block(:t_ok, object[localized_key])
+    end
+
+    # We have a general key
+    if object[general_key]
+      return localized_block(:t_ok, object[general_key])
+    end
+
+    # Ooops we did not match
+    return nil
+  end
+
 
 end
