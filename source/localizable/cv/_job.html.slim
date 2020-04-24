@@ -1,6 +1,6 @@
-- location = localized(job.location)
-- duration = localized(job.duration)
-- place = localized(job.place)
+- location = label_for(job, :location)
+- duration = label_for(job, :duration)
+- place = label_for(job, :place)
 - where = []
 
 - if place && job.url
@@ -19,13 +19,13 @@
     .job-header
       - if has_details
         h3.job-title.deployable onclick="$(this).closest('.item').find('.jobdetail').toggle('fast');"
-          = localized(job.title)
+          = label_for(job, :title)
           = " "
-          / = fa_icon("angle-down")
           span.noprint= fa_icon("chevron-circle-down")
 
       - else
-        h3.job-title= localized(job.title)
+        h3.job-title
+          = label_for(job, :title)
 
       .job-place
         - if job.name
@@ -36,14 +36,16 @@
     .subtitle
       = where.join(' - ')
 
+
   - if job.what.is_a?(Array)
     .details
       - job.what.each do |what|
-        - content = job_what_localized_detail(what)
 
+        / pre= what.to_yaml
         .detail.avoid-page-break
-          - if what.respond_to?(:title)
-            p.jobtask= localized(what.title)  
-            p.jobdetail= nl2br(content) unless content.nil?
+          p.jobtask= label_for(what, :title)
+
+          - job_detail = label_for(what, :detail)
+          p.jobdetail= nl2br(job_detail) unless job_detail.nil?
 
   hr.noprint

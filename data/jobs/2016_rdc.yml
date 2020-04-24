@@ -1,42 +1,34 @@
-title: 
-  fr: Architecte de la nouvelle plateforme micro-services
-  en: Micro-services platform architect
+title_fr: Architecte de la nouvelle plateforme micro-services
+title_en: Micro-services platform architect
 
 place: RueDuCommerce
+
 location: Paris (France)
 url: https://www.rueducommerce.fr/
 
-duration:
-  fr: 1 an
-  en: 1 year
-
+duration_fr: 1 an
+duration_en: 1 year
 
 what:
-  - title:
-      fr: Formalisation la trajectoire de transformation de la DSI et animation de la démarche 
-      en: Refined the transformation trajectory of the IT department and led the movement
-    detail:
-      fr: |
+  - title_fr: Formalisation la trajectoire de transformation de la DSI et animation de la démarche 
+    title_en: Refined the transformation trajectory of the IT department and led the movement
+    detail_fr: |
         Sensibilisation de la Direction par la cartographie et l'illustration des principes d'architecture
         Mentoring des tech-leads et évengélisation permantente (ateliers hebdomadaires)
         Diverses présentations effectuées (retours d'expérience, messaging temps-réel sur RabbitMQ, ...)
-      en: |
+    detail_en: |
         
-  - title:
-      fr: Automatisation et mise en place de CI/CD (sur containers et cloud privé)
-      en: Automated and implemented CI/CD practices (on containers and private cloud)
-    detail:
-      fr: |
+  - title_fr: Automatisation et mise en place de CI/CD (sur containers et cloud privé)
+    title_en: Automated and implemented CI/CD practices (on containers and private cloud)
+    detail_fr: |
         Conversion des équipes à la production d'imges Docker pour la production
         Mise en oeuvre du pattern BFF pour les fronts - agrégation de services et séparation data/vue
-      en: |
+    detail_en: |
         
-  - title:
-      fr: Maquettes techniques des briques de la nouvelle architecture
-      en: Developed technical models for the new architecture
-    detail:
-      fr: |
+  - title_fr: Maquettes techniques des briques de la nouvelle architecture
+    title_en: Developed technical models for the new architecture
+    detail_fr: |
         Développement de micro-services modèles pour l'exemple (Ruby, Sinatra, MongoDB)
         Mise en oeuvre du pattern BFF pour les fronts - agrégation de services et séparation data/vue
         Intégration des concepts dans les développements existants pour obtenir une démonstration concrète
-      en: |
+    detail_en: |

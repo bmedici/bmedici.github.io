@@ -53,7 +53,7 @@ end
     return false unless job.what.is_a?(Array)
 
     # Count where detail is not empty
-    details = job.what.reject{ |what| job_what_localized_detail(what).nil?}
+    details = job.what.reject{ |what| label_for(what, :detail).nil?}
 
     return details.count > 0
   end
@@ -100,7 +100,7 @@ end
     return html.join
   end
 
-  
+
   def localized_block style, content
     return content.to_s unless config[:debug]
     return content_tag(:span, content.to_s, class: "t #{style}")
@@ -108,10 +108,20 @@ end
 
 
   def label_for(object, general_key)
-    # We have an explicite entry for this locale
     localized_key = sprintf('%s_%s', general_key.to_s, I18n.locale)
-    if object[localized_key]
-      return localized_block(:t_ok, object[localized_key])
+    entry = object[localized_key]
+    
+    # We have an explicite entry for this locale, and it's an array
+    if entry.is_a?(Array)
+      html = entry.each do |line|
+        localized_block(:t_lines, line)
+      end
+      return html.join("\n")
+    end
+
+    # We have an explicite entry for this locale, and it's not empty
+    if entry
+      return localized_block(:t_ok, entry.to_s)
     end
 
     # We have a general key

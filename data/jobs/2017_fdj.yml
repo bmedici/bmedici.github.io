@@ -1,8 +1,8 @@
-title: 
-  fr: Architecte Solutions - Domaine Digital
-  en: Solutions Architect - Digital business unit
+title_fr: Architecte Solutions - Domaine Digital
+title_en: Solutions Architect - Digital business unit
 
 place: La Française des Jeux (FDJ)
+
 location: Paris (France)
 url: https://www.fdj.fr/
 
@@ -12,52 +12,44 @@ duration:
 
 what:
 
-  - title:
-      fr: Orientation vers l'architecture microservices pour le Groupe
-      en: Defined the target micro-services architecture
-    detail:
-      fr: |
+  - title_fr: Orientation vers l'architecture microservices pour le Groupe
+    title_en: Defined the target micro-services architecture
+    detail_fr: |
         Mise en œuvre des patterns REST et micro-services
         Sensibilisation du management et d'autres équipes autour des patterns et de l’état de l’art 
         Choix technologiques, modélisation, implémentation avec les équipes
-      en: |
+    detail_en: |
         Defined and executed the migration to REST and micro-services patterns
         Raised management and other teams awareness to state-of-the-art patterns
         Handled tech choices, data modeling, execution along with teams
 
-  - title:
-      fr: Encadrement et orientation des équipes de développement
-      en:  Supervised and guided development teams
-    detail:
-      fr: |
+  - title_fr: Encadrement et orientation des équipes de développement
+    title_en: Supervised and guided development teams
+    detail_fr: |
         Mentoring des tech-leads par des ateliers hebdomadaires
         Multiples présentations effectuées - retours d'expérience, messaging sur RabbitMQ...
         Responsabilité de la solution d'architecture pour les projets courants
-      en: |
+    detail_en: |
         Montored tech-lead developpers with weekly workshops
         Orgaznized and presented several internal talks - projects feedback, RabbitMQ messaging...
         In charge of projects architecture dfnition for day-to-day projects
 
-  - title:
-      fr: Mise en place de l'intégration/déploiement continus (CI/CD) avec Docker
-      en: Set up continuous integration and deployment (CI/CD) using Docker
-    detail:
-      fr: |
+  - title_fr: Mise en place de l'intégration/déploiement continus (CI/CD) avec Docker
+    title_en: Set up continuous integration and deployment (CI/CD) using Docker
+    detail_fr: |
         Containerisation sur Docker Swarm et pipelines automatiques pour les nouveaux projets
         Pédagogie et conversion des équipes de qualification et de production
-      en: |
+    detail_en: |
         Containerization on Docker Swarm and automated pipelines for new projects
         Offered guidance and skills development for quality assessment and production teams
 
-  - title:
-      fr: Construction équipe pilote sur NodeJS/MongoDB + lean management
-      en: Built a reference team based on NodeJS/MongoDB + lean management
-    detail:
-      fr: |
+  - title_fr: Construction équipe pilote sur NodeJS/MongoDB + lean management
+    title_en: Built a reference team based on NodeJS/MongoDB + lean management
+    detail_fr: |
         Introduction de la première stack NodeJS et MongoDB dans l'entreprise
         Automatisation complète du développement (build, tests, déploiement)
         Implication forte des développeurs, des testeurs, du métier et de la qualification
-      en: |
+    detail_en: |
         Introduced the first NodeJS and MongoDB stack company-wide
         Implemented full automatization of the development process (build, test, deploy)
         Obtainted strong involvement of developers, testers, business experts and quality teams

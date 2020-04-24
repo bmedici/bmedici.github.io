@@ -1,45 +1,40 @@
-title: 
-  fr: Consultant stratégie web et médias
-  en: Web and medias strategy consultant
+title_fr: Consultant stratégie web et médias
+title_en: Web and medias strategy consultant
 
 place: FRANCE 24
+
 location: Paris (France)
+
 url: https://france24.com/
 
-duration:
-  fr: 6 mois
-  en: 6 months
+duration_fr: 6 mois
+duration_en: 6 months
 
 keywords: Gestion de projet, web, broadcast, akamai, streaming, team-building, opensource, international
 
 what:
-  - title:
-      fr: Pilotage de la couverture de l'élection présidentielle 2007 sur le web
-      en: Lead the 2007 coverage of the French presidential election on the web
-    detail:
-      fr: |
+  - title_fr: Pilotage de la couverture de l'élection présidentielle 2007 sur le web
+    title_en: Lead the 2007 coverage of the French presidential election on the web
+    detail_fr: |
         Animation de l'équipe-projet (dispositif modérateurs, traducteurs, bloggers internationaux)
         Convergence médias (diffuseur, internautes, téléspectateurs)
         Streaming en direct, résultats temps-réel, réactions des internautes, numéro SMS téléspectateurs, 5 webcams au cœur de l'info (98k+ visitors for both ballots)
         
-      en: |
+    detail_en: |
         Animated the dedicated team -(moderators, translators, 20 international bloggers)
         Experimentation of the media convergence (broadcaster, internet and television audience)
         Live video streaming, realtime voting results, internet visitors reactions, SMS-number offering interaction to the audience, 5 webcams in the newsrooms (98k+ visitors for both ballots)
 
-  - title:
-      fr: Soutien stratégique à la DSI (5 mois)
-      en: Provided strategic support for the IT department
-    detail:
-      fr: |
+  - title_fr: Soutien stratégique à la DSI (5 mois)
+    title_en: Provided strategic support for the IT department
+    detail_fr: |
         Renforcement de l'image sur le web à l'international et dans la blogosphère
         Structuration des compétences et méthodes, constitution d'équipe technique
         Différents projets ont été ensuite lancés en interne (Festival de Cannes, législatives)
-      en: |
+    detail_en: |
         Strengthened the image of France24 in the world, and on the blogosphere
         Built the team and the methods around the required technical skills
         Implemented various projects thereafter, within the channel's teams (Cannes Festival, general elections)
 
-  - title:
-      fr: Rédaction de l'appel d'offre pour la nouvelle infrastructure web (CCTP)
-      en: Conducted and wrote the request for bid for the new web infrastructure
+  - title_fr: Rédaction de l'appel d'offre pour la nouvelle infrastructure web (CCTP)
+    title_en: Conducted and wrote the request for bid for the new web infrastructure

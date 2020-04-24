@@ -1,24 +1,21 @@
-title: 
-  fr: Conseil en architecture
-  en: Information system architect
+title_fr: Conseil en architecture
+title_en: Information system architect
 
-place:
-  fr: CHU Reims & Chaumount
-  en: Reims & Chaumount Hospitals
+place_fr: CHU Reims & Chaumount
+place_en: Reims & Chaumount Hospitals
+
 location: Reims (France)
+
 url: https://www.chu-reims.fr/
 
-duration:
-  fr: 3 mois
-  en: 3 months
+duration_fr: 3 mois
+duration_en: 3 months
 
 keywords: Médical, sécurité des données, référentiel national, LDAP, ruby on rails, PKI, postgresql
 
 what:
-  - title:
-      fr: Mise en place d'une architecture fédérant les systèmes d'information de centres hospitaliers, expertise sécurité et proposition de workflow
-      en: Set up a system federating data for several hospitals, sase study and recommendation of a technical architecture, security expertise, workflow
+  - title_fr: Mise en place d'une architecture fédérant les systèmes d'information de centres hospitaliers, expertise sécurité et proposition de workflow
+    title_en: Set up a system federating data for several hospitals, sase study and recommendation of a technical architecture, security expertise, workflow
 
-  - title:
-      fr: Assistance à maîtrise d'ouvrage, rédaction d'appels d'offre, suivi des développements
-      en: Helped project office, requests for bid, facilitated developments
+  - title_fr: Assistance à maîtrise d'ouvrage, rédaction d'appels d'offre, suivi des développements
+    title_en: Helped project office, requests for bid, facilitated developments
