@@ -1,0 +1,34 @@
+title_fr: TEST FR
+title_en: TEST EN
+
+place: PLACE
+place_en: PLACE_EN
+
+location_FR: LOCATION_FR
+location: LOCATION
+
+duration_fr: DURATION_FR
+duration_en: DURATION_EN
+
+keywords:
+  - asp/saas
+  - php/mysql
+  - framework
+  - haute-dispo
+  - métier
+  - sécurité
+
+what:
+  - title_fr: TITLE 1 FR
+    title_en: TITLE 1 EN
+    detail_fr: DETAIL 1 FR
+    detail_en: DETAIL 1 EN
+
+  - title_fr: TITLE 2 FR
+    title_en: TITLE 2 EN
+    detail_fr:
+      - DETAIL 2 FR A
+      - DETAIL 2 FR B
+      - DETAIL 2 FR C
+    detail_en: DETAIL 2 EN
+
