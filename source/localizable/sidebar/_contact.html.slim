@@ -18,5 +18,5 @@
     
     li.social.noprint
       - data.socials.each do |soc|
-        = link_to fa_icon(soc.icon), soc.url, title: soc.label, target: "_blank"
+        = link_to fa_icon(soc.icon, class: "fa-2x"), soc.url, title: soc.label, target: "_blank"
         = " "
