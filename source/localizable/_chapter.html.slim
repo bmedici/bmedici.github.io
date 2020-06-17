@@ -1,0 +1,22 @@
+.stuff-container.container-block
+
+  - if title
+    h2.container-block-title =t(title)
+
+  ul.list-unstyled.interests-list
+    - dataset.each do |item|
+
+      li
+        
+        / Show item name
+        = label_for(item, :name)
+
+        / Show item info
+        - if desc = label_for(item, :desc)
+          = " &bull; "
+          span.stuff-desc= desc
+
+        / Show item details
+        - if item.details.is_a?(Enumerable)
+          - item.details.each do |detail|
+            div.stuff-desc= label_for(detail, :line)

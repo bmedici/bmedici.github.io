@@ -1,16 +1,20 @@
-- pdf_url = "/#{current_page.path}.pdf"
+/ - pdf_url = "/#{current_page.path}.pdf"
 
 - if config[:blank]
-
   = partial "sidebar/placeholder"
 
 - else
-
   = partial "sidebar/profile"
   = partial "sidebar/contact"
 
-  - if current_page.data.cvmode
-    = partial "sidebar/education"
-    = partial "sidebar/languages"
-    = partial "sidebar/interests"
-    = partial "sidebar/timestamp"
+/ = partial 'chapter', locals: {title: :chapter, dataset: data.chapter}
+
+- if current_page.data.cvmode
+  = partial 'chapter', locals: {title: :education, dataset: data.education}
+  = partial 'chapter', locals: {title: :languages, dataset: data.languages}
+  = partial 'chapter', locals: {title: :interests, dataset: data.interests}
+
+
+.build-container.container-block
+  = "#{Time.now.strftime('%Y%m%d-%H%M%S')}"
+
