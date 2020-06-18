@@ -1,5 +1,6 @@
-title_fr: Architecte plateforme VoD cible
-title_en: Urbanist &amp; architect for the new VoD platform
+title:
+  fr: Architecte - refonte plateforme vidéo/VoD
+  en: Architect - Video/VoD platform re-ngineering
 
 place: CANAL+
 
@@ -7,8 +8,9 @@ location: Lille (France)
 
 url: https://www.canalplus.com/
 
-duration_fr: 18 mois
-duration_en: 18 months
+duration:
+  fr: 18 mois
+  en: 18 months
 
 keywords: Médias, urbanisme architecture, workflow transverse, transcodage, stockage, delivery, harmonic/rhozet
 

@@ -1,5 +1,6 @@
-title_fr: Audit et préparation à appel d'offre
-title_en: Audit and content-delivery providers selection
+title:
+  fr: Audit et préparation à appel d'offre
+  en: Audit and content-delivery providers selection
 
 place: FRANCE 24
 
@@ -7,8 +8,9 @@ location: Paris (France)
 
 url: https://france24.com/
 
-duration_fr: 1 mois
-duration_en: 1 months
+duration:
+  fr: 1 mois
+  en: 1 months
 
 keywords: Akamai, Drupal, fort traffic
 

@@ -1,5 +1,6 @@
-title_fr: Consultant stratégie web et médias
-title_en: Web and medias strategy consultant
+title:
+  fr: Consultant stratégie web et médias
+  en: Web and medias strategy consultant
 
 place: FRANCE 24
 
@@ -7,8 +8,9 @@ location: Paris (France)
 
 url: https://france24.com/
 
-duration_fr: 6 mois
-duration_en: 6 months
+duration:
+  fr: 6 mois
+  en: 6 months
 
 keywords: Gestion de projet, web, broadcast, akamai, streaming, team-building, opensource, international
 

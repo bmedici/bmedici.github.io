@@ -1,5 +1,6 @@
-title_fr: Conseil en architecture
-title_en: Information system architect
+title:
+  fr: Conseil en architecture
+  en: Information system architect
 
 place_fr: CHU Reims & Chaumount
 place_en: Reims & Chaumount Hospitals
@@ -8,8 +9,9 @@ location: Reims (France)
 
 url: https://www.chu-reims.fr/
 
-duration_fr: 3 mois
-duration_en: 3 months
+duration:
+  fr: 3 mois
+  en: 3 months
 
 keywords: Médical, sécurité des données, référentiel national, LDAP, ruby on rails, PKI, postgresql
 

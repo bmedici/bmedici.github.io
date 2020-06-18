@@ -1,5 +1,6 @@
-title_fr: Consultant hosting - accompagnement de transition
-title_en: Hosting specialist - change management
+title:
+  fr: Consultant hosting - accompagnement de transition
+  en: Hosting specialist - change management
 
 place: Société Générale
 
@@ -7,8 +8,9 @@ location: Paris (France)
 
 url: https://www.societegenerale.fr/
 
-duration_fr: 6 mois
-duration_en: 6 months
+duration:
+  fr: 6 mois
+  en: 6 months
 
 keywords: DenyAll rWeb, ActivNetwork, banque, transition, coordination projet
 

@@ -1,5 +1,6 @@
-title_fr: Co-fondateur et Directeur Technique
-title_en: Co-founder and CTO of Itool Systems
+title:
+  fr: Co-fondateur et Directeur Technique
+  en: Co-founder and CTO of Itool Systems
 
 place_fr: Itool Systems, Editeur SaaS
 place_en: Itool Systems, SaaS software editor
@@ -8,8 +9,9 @@ location: Lille (France)
 
 url: https://www.itool.com/
 
-duration_fr: 5 ans
-duration_en: 5 years
+duration:
+  fr: 5 ans
+  en: 5 years
 
 keywords:
   - KEYWORD

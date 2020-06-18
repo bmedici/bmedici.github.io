@@ -1,5 +1,6 @@
-title_fr: Architecture du portail embarqué TGV
-title_en: Architected onboard platform for TGV trains
+title:
+  fr: Architecture du portail embarqué TGV
+  en: Architected onboard platform for TGV trains
 
 place: SNCF/BOLLORE
 
@@ -7,8 +8,9 @@ location: Paris (France)
 
 url: https://bollore.com/
 
-duration_fr: 6 mois
-duration_en: 6 months
+duration:
+  fr: 6 mois
+  en: 6 months
 
 keywords: Audit, architecture, embedded, service portals, industrial, ruby on rails, php
 

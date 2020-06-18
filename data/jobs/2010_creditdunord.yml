@@ -1,5 +1,6 @@
-title_fr: Architecte internet et sécurité
-title_en: Internet and security architect
+title:
+  fr: Architecte internet et sécurité
+  en: Internet and security architect
 
 place: Crédit du Nord, Société Générale
 
@@ -7,8 +8,9 @@ location: Lille (France)
 
 url: https://www.credit-du-nord.fr/
 
-duration_fr: 1 an
-duration_en: 1 year
+duration:
+  fr: 1 an
+  en: 1 year
 
 keywords:
   - KEYWORD

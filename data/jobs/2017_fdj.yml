@@ -1,5 +1,6 @@
-title_fr: Architecte Solutions - Domaine Digital
-title_en: Solutions Architect - Digital business unit
+title:
+  fr: Architecte Solutions - Domaine Digital
+  en: Solutions Architect - Digital business unit
 
 place: La Française des Jeux (FDJ)
 
@@ -7,8 +8,6 @@ location: Paris (France)
 url: https://www.fdj.fr/
 
 duration:
-  fr:
-  en:
   fr: 2.5 ans
   en: 2.5 years
 

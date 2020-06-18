@@ -1,5 +1,6 @@
-title_fr: Architecte plateforme video
-title_en: Video platform reengineering architect
+title:
+  fr: Architecte - refonte plateforme vidéo/VoD
+  en: Architect - Video/VoD platform re-ngineering
 
 place: France Télévisions Editions Numériques
 
@@ -7,13 +8,13 @@ location: Paris (France)
 
 url: https://www.france.tv/
 
-duration_fr: 4 ans
-duration_en: 4 years
+duration:
+  fr: 4 ans
+  en: 4 years
 
 keywords:
   - KEYWORD
   - KEYWORD
-
 
 tasks:
 

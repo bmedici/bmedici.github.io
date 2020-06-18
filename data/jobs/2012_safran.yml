@@ -1,4 +1,5 @@
-title_fr: Architecte - sécurité et réseau
+title:
+  fr: Architecte - sécurité et réseau
   en: Consulting architect - network and security
 
 place: SAFRAN Groupe & SNECMA
@@ -7,8 +8,9 @@ location: Réau (France)
 
 url: https://www.safran-group.com/
 
-duration_fr: 3 mois
-duration_en: 3 months
+duration:
+  fr: 3 mois
+  en: 3 months
 
 keywords: 50k+ utilisateurs, reversibilité, cisco, bluecoat, juniper, arkoon, ironport, BigIP, défense et sécurité
 

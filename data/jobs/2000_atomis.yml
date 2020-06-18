@@ -1,12 +1,14 @@
-title_fr: Responsable technique, gamme Itool
-title_en: Team leader, development of Itool Compta
+title:
+  fr: Responsable technique, gamme Itool
+  en: Team leader, development of Itool Compta
 
 place: Atomis, Internet Services
 
 location: Lille (France)
 
-duration_fr: 2 ans
-duration_en: 2 years
+duration:
+  fr: 2 ans
+  en: 2 years
 
 keywords:
   - asp/saas
