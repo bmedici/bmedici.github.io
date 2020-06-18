@@ -8,6 +8,24 @@ cvmode: true
 
 - current_page.data.title = cv_name
 
-= partial "cv/skills"
-= partial "cv/jobs"
-= partial "cv/projects"
+
+section.section.summary-section
+  h2.section-title
+    = fa_icon :heart
+    = t('skills')
+  = partial "cv/paragraph", locals: {paragraphs: data.skills}
+
+
+section.section.experiences-section
+  h2.section-title
+    = fa_icon :briefcase
+    = t('jobs')
+  - jobs_collection.each do |item|
+    = partial "cv/job", locals: {job: item}
+
+
+section.section.projects-section
+  h2.section-title
+    = fa_icon "share-alt"
+    = t('projects')
+  = partial "cv/paragraph", locals: {paragraphs: data.projects}

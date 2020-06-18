@@ -1,0 +1,20 @@
+- paragraphs.each.each do |paragraph|
+  
+  .item.job
+    .meta
+      .job-header
+        - if true
+          / h3.job-title
+          /   = label_for(item, :title)
+          h3.job-title
+            = localized(paragraph.name)
+
+        - else
+          h3.job-title= label_for(paragraph, :title)
+
+    - if paragraph.details.is_a?(Array)
+      .details
+        - paragraph.details.each do |what|
+          .detail
+            p.job-task= localized(what)               
+    
