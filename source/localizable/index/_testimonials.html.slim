@@ -1,7 +1,7 @@
 section.section.restimonials-section
-  h2.section-title
-    = fa_icon :comments
-    = "Testimonials"
+  / h2.section-title
+  /   = fa_icon :comments
+  /   = "Testimonials"
 
   .noscreen
     - data.testimonials.each do |t|
@@ -20,11 +20,15 @@ section.section.restimonials-section
     .cd-testimonials
       - data.testimonials.each do |t|
         li
-          p= nl2br(localized(t.text))
+
           .cd-author
             = image_tag "photos/#{t.photo}"
             ul.cd-author-info
               li= t.name
               li= t.company
+
+          hr
+
+          p= nl2br(localized(t.text))
 
   / == IO.read('source/localizable/index/testimonials.html')
