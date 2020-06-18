@@ -2,7 +2,7 @@ title:
   fr: Architecte - refonte plateforme vidéo/VoD
   en: Architect - Video/VoD platform re-ngineering
 
-place: CANAL+
+company: CANAL+
 
 location: Paris (France)
 
@@ -16,7 +16,7 @@ keywords: Médias, urbanisme architecture, workflow transverse, transcodage, sto
 
 tasks:
 
-  - fr: Urbanisation des diverses plateformes VoD du Groupe, définition de l'architecture cible
+  - fr: Urbanisation des plateformes VoD du Groupe, définition de l'architecture cible
     en: Urbanized multiple video-on-demand plateforms for the Group, defined the target architecture
     details:
       - fr: Rationalisation des fonctions et des matériels pour les offres CanalSat, Canal+, CanalPlay Infinity et le Replay (encodeurs, provisioning)

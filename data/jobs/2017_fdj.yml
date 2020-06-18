@@ -2,7 +2,7 @@ title:
   fr: Architecte Solutions - Domaine Digital
   en: Solutions Architect - Digital business unit
 
-place: La Française des Jeux (FDJ)
+company: La Française des Jeux (FDJ)
 
 location: Paris (France)
 url: https://www.fdj.fr/
@@ -12,7 +12,7 @@ duration:
   en: 2.5 years
 
 tasks:
-  - fr: Orientation vers l'architecture microservices pour le Groupe
+  - fr: Accompagnement du Groupe vers l'architecture microservices
     en: Defined the target micro-services architecture
     details:
       - fr: Mise en œuvre des patterns REST et micro-services
