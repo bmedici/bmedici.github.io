@@ -16,3 +16,8 @@ p.intro {
 .clear_float {
   clear: both;
   }
+
+.hello {
+  margin: 20px 0 40px 0;
+  display: block;
+  }
