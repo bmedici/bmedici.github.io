@@ -1,27 +1,27 @@
 - name:
     fr: Mobilité
-    en: Mobility
+  en: Mobility
   desc:
     fr: France, pays anglophones, monde
-    en: France, english-speacking areas, world
+  en: France, English-speaking countries, world
 
 - name:
     fr: Français
-    en: French
+  en: French
   desc:
     fr: langue maternelle
-    en: mother tongue
+  en: mother tongue
 
 - name:
     fr: Anglais
-    en: English
+  en: English
   desc:
     fr: courant (TOEIC 920)
-    en: fluent (TOEIC 920)
+  en: fluent (TOEIC 920)
 
 - name:
     fr: Italien
-    en: Italian
+  en: Italian
   desc:
     fr: bases scolaires
-    en: basic (father)
+  en: basic (father)

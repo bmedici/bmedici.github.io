@@ -1,6 +1,6 @@
 - name: Eric Steer
   company: Rue Du Commerce / Suricats Consulting
-  logo: canalplus
+  # logo: canalplus
   photo: eric_steer.jpeg
   text:
     fr: |
@@ -10,7 +10,7 @@
 
 - name: Alain Fontaine
   company: Doctena
-  logo: doctena
+  # logo: doctena
   photo: alain_fontaine.jpeg
   text:
     fr:  |
@@ -22,7 +22,7 @@
 
 - name: Arnaud Drillon
   company: France Télévisions
-  logo: canalplus
+  # logo: canalplus
   photo: arnaud_drillon.jpeg
   text:
     fr: 
@@ -33,7 +33,7 @@
 
 - name: David Dewailly
   company: Crédit du Nord
-  logo: creditdunord
+  # logo: creditdunord
   photo: david_dewailly.jpeg
   text:
     fr: |

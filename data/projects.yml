@@ -1,34 +1,42 @@
 - name: rest-ftp-daemon
-  desc:
-    fr: |
-      Transferts de fichiers industriel vers en FTP/sFTP/FTPs/S3 piloté par une API RESTful.
-      Instrumenté par NewRelic, build par CodeShip+BuddyWorks, qualité du code avec CodeClimate.
-      En production depuis 2015 pour France Télévisions - 300+ fichiers vidéo 2TB+ quotidiens.
-    en: |
-      Industrial-grade files transfers on FTP/sFTP/FTPs/S3 controlled by a RESTful API.
-      Instrumented by NewRelic, build by CodeShip+BuddyWorks, code quality by CodeClimate.
-      Deployed in production since 2016 for France Télécisions - transferring 300+ video files 2TB+ daily.
   url: https://github.com/bmedici/rest-ftp-daemon
+  details:
+  - fr: Transferts de fichiers industriel vers en FTP/sFTP/FTPs/S3 piloté par une API RESTful.
+    en: Industrial-grade files transfers on FTP/sFTP/FTPs/S3 controlled by a RESTful API.
+  - fr: Instrumenté par NewRelic, build par CodeShip+BuddyWorks, qualité du code avec CodeClimate.
+    en: Instrumented by NewRelic, build by CodeShip+BuddyWorks, code quality by CodeClimate.
+  - fr: En production depuis 2015 pour France Télévisions - 300+ fichiers vidéo 2TB+ quotidiens.
+    en: Deployed in production since 2016 for France Télécisions - transferring 300+ video files 2TB+ daily.
+
 
 - name: rbpm - Ruby Business Process Manager
-  desc:
-    fr: Moteur de workflow technique pour l'orchestration de micro-services REST.
+  details:
+  - fr: Moteur de workflow technique pour l'orchestration de micro-services REST.
     en: Workflow manager to orchestrate RESTful microservices.
 
 - name: pushyd - Realtime push messages proxy
-  desc:
-    fr: |
-      Diffusion en temps-réel d'évènements AMQP vers des partenaires (HTTP POST).
-      Utilisé par France Télévisions pour transmettre les évènements de début/fin de programme à des plateformes VoD.
-    en: |
-      Realtime events diffusion from an AMQP broker to partners (HTTP POST).
-      Used by France Télévisions to propagate start/end program events to VoD partners
   url: https://github.com/bmedici/pushyd
+  details:
+  - fr: Diffusion en temps-réel d'évènements AMQP vers des partenaires (HTTP POST).
+    en: Realtime events diffusion from an AMQP broker to partners (HTTP POST).
+  - fr: Utilisé par France Télévisions pour transmettre les évènements de début/fin de programme à des plateformes VoD.
+    en: Used by France Télévisions to propagate start/end program events to VoD partners
  
 
 - name: service-graph
-  desc:
-    fr: Calcul et représentation des dépendances entre microservices, à partir des repositories Gitlab.
-    en: Dependencies computing and graphing between microservices, scanned on Gitab repositories.
   url: https://gitlab.com/bmconseil/service-graph
+  details:
+  - fr: Calcul et représentation des dépendances entre microservices, à partir des repositories Gitlab.
+    en: Dependencies computing and graphing between microservices, scanned on Gitab repositories.
+  desc:
+    fr: 
+  en: 
+
+  # details:
+  # - fr:
+  #   en:
+  # - fr:
+  #   en:
+  # - fr:
+  #   en:
 

@@ -1,10 +1,9 @@
 - name:
     fr: Plongée
     en: Scuba diving
-  desc: |
-    N2 PA40/PE60 TDI Deep+Nitrox
+  desc: N2 PA40/PE60 TDI Deep+Nitrox
 
-- name: 
+- name:
     fr: Aviation loisirs 
     en: Private pilot
   desc:
@@ -20,21 +19,21 @@
     en: Photography
   desc:
     fr: Studio, tourisme, portrait, exploration urbaine
-    end: Stdio, tourism, portrain, urban exploration
+    en: Studio, tourism, portrait, urban exploration
 
 - name:
-    fr: Domotique
-    en: Smart Home
+    fr: Domotique & IoT
+    en: Smart Home & IoT
   desc:
-    fr: Utilisation & conception de modules
-    en: User & custom modules creation
+    fr: Automatisation, conception d'objets connectés à base de Arduino/ESP8266/ESP32
+    en: Automation, connected objects based on Arduino/ESP8266/ESP32
       
 - name: RubyOnRails
   desc:
     fr: Dev, R&D, multiples services en ligne
     en: Dev, R&D, various online services
 
-- name: 
+- name:
     fr: Président de LilleSansFil (<2005)
     en: President of LilleSansFil (<2005)
   desc:

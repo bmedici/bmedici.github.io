@@ -1,12 +1,12 @@
 - name:
-    fr: Ingénieur Télécom Lille 2007
-    en: Engineering master degree
+    fr: Ingénieur Télécom Lille
+    en: Engineering Master Degree
   details:
-    - IMT Lille-Douai
     - fr: Communication mobiles
       en: Mobile communications
     - fr: Marketing des technologies
-      en: Marketing of technologies
+      en: Marketing of technology
+
 
 - name:
     fr: Congrés et communauté
@@ -20,6 +20,7 @@
     - PHP Conf 2004 Amsterdam
     - PHP Conf 2002 Munich
 
+
 - name:
     fr: Formation continue
     en: Training and workshops
@@ -27,17 +28,15 @@
     - Google Cloud Platform Fundamentals and Architecting (Paris)
     - Cisco CSPFF & CSPFA (PIX Firewall Advanced)
     - PSC1 civil emergency prevention
-  
+
+
 - name:
     fr: DUT Télécoms et réseaux
     en: DUT Networks & Telecoms
   details:
-    - IUT, Nice-Sophia, 2000
-    - fr:
-      en: Higher National Diploma
+    - IUT Sophia-Antipolis (2000) 
 
 
-- name: Baccalauréat Scientifique
+- name: Bac S (TI)
   details:
-    - fr:
-      en: School diploma in Sciences
+    - en: School diploma in Sciences
