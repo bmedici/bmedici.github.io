@@ -1,5 +1,6 @@
-.build-container {
-  color: #658492;
+.timestamp {
+  /* color: #658492; */
+  opacity: 0.15;
   text-align: center;
 }
 
