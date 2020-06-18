@@ -1,5 +1,6 @@
 - location = label_for(job, :location)
-- duration = label_for(job, :duration)
+/ - duration = label_for(job, :duration)
+- duration = localized(job.duration)
 - place = label_for(job, :place)
 - where = []
 
@@ -12,20 +13,21 @@
 - where << job.year if job.year
 - where << duration unless duration.blank?
 - where << "[#{job.year}] [#{job.name}]" if @debug
-- has_details = job_has_details(job)
+- has_details = job_has_any_details(job)
+
 
 .item.job
   .meta.avoid-page-break
     .job-header
       - if has_details
-        h3.job-title.deployable onclick="$(this).closest('.item').find('.jobdetail').toggle('fast');"
-          = label_for(job, :title)
+        h3.job-title.deployable onclick="$(this).closest('.item').find('.job-detail').toggle('fast');"
+          = localized(job.title)
           = " "
           span.noprint= fa_icon("chevron-circle-down")
 
       - else
         h3.job-title
-          = label_for(job, :title)
+          = localized(job.title)
 
       .job-place
         - if job.name
@@ -36,16 +38,20 @@
     .subtitle
       = where.join(' - ')
 
+  
+  - if job.tasks.is_a?(Array)
+    .tasks
+      - job.tasks.each do |task|
+        / pre=task.to_yaml
 
-  - if job.what.is_a?(Array)
-    .details
-      - job.what.each do |what|
+        .task.avoid-page-break
+          p.job-task= localized(task)
 
-        / pre= what.to_yaml
-        .detail.avoid-page-break
-          p.jobtask= label_for(what, :title)
+          - if task.details.is_a?(Array)
+            - task.details.each do |detail|
+              - det = localized(detail)
 
-          - job_detail = label_for(what, :detail)
-          p.jobdetail= nl2br(job_detail) unless job_detail.nil?
+              - unless det.nil?
+                p.job-detail= nl2br(det) 
 
   hr.noprint
