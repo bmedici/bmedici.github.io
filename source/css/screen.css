@@ -10,11 +10,7 @@
   .main-wrapper {
     padding: 20px;
   }
-  .job .job-place {
-    position: static;
-    display: block;
-    margin-top: 5px;
-  }
+
   .main-wrapper .job-header {
     margin-bottom: 0;
   }

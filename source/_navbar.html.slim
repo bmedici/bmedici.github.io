@@ -17,20 +17,6 @@
 
     = menu_item("CONTACT", :envelope, "/contact")
 
-    / li.active= link_to "/" do
-    /   = fa_icon(:home)
-    /   = " HOME"
-
-    / li= link_to "/cv-bruno-medici-en" do
-    /   = navbar_item "RESUME"
-
-    / li= link_to "/cv-bruno-medici-fr" do
-    /   = navbar_item "CV"
-
-    / li= link_to "/contact" do
-    /   = fa_icon(:envelope, text: "CONTAKT")
-    /   = " CONTACT"
-
 
   ul.navbar-nav.navbar-right
     - if langs.is_a? Hash
