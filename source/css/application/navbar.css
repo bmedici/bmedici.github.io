@@ -1,9 +1,24 @@
 .navbar {
   max-width: 960px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .navbar-right {
   margin: 0;
 }
 
+.navbar-nav > li > a {
+  padding: 17px 20px;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+
+}
+
+.navbar-nav > li > a {
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
+  /* line-height: 20px; */
+  }

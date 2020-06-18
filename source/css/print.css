@@ -68,7 +68,7 @@ body {
   font-size: 1.25em !important;
   }
 
-p.jobdetail {
+p.job-task {
   display: block !important;
   color: gray !important;
   /* border-left: none; */

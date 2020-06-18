@@ -41,65 +41,59 @@ end
     data[I18n.locale]
   end
 
-  def fa_icon type, title=""
-    content_tag(:i, '', class: "fa fa-#{type}", title: title)
+  def fa_icon type, title="", extra_styles = ""
+    content_tag(:i, '', class: "fa fa-#{type} #{extra_styles}", title: title)
   end
 
   def nl2br(string)
     string.to_s.gsub("\n\r","<br />").gsub("\r", "").gsub("\n", "<br />")
   end
 
-  def job_has_details(job)
-    return false unless job.what.is_a?(Array)
+  def job_has_any_details(job)
+    return false unless job.tasks.is_a?(Array)
 
     # Count where detail is not empty
-    details = job.what.reject{ |what| label_for(what, :detail).nil?}
+    # details = job.what.reject{ |what| label_for(what, :desc).nil?}
+    # details = job.details.reject{ |what| localized(what, :desc).nil?}
+    details = job.tasks.reject{ |task| localized(task.details).nil?}
 
     return details.count > 0
   end
 
-  def job_what_localized_detail what
-    # Skip if no detail key
-    return nil unless what.respond_to? :detail
-
-    # Localize the body
-    content = localized(what.detail)
-    return nil if content.blank?
-
-    # Return that content
-    return content 
-  end
 
   def localized(entry)
-    loc = I18n.locale
-    html = []
-
-    # We have no translation
+    # We have no structured data > take it as-is
     if !entry.is_a? Hash
-      html << localized_block(:t_notrans, entry.to_s)
-
-    # We have a translation with many items
-    elsif entry[loc].is_a?(Array)
-      entry[loc].each do |line|
-        html << localized_block(:t_lines, line)
-      end
-
-    # We have a siple translation
-    elsif value = entry[loc]
-      html << localized_block(:t_ok, value)
-
-    # Otherwise, as it's a hash with no "loc" version, take the first one 
-    else
-        first = entry.reject{ |key, value| value.to_s.blank? }.first
-        key, value = first
-        html << localized_block(:t_fallback, value) if value
-
+      return localized_block(:t_notrans, entry.to_s)
     end
 
-    # Build tags
-    return html.join
-  end
+    # Let's determine the key name
+    # key = prefix ? "#{prefix}_#{I18n.locale}" : I18n.locale
+    key = I18n.locale
 
+    # We have a translation with many items
+    if entry[key].is_a?(Array)
+      html = []
+      entry[key].each do |line|
+        html << localized_block(:t_lines, line)
+      end
+      return html.join
+    end
+
+    # We have a siple translation
+    if value = entry[key]
+      return localized_block(:t_ok, value)
+    end
+
+    # Otherwise, as it's a hash with no "key" version, take the first one 
+    first = entry.reject{ |key, value| value.to_s.blank? }.first
+    key, value = first
+    if value
+      return localized_block(:t_fallback, value) 
+    end
+
+    return nil
+  end
 
   def localized_block style, content
     return content.to_s unless config[:debug]
@@ -107,31 +101,50 @@ end
   end
 
 
-  def label_for(object, general_key)
-    localized_key = sprintf('%s_%s', general_key.to_s, I18n.locale)
-    entry = object[localized_key]
-    
-    # We have an explicite entry for this locale, and it's an array
-    if entry.is_a?(Array)
-      html = entry.each do |line|
-        localized_block(:t_lines, line)
-      end
-      return html.join("\n")
+  def label_for(object, key)
+    # It may simply be a string
+    if object.is_a?(String)
+      return localized_block(:t_notrans, object)
     end
 
-    # We have an explicite entry for this locale, and it's not empty
-    if entry
+    # It should be a hash at this stage
+    return unless object.is_a?(Enumerable)
+
+    # Let's find something like a localized key,
+    if key.nil?
+      localized_key = I18n.locale
+    else
+      localized_key = sprintf('%s_%s', key.to_s, I18n.locale)
+    end
+
+    # We have an explicit entry for this locale, and it's not empty
+    if entry = object[localized_key]
       return localized_block(:t_ok, entry.to_s)
     end
 
     # We have a general key
-    if object[general_key]
-      return localized_block(:t_ok, object[general_key])
+    if entry = object[key]
+      return localized_block(:t_ok, object[key])
     end
 
-    # Ooops we did not match
-    return nil
   end
 
+  def current_page?(path)
+    current_page.url.chomp('/') == path.chomp('/')
+  end
+
+  def menu_item title, icon, path
+    # klass = :active if current_page?(path)
+
+    klass = :active if current_page?(path)
+
+    content_tag(:li, class: klass) do
+      out = []
+      out << fa_icon(icon) if icon
+      out << title
+      link_to out.join(" ".html_safe), path
+    end
+
+  end
 
 end
