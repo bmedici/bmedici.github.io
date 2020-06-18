@@ -1,56 +1,69 @@
-- location = localized(job.location)
 - duration = localized(job.duration)
-- place = localized(job.place)
-- where = []
-
-- if place && job.url
-  - where << link_to(place, job.url, target: "_blank")
-- elsif place
-  - where << place
-
-- where << location if location
-- where << job.year if job.year
-- where << duration unless duration.blank?
-- where << "[#{job.year}] [#{job.name}]" if @debug
+- location = localized(job.location)
+- company  = localized(job.company)
 - has_details = job_has_any_details(job)
 
+/ - if company && job.url
+/   - place_link = link_to(company, job.url, target: "_blank", title: company)
+/ - elsif company
+/   - place_link = company
 
-.item.job
-  .meta.avoid-page-break
-    .job-header
-      - if has_details
-        h3.job-title.deployable onclick="$(this).closest('.item').find('.job-detail').toggle('fast');"
-          = localized(job.title)
+- if job.name
+  - company_logo = image_tag("logos/#{job.name}.png", resize_to: config[:image_box], alt: company, class: "cv-logo")
+- else 
+  - company_logo = nil
+
+- if has_details
+  - onclick="$(this).closest('.item').find('.job-detail').toggle('fast');" 
+  / - onclick="$(this).closest('.item').find('.detail').toggle('fast');" 
+- else 
+  - onclick = nil
+  
+
+.item.job.meta.avoid-page-break
+
+  .row
+
+    .col-2.col-xs-4.col-info
+
+        - if job.name && job.url
+          = link_to company_logo, job.url, title: company
+        - else
+          = company_logo
+
+        .job-when
+          = job.year
+          = " | "
+          = duration
+
+        .job-location
+          = location
+        
+
+    .col-10.col-xs-8
+  
+      h3.job-title.deployable onclick=onclick
+        = localized(job.title)
+        - if (onclick)
           = " "
           span.noprint= fa_icon("chevron-circle-down")
+        = " "
+        .job-company= company
 
-      - else
-        h3.job-title
-          = localized(job.title)
+      - if job.tasks.is_a?(Array)
+        .tasks
+          - job.tasks.each do |task|
+            / pre=task.to_yaml
 
-      .job-place
-        - if job.name
-          = image_tag("logos/#{job.name}.png", resize_to: config[:image_box], alt: place, class: "cv-logo")
-        - else
-          = place
+            .task.avoid-page-break
+              p.job-task= localized(task)
 
-    .subtitle
-      = where.join(' - ')
+              - if task.details.is_a?(Array)
+                - task.details.each do |detail|
+                  - det = localized(detail)
 
-  
-  - if job.tasks.is_a?(Array)
-    .tasks
-      - job.tasks.each do |task|
-        / pre=task.to_yaml
-
-        .task.avoid-page-break
-          p.job-task= localized(task)
-
-          - if task.details.is_a?(Array)
-            - task.details.each do |detail|
-              - det = localized(detail)
-
-              - unless det.nil?
-                p.job-detail= nl2br(det) 
+                  - unless det.nil?
+                    p.job-detail= nl2br(det) 
 
   hr.noprint
+

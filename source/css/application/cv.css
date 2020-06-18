@@ -1,37 +1,84 @@
+.deployable {
+  cursor: pointer;
+  }
+
 p.job-task {
   margin-bottom: 0px;
   /*margin-left: 8px;*/
   }
 
-.job .job-place {
+/* .job .job-company {
   position: absolute;
   right: 0;
   top: 0;
   text-align: right;
   display: inline-block;
-}
+} */
 
 .job-header {
-    position: relative;
-    overflow: visible !important;
+  position: relative;
+  overflow: visible !important;
 }
+
+.col-info {
+  color: rgb(151, 170, 195);
+  display: inline-block;
+  font-size: 0.9em;
+  text-align: center;
+  padding: 8px 4px;
+  }
+
+.job-location {
+  }
+  
+.job-when {
+  margin-top: 4px;
+  }
+
+.job-company {
+  color: rgb(151, 170, 195);
+  display: inline-block;
+  font-size: 0.85em;
+  margin-top: 0.15em;
+  float: right;
+
+}
+
+.task .main {
+  /* width: 100%; */
+  /* border: 1px solid green; */
+  /* float: left; */
+  /* display: inline-block; */
+  vertical-align: top;
+}
+
+.task .detail {
+  /* border: 1px solid red; */
+  /* float: left; */
+  /* display: inline-block; */
+  width: 70%;
+  font-size: 0.85em;
+  color: gray;
+  display: none;
+}
+
+.task .detail p {
+  margin-bottom: 1px;
+}
+
 
 .job-title {
-  cursor: default;
-  display: inline-block;
+  /* display: inline-block; */
   }
 
-.subtitle {
-  margin-bottom: 8px;
-  /*color: rgb(121, 136, 156)*/
-  color: rgb(151, 170, 195)
-}
+/* .subtitle {
+  color: rgb(151, 170, 195);
+  font-size: 0.8em;
+} 
+*/
 
-.job-title.deployable {
-  cursor: pointer;
-  }
 
-p.job-detail {
+.job-detail {
   margin-left: 8px;
   margin-bottom: 4px;
   padding-left: 8px;
