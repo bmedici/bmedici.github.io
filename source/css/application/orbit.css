@@ -87,20 +87,7 @@ p {
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
 }
-.sidebar-wrapper .contact-list .fa {
-  margin-right: 5px;
-  font-size: 18px;
-  vertical-align: middle;
-}
-.sidebar-wrapper .contact-list li {
-  margin-bottom: 15px;
-}
-.sidebar-wrapper .contact-list li:last-child {
-  margin-bottom: 0;
-}
-.sidebar-wrapper .contact-list .email .fa {
-  font-size: 14px;
-}
+
 .sidebar-wrapper .container-block {
   padding: 20px 30px;
 }

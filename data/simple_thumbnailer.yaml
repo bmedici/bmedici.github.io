@@ -3,3 +3,29 @@
   resize_to: 150x35
 - path: bruno1.jpeg
   resize_to: '135'
+- path: bruno2.jpeg
+  resize_to: '135'
+- path: logos/fdj.png
+  resize_to: 90x80
+- path: logos/rdc.png
+  resize_to: 90x80
+- path: logos/ftven.png
+  resize_to: 90x80
+- path: logos/societegenerale.png
+  resize_to: 90x80
+- path: logos/safran.png
+  resize_to: 90x80
+- path: logos/canalplus.png
+  resize_to: 90x80
+- path: logos/creditdunord.png
+  resize_to: 90x80
+- path: logos/sncfbollore.png
+  resize_to: 90x80
+- path: logos/france24.png
+  resize_to: 90x80
+- path: logos/chureims.png
+  resize_to: 90x80
+- path: logos/its.png
+  resize_to: 90x80
+- path: logos/atomis.png
+  resize_to: 90x80
