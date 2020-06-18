@@ -2,38 +2,55 @@
 / - brand_logo = image_tag asset_path(:images, 'logo_bmc_300.png'),
 /     title: "Bruno Medici Consultant"
 
-= navbar fixed: :top, container: false, class: :noprint do
-  / - if config[:blank]
-  /   = navbar_header brand: 'TITLE', brand_link: '/'
-  / - else
-  /   = navbar_header brand: brand_logo, brand_link: '/', brand_image: "jjj"
+/ pre= current_page_has_url
 
-  = navbar do
-    = navbar_group class: 'foo', id: 'menu' do
-      / = navbar_text 'Pick an option:'
-      = navbar_item "/" do
-        = fa_icon(:home)
-        = " HOME"
+.navbar.navbar-default.navbar-fixed-top.navbar-expand-sm.navbar-light.noprint
 
-      - unless config[:blank]
-        = navbar_item "RESUME", '/cv-bruno-medici-en'
-        = navbar_item "CV", '/cv-bruno-medici-fr'
+  ul.navbar-nav.mr-auto#menu
 
-      = navbar_item fa_icon(:envelope), "/contact"
+    = menu_item("HOME", :home, "/")
 
-      / = navbar_dropdown "Stuff" do
-      /   = navbar_dropdown_header 'Great stuff!'
-      /   = navbar_item "One", '/one'
-      /   = navbar_item "Two", '/two'
-      /   = navbar_item "Three", '/three'
-      /   - if true # check if user is admin, maybe like "if current_user.try(:admin?)"
-      /     = navbar_dropdown_divider
-      /     = navbar_item "Admin Dashboard", '/admin'
-      /     = navbar_item "Users", '/admin/users'
+    = menu_item("RESUME", nil, "/cv-bruno-medici-en")
 
-    = navbar_group align: 'right' do
-      - if langs.is_a? Hash
-        - langs.each do |lang, url|
-          = navbar_item url do
+    = menu_item("CV", nil, "/cv-bruno-medici-fr")
+
+    = menu_item("CONTACT", :envelope, "/contact")
+
+    / li.active= link_to "/" do
+    /   = fa_icon(:home)
+    /   = " HOME"
+
+    / li= link_to "/cv-bruno-medici-en" do
+    /   = navbar_item "RESUME"
+
+    / li= link_to "/cv-bruno-medici-fr" do
+    /   = navbar_item "CV"
+
+    / li= link_to "/contact" do
+    /   = fa_icon(:envelope, text: "CONTAKT")
+    /   = " CONTACT"
+
+
+  ul.navbar-nav.navbar-right
+    - if langs.is_a? Hash
+      - langs.each do |lang, url|
+        - active = current_page?(url) ? 'active' : ''
+        li class=active
+          = link_to url, title: active do
             = image_tag("langs/#{lang}.svg", width: 18, height: 13, class: :flag, alt: lang)
+
+
+  / = navbar do
+  /   = navbar_group id: 'menu' do
+  /     / = navbar_text 'Pick an option:'
+
+  /     / = navbar_dropdown "Stuff" do
+  /     /   = navbar_dropdown_header 'Great stuff!'
+  /     /   = navbar_item "One", '/one'
+  /     /   = navbar_item "Two", '/two'
+  /     /   = navbar_item "Three", '/three'
+  /     /   - if true # check if user is admin, maybe like "if current_user.try(:admin?)"
+  /     /     = navbar_dropdown_divider
+  /     /     = navbar_item "Admin Dashboard", '/admin'
+  /     /     = navbar_item "Users", '/admin/users'
 
