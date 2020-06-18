@@ -1,5 +1,4 @@
 # Libs
-# require 'builder'
 require 'helpers/custom_helpers' 
 include CustomHelpers 
 
@@ -8,7 +7,7 @@ include CustomHelpers
 set :css_dir,     'css'
 set :js_dir,      'js'
 set :images_dir,  'img'
-set :relative_links, false
+set :relative_links, true
 # Time.zone = 'Paris'
 
 
@@ -23,6 +22,18 @@ if !ENV['BLANK'].to_i.zero?
   set :build_dir, 'build/full'
   set :blank,       true
 end
+
+
+# Contentful
+# activate :contentful do |f|
+#   f.space         = {"bmconseil": "0wtdtxeblfj9"}
+#   f.access_token  = "Q8plFWInNJl1bo2mDH0MroMXQf6XxjvwZVnKdm_K3ws"
+#   f.cda_query     = { limit: 1000 }
+#   # f.content_types = CONTENT_TYPES_MAPPINGS
+# end
+
+
+# activate :dato, live_reload: false
 
 
 # Google analytics
