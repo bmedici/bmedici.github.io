@@ -7,7 +7,7 @@ include CustomHelpers
 set :css_dir,     'css'
 set :js_dir,      'js'
 set :images_dir,  'img'
-set :relative_links, true
+set :relative_links, false
 # Time.zone = 'Paris'
 
 
