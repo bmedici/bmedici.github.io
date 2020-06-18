@@ -4,3 +4,10 @@
   text-align: center;
 }
 
+/* .contact-info {
+  text-align: center;
+} */
+
+.contact-info i {
+  margin-right: 6px;
+}

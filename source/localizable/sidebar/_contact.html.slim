@@ -1,15 +1,15 @@
-.contact-container.container-block
-  ul.list-unstyled.contact-list
+.container-block
+
+  ul.list-unstyled.contact-info
     li.email
         = fa_icon :envelope
         = link_to "cvweb2@bmconseil.com", "mailto: cvweb2@bmconseil.com" 
     li.phone
         = fa_icon :phone
         = link_to "+33 611 647 608", "tel:+33 611 647 608"
-
     li.address
         = fa_icon "map-marker"
-        = "Paris 13 + Lille Centre"
+        = "Lille-Centre | Paris 13"
 
     - data.socials.each do |soc|
       li.noscreen class=soc.icon
@@ -18,5 +18,8 @@
     
     li.social.noprint
       - data.socials.each do |soc|
-        = link_to fa_icon(soc.icon, class: "fa-2x"), soc.url, title: soc.label, target: "_blank"
+        = link_to fa_icon(soc.icon), soc.url, title: soc.label, target: "_blank", class: "fa-2x"
         = " "
+
+    / li.timestamp
+    /   = "#{Time.now.strftime('%Y%m%d-%H%M%S')}"
