@@ -1,0 +1,11 @@
+---
+title: TEST
+langs:
+  fr: "/cv-bruno-medici-fr"
+  en: "/cv-bruno-medici-en"
+cvmode: true
+---
+
+= data.jobs.each do |j|
+  - j2 = Job.find_or_create_by name: j
+  pre= j2.to_yaml
