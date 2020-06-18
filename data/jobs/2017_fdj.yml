@@ -9,47 +9,44 @@ url: https://www.fdj.fr/
 duration:
   fr:
   en:
+  fr: 2.5 ans
+  en: 2.5 years
 
-what:
+tasks:
+  - fr: Orientation vers l'architecture microservices pour le Groupe
+    en: Defined the target micro-services architecture
+    details:
+      - fr: Mise en œuvre des patterns REST et micro-services
+        en: Defined and executed the migration to REST and micro-services patterns
+      - fr: Sensibilisation du management et d'autres équipes autour des patterns et de l’état de l’art 
+        en: Raised management and other teams awareness to state-of-the-art patterns
+      - fr: Choix technologiques, modélisation, implémentation avec les équipes
+        en: Handled tech choices, data modeling, execution along with teams
 
-  - title_fr: Orientation vers l'architecture microservices pour le Groupe
-    title_en: Defined the target micro-services architecture
-    detail_fr: |
-        Mise en œuvre des patterns REST et micro-services
-        Sensibilisation du management et d'autres équipes autour des patterns et de l’état de l’art 
-        Choix technologiques, modélisation, implémentation avec les équipes
-    detail_en: |
-        Defined and executed the migration to REST and micro-services patterns
-        Raised management and other teams awareness to state-of-the-art patterns
-        Handled tech choices, data modeling, execution along with teams
+  - fr: Encadrement et orientation des équipes de développement
+    en: Supervised and guided development teams
+    details:
+      - fr: Mentoring des tech-leads par des ateliers hebdomadaires
+        en: Montored tech-lead developpers with weekly workshops
+      - fr: Multiples présentations effectuées - retours d'expérience, messaging sur RabbitMQ...
+        en: Organized and presented several internal talks - projects feedback, RabbitMQ messaging...
+      - fr: Responsabilité de la solution d'architecture pour les projets courants
+        en: In charge of projects architecture dfnition for day-to-day projects
 
-  - title_fr: Encadrement et orientation des équipes de développement
-    title_en: Supervised and guided development teams
-    detail_fr: |
-        Mentoring des tech-leads par des ateliers hebdomadaires
-        Multiples présentations effectuées - retours d'expérience, messaging sur RabbitMQ...
-        Responsabilité de la solution d'architecture pour les projets courants
-    detail_en: |
-        Montored tech-lead developpers with weekly workshops
-        Orgaznized and presented several internal talks - projects feedback, RabbitMQ messaging...
-        In charge of projects architecture dfnition for day-to-day projects
+  - fr: Mise en place de l'intégration/déploiement continus (CI/CD) avec Docker
+    en: Set up continuous integration and deployment (CI/CD) using Docker
+    details:
+      - fr: Containerisation sur Docker Swarm et pipelines automatiques pour les nouveaux projets
+        en: Containerization on Docker Swarm and automated pipelines for new projects
+      - fr: Pédagogie et conversion des équipes de qualification et de production
+        en: Offered guidance and skills development for quality assessment and production teams
 
-  - title_fr: Mise en place de l'intégration/déploiement continus (CI/CD) avec Docker
-    title_en: Set up continuous integration and deployment (CI/CD) using Docker
-    detail_fr: |
-        Containerisation sur Docker Swarm et pipelines automatiques pour les nouveaux projets
-        Pédagogie et conversion des équipes de qualification et de production
-    detail_en: |
-        Containerization on Docker Swarm and automated pipelines for new projects
-        Offered guidance and skills development for quality assessment and production teams
-
-  - title_fr: Construction équipe pilote sur NodeJS/MongoDB + lean management
-    title_en: Built a reference team based on NodeJS/MongoDB + lean management
-    detail_fr: |
-        Introduction de la première stack NodeJS et MongoDB dans l'entreprise
-        Automatisation complète du développement (build, tests, déploiement)
-        Implication forte des développeurs, des testeurs, du métier et de la qualification
-    detail_en: |
-        Introduced the first NodeJS and MongoDB stack company-wide
-        Implemented full automatization of the development process (build, test, deploy)
-        Obtainted strong involvement of developers, testers, business experts and quality teams
+  - fr: Construction équipe pilote sur NodeJS/MongoDB + lean management
+    en: Built a reference team based on NodeJS/MongoDB + lean management
+    details:
+      - fr: Introduction de la première stack NodeJS et MongoDB dans l'entreprise
+        en: Introduced the first NodeJS and MongoDB stack company-wide
+      - fr: Automatisation complète du développement (build, tests, déploiement)
+        en: Implemented full automatization of the development process (build, test, deploy)
+      - fr: Implication forte des développeurs, des testeurs, du métier et de la qualification
+        en: Obtainted strong involvement of developers, testers, business experts and quality teams

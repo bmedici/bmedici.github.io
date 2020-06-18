@@ -12,19 +12,18 @@ duration_en: 6 months
 
 keywords: DenyAll rWeb, ActivNetwork, banque, transition, coordination projet
 
-what:  
-  - title_fr: Ré-intégration de l'activité du Crédit du Nord (intégration et exploitation N2/N3)
-    title_en: Re-integrated the Crédit du Nord branch activity (integration and maintenance perimeters L2/L3)
-    detail_fr: |
-        Etude de rapprochement des solutions Crédit du Nord aux solutions Société Générale
-        Reprise des projets d'intégrationaccompagnement de la reprise du support N2/N3
-    detail_en: |
-        Studied convergence of Crédit du Nord and Société Générale solutions and technologies
-        Acquired leadership for ongoing integration projects, helped takeover for L2 and L3 support teams
+tasks:  
 
-  - title_fr: Objectif rempli - excellent niveau de coopération entre l'ancienne équipe et les nouvelles entités
-    title_en: Successfully built a cooperating ecosystem between legacy teams and new teams
-    detail_fr: |
-        Transfert de connaissance et de documentation vers les équipes hosting Société Générale
-    detail_en: |
-        Tansferred knowledge and documentation to each team on Société Générale side
+  - fr: Ré-intégration de l'activité du Crédit du Nord (intégration et exploitation N2/N3)
+    en: Re-integrated the Crédit du Nord branch activity (integration and maintenance perimeters L2/L3)
+    details:
+      - fr: Etude de rapprochement des solutions Crédit du Nord aux solutions Société Générale
+        en: Studied convergence of Crédit du Nord and Société Générale solutions and technologies
+      - fr: Reprise des projets d'intégrationaccompagnement de la reprise du support N2/N3
+        en: Acquired leadership for ongoing integration projects, helped takeover for L2 and L3 support teams
+
+  - fr: Objectif rempli - excellent niveau de coopération entre l'ancienne équipe et les nouvelles entités
+    en: Successfully built a cooperating ecosystem between legacy teams and new teams
+    details:
+      - fr: Transfert de connaissance et de documentation vers les équipes hosting Société Générale
+        en: Transferred knowledge and documentation to each team on Société Générale side

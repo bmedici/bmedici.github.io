@@ -12,29 +12,27 @@ duration_en: 6 months
 
 keywords: Gestion de projet, web, broadcast, akamai, streaming, team-building, opensource, international
 
-what:
-  - title_fr: Pilotage de la couverture de l'élection présidentielle 2007 sur le web
-    title_en: Lead the 2007 coverage of the French presidential election on the web
-    detail_fr: |
-        Animation de l'équipe-projet (dispositif modérateurs, traducteurs, bloggers internationaux)
-        Convergence médias (diffuseur, internautes, téléspectateurs)
-        Streaming en direct, résultats temps-réel, réactions des internautes, numéro SMS téléspectateurs, 5 webcams au cœur de l'info (98k+ visitors for both ballots)
-        
-    detail_en: |
-        Animated the dedicated team -(moderators, translators, 20 international bloggers)
-        Experimentation of the media convergence (broadcaster, internet and television audience)
-        Live video streaming, realtime voting results, internet visitors reactions, SMS-number offering interaction to the audience, 5 webcams in the newsrooms (98k+ visitors for both ballots)
+tasks:
 
-  - title_fr: Soutien stratégique à la DSI (5 mois)
-    title_en: Provided strategic support for the IT department
-    detail_fr: |
-        Renforcement de l'image sur le web à l'international et dans la blogosphère
-        Structuration des compétences et méthodes, constitution d'équipe technique
-        Différents projets ont été ensuite lancés en interne (Festival de Cannes, législatives)
-    detail_en: |
-        Strengthened the image of France24 in the world, and on the blogosphere
-        Built the team and the methods around the required technical skills
-        Implemented various projects thereafter, within the channel's teams (Cannes Festival, general elections)
+  - fr: Pilotage de la couverture de l'élection présidentielle 2007 sur le web
+    en: Lead the 2007 coverage of the French presidential election on the web
+    details:
+      - fr: Animation de l'équipe-projet (dispositif modérateurs, traducteurs, bloggers internationaux)
+        en: Animated the dedicated team -(moderators, translators, 20 international bloggers)
+      - fr: Convergence médias (diffuseur, internautes, téléspectateurs)
+        en: Experimentation of the media convergence (broadcaster, internet and television audience)
+      - fr: Streaming en direct, résultats temps-réel, réactions des internautes, numéro SMS téléspectateurs, 5 webcams au cœur de l'info (98k+ visitors for both ballots)
+        en: Live video streaming, realtime voting results, internet visitors reactions, SMS-number offering interaction to the audience, 5 webcams in the newsrooms (98k+ visitors for both ballots)
 
-  - title_fr: Rédaction de l'appel d'offre pour la nouvelle infrastructure web (CCTP)
-    title_en: Conducted and wrote the request for bid for the new web infrastructure
+  - fr: Soutien stratégique à la DSI (5 mois)
+    en: Provided strategic support for the IT department
+    details:
+      - fr: Renforcement de l'image sur le web à l'international et dans la blogosphère
+        en: Strengthened the image of France24 in the world, and on the blogosphere
+      - fr: Structuration des compétences et méthodes, constitution d'équipe technique
+        en: Built the team and the methods around the required technical skills
+      - fr: Différents projets ont été ensuite lancés en interne (Festival de Cannes, législatives)
+        en: Implemented various projects thereafter, within the channel's teams (Cannes Festival, general elections)
+
+  - fr: Rédaction de l'appel d'offre pour la nouvelle infrastructure web (CCTP)
+    en: Conducted and wrote the request for bid for the new web infrastructure

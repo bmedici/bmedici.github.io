@@ -13,9 +13,9 @@ duration_en: 3 months
 
 keywords: Médical, sécurité des données, référentiel national, LDAP, ruby on rails, PKI, postgresql
 
-what:
-  - title_fr: Mise en place d'une architecture fédérant les systèmes d'information de centres hospitaliers, expertise sécurité et proposition de workflow
-    title_en: Set up a system federating data for several hospitals, sase study and recommendation of a technical architecture, security expertise, workflow
+tasks:
+  - fr: Mise en place d'une architecture fédérant les systèmes d'information de centres hospitaliers, expertise sécurité et proposition de workflow
+    en: Set up a system federating data for several hospitals, sase study and recommendation of a technical architecture, security expertise, workflow
 
-  - title_fr: Assistance à maîtrise d'ouvrage, rédaction d'appels d'offre, suivi des développements
-    title_en: Helped project office, requests for bid, facilitated developments
+  - fr: Assistance à maîtrise d'ouvrage, rédaction d'appels d'offre, suivi des développements
+    en: Helped project office, requests for bid, facilitated developments

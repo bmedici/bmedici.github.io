@@ -12,17 +12,17 @@ duration_en: 3 months
 
 keywords: 50k+ utilisateurs, reversibilité, cisco, bluecoat, juniper, arkoon, ironport, BigIP, défense et sécurité
 
-what:
-  - title_fr: Migration du "Bastion réseau groupe" de la filiale SNECMA vers le Groupe 
-    title_en: Took over skills and responsability of network security from SNECMA branch to headquarters
-    detail_fr: |
-        Exploration du périmètre, identification des compétences
-        Reverse engineering et rétro-documentation
-        Fusion de plusieurs plateformes multi-sites
-    detail_en: |
-        Explored perimeter, methods and potential risks
-        Reverse engineering and back-documentation of main topics
-        Consolidation de diverses plateformes multi-sites
+tasks:
 
-  - title_fr: Expertise technique et culture internet (email, DNS, sécurité réseau, filtrage web)
-    title_en: Brought internet technologies expertise about email, DNS, network security and web filtering
+  - fr: Migration du "Bastion réseau groupe" de la filiale SNECMA vers le Groupe 
+    en: Took over skills and responsability of network security from SNECMA branch to headquarters
+    details:
+      - fr: Exploration du périmètre, identification des compétences
+        en: Explored perimeter, methods and potential risks
+      - fr: Reverse engineering et rétro-documentation
+        en: Reverse engineering and back-documentation of main topics
+      - fr: Fusion de plusieurs plateformes multi-sites
+        en: Consolidation de diverses plateformes multi-sites
+
+  - fr: Expertise technique et culture internet (email, DNS, sécurité réseau, filtrage web)
+    en: Brought internet technologies expertise about email, DNS, network security and web filtering

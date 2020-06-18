@@ -12,35 +12,32 @@ duration_en: 18 months
 
 keywords: Médias, urbanisme architecture, workflow transverse, transcodage, stockage, delivery, harmonic/rhozet
 
-what:
-  - title_fr: Urbanisation des diverses plateformes VoD du Groupe, définition de l'architecture cible
-    title_en: Urbanized multiple video-on-demand plateforms for the Group, defined the target architecture
-    detail_fr: |
-        Rationalisation des fonctions et des matériels pour les offres CanalSat, Canal+, CanalPlay Infinity et le Replay (encodeurs, provisioning)
-        Modélisation des procesus métier de toute la chaîne de production VoD, rédaction des spécications et du cahier des charges technique
-        Approche services et défincition des API (ingestion, mise au format, provisionning et supervision)
-    detail_en: |
-        Proposed architecture rationalization for offers like CanalSat, Canal+, CanalPlay Infinity and replay-tv (encoders, media provisioning)
-        Described and modelled business processes for the entire VoD production stack, wrote technical specifications basis
-        Introduced micro-services, defined APIs (ingest, transcoding, file provisionning, monitoring)
-        
+tasks:
 
-  - title_fr: Pilotage de l'appel d'offres "moteur de workflow"
-    title_en: Lead the call for bids for the workflow engine function
-    detail_fr: |
-        Processus RFI et RFP auprés de 12 acteurs intrnationaux du média (documents rédigés en anglais)
-        Maquette et PoC, animation des échanges et des soutenances, étude des réponses et restitution
-        Projet mené directement au sein de la Direction des Technologies et du SI
-    detail_en: |
-        Coordinated RFI and RFP with 12 international media providers (documents writtendin English)
-        Organized proofs-of-concept for the top5, project in close cooperation with CTOs and top management
+  - fr: Urbanisation des diverses plateformes VoD du Groupe, définition de l'architecture cible
+    en: Urbanized multiple video-on-demand plateforms for the Group, defined the target architecture
+    details:
+      - fr: Rationalisation des fonctions et des matériels pour les offres CanalSat, Canal+, CanalPlay Infinity et le Replay (encodeurs, provisioning)
+        en: Proposed architecture rationalization for offers like CanalSat, Canal+, CanalPlay Infinity and replay-tv (encoders, media provisioning)
+      - fr: Modélisation des procesus métier de toute la chaîne de production VoD, rédaction des spécications et du cahier des charges technique
+        en: Described and modelled business processes for the entire VoD production stack, wrote technical specifications basis
+      - fr: Approche services et défincition des API (ingestion, mise au format, provisionning et supervision)
+        en: Introduced micro-services, defined APIs (ingest, transcoding, file provisionning, monitoring)
 
-  - title_fr: Pilotage du projet de refonte du stockage médias pour la diffusion (plus de 1 PB de données)
-    title_en: Managed the storage restructuring project within Diffusion branch (above 1 PB of data)
-    detail_fr: |
-        Architecture technique du stockage de transcodage, de distribution et d'archivage moyen terme
-        Animation de l'équipe-projet, spécifications et appel d'offres, horizontale et verticale
-    detail_en: |
-        Made technical recommandations for transcoding storage, distribution and long-term archives
-        Led the project team, defined specifications, horizontal and vertical scalability
+  - fr: Pilotage de l'appel d'offres "moteur de workflow"
+    en: Led the call for bids for the workflow engine function
+    details:
+      - fr: Processus RFI et RFP auprés de 12 acteurs intrnationaux du média (documents rédigés en anglais)
+        en: Coordinated RFI and RFP with 12 international media providers (documents writtendin English)
+      - fr: Projet mené directement au sein de la Direction des Technologies et du SI
+        en: Organized proofs-of-concept for the top5, project in close cooperation with CTOs and top management      
 
+  - fr: Pilotage du projet de refonte du stockage médias pour la diffusion (plus de 1 PB de données)
+    en: Managed the storage restructuring project within Diffusion branch (above 1 PB of data)
+
+    details:
+      - fr: Architecture technique du stockage de transcodage, de distribution et d'archivage moyen terme
+        en: Made technical recommandations for transcoding storage, distribution and long-term archives
+      - fr: Animation de l'équipe-projet, spécifications et appel d'offres, horizontale et verticale
+        en: Led the project team, defined specifications, horizontal and vertical scalability
+    

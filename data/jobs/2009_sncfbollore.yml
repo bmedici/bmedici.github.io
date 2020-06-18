@@ -12,24 +12,21 @@ duration_en: 6 months
 
 keywords: Audit, architecture, embedded, service portals, industrial, ruby on rails, php
 
-what:
-  - title_fr: Construction d'une offre de services embarqués avec accès internet dans les rames TGV-Est
-    title_en: Defined and built a service platform with internet access, aboard of TGV-Est trains
-    detail_fr: |
-        Audit de l'architecture technique proposée par le consortium Orange, Cap Gemini, Alstom, Eutelsat
-        Recommandations d'évolution et étude des opportunités commerciales enisageables
-        Accompagnement du montage de la joint-venture Bolloré-SNCF, projet phare du plan de relance Sarkozy
-    detail_en: |
-        Audited the technical architecture proposed by the consortium Orange, Cap Gemini, Alstom, Eutelsat
-        Recommanded updates and improvements leding to new commercial opportunities
-        Participated in the founding of the joint venture between Bollore-SNCF, key public project
+tasks:
 
-  - title_fr: |
-        Définition d'architecture technique et service, en embarqué et sur liaison sol/bord
-        title_en: |
-        Defined technical functionnal architecture for onboard and ground-train link
-    detail_fr: |
-        Direction du développement des interfaces spécifiques à l'environnement embarqué
-    detail_en: |
-        Directed development of embedded-specific interfaces
-  
+  - fr: Construction d'une offre de services embarqués avec accès internet dans les rames TGV-Est
+    en: Defined and built a service platform with internet access, aboard of TGV-Est trains
+    details:
+      - fr: Audit de l'architecture technique proposée par le consortium Orange, Cap Gemini, Alstom, Eutelsat
+        en: Audited the technical architecture proposed by the consortium Orange, Cap Gemini, Alstom, Eutelsat
+      - fr: Recommandations d'évolution et étude des opportunités commerciales enisageables
+        en: Recommanded updates and improvements leding to new commercial opportunities
+      - fr: Accompagnement du montage de la joint-venture Bolloré-SNCF, projet phare du plan de relance Sarkozy
+        en: Participated in the founding of the joint venture between Bollore-SNCF, key public project
+
+  - fr: Définition d'architecture technique et service, en embarqué et sur liaison sol/bord
+    en: Defined technical functionnal architecture for onboard and ground-train link
+    details:
+      - fr: Direction du développement des interfaces spécifiques à l'environnement embarqué
+        en: Directed development of embedded-specific interfaces
+    

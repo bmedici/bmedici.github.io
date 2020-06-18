@@ -12,9 +12,9 @@ duration_en: 1 months
 
 keywords: Akamai, Drupal, fort traffic
 
-what:
-  - title_fr: Audit de l'adhérence des systèmes de production avec certains fournisseurs critiques
-    title_en: Audited coupling between business-critical systems and content-delivery providers
+tasks:
+  - fr: Audit de l'adhérence des systèmes de production avec certains fournisseurs critiques
+    en: Audited coupling between business-critical systems and content-delivery providers
 
-  - title_fr: Préconisations d'optimisation de l'architecture, préparation du CCTP
-    title_en: Published optimization rcommendations for the hosting architecture, basis for a tender session
+  - fr: Préconisations d'optimisation de l'architecture, préparation du CCTP
+    en: Published optimization rcommendations for the hosting architecture, basis for a tender session
