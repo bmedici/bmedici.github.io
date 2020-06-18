@@ -10,3 +10,9 @@ S3: custom Errors
   </Redirect>
   </RoutingRule>
 </RoutingRules>
+
+
+TODO
+
+Docker multi-arch
+Skills with bar graph

@@ -78,14 +78,14 @@ p.job-task {
   }  
 
 
-.stuff-container
+.chapter-container
  {
   page-break-inside: avoid;
   page-break-before: avoid;
 }
 
-.stuff-container .meta ,
-.stuff-container .stuff-desc
+.chapter-container .meta ,
+.chapter-container .chapter-desc
 {
   font-size: 0.9em;
 }

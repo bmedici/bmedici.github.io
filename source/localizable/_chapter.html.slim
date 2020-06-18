@@ -1,4 +1,4 @@
-.stuff-container.container-block
+.chapter-container.container-block
 
   - if title
     h2.container-block-title =t(title)
@@ -7,17 +7,16 @@
     - dataset.each do |item|
 
       li
-        
         / Show item name
-        / = label_for(item, :name)
         = localized(item.name)
 
         / Show item info
         - if desc = localized(item.desc)
           = " &bull; "
-          span.stuff-desc= desc
+          span.chapter-desc= desc
 
         / Show item details
         - if item.details.is_a?(Enumerable)
           - item.details.each do |detail|
-            div.stuff-desc= localized(detail)
+            div.chapter-desc
+              = localized(detail)

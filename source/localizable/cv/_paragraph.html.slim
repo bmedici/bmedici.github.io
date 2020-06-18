@@ -3,14 +3,8 @@
   .item.job
     .meta
       .job-header
-        - if true
-          / h3.job-title
-          /   = label_for(item, :title)
-          h3.job-title
-            = localized(paragraph.name)
-
-        - else
-          h3.job-title= label_for(paragraph, :title)
+        h3.job-title
+          = localized(paragraph.name)
 
     - if paragraph.details.is_a?(Array)
       .details

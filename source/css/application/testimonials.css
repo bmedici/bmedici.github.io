@@ -55,29 +55,14 @@
   -moz-osx-font-smoothing: grayscale;
   padding: 20px 40px 20px;
   z-index: 1;
+  height: 370px;
+  /* border: 1px solid red; */
 }
-
 
 .cd-testimonials-wrapper ul {
   list-style: none;
 }
-/* 
-.cd-testimonials-wrapper::after {
-  content: '\201C';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50px;
-  height: 50px;
-  padding-top: 0;
-  margin-left: -20px;
-  font-family: "Georgia", serif;
-  color: silver;
-  font-size: 120px;
-  text-align: center;
-  display: none;
-}
- */
+
 @media only screen and (min-width: 768px) {
   .cd-testimonials-wrapper {
     /*margin: 2em auto;*/

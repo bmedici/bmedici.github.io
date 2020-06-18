@@ -1,7 +1,6 @@
-- location = label_for(job, :location)
-/ - duration = label_for(job, :duration)
+- location = localized(job.location)
 - duration = localized(job.duration)
-- place = label_for(job, :place)
+- place = localized(job.place)
 - where = []
 
 - if place && job.url

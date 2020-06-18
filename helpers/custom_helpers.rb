@@ -33,10 +33,6 @@ def cv_filename stamp = nil, lang = nil
   "cv/#{cv_name(stamp, lang)}.pdf"
 end
 
-# def jobs_randomized
-  #   data.jobs.shuffle
-  # end
-
   def ldata
     data[I18n.locale]
   end
@@ -50,26 +46,32 @@ end
   end
 
   def job_has_any_details(job)
-    return false unless job.tasks.is_a?(Array)
+    return false unless 
+    details = []
 
-    # Count where detail is not empty
-    # details = job.what.reject{ |what| label_for(what, :desc).nil?}
-    # details = job.details.reject{ |what| localized(what, :desc).nil?}
-    details = job.tasks.reject{ |task| localized(task.details).nil?}
+    # Parse job and collect all task details
+    job.tasks.collect do |task|
+      task.details.each do |detail|
+        details << localized(detail)
+      end if task.details.is_a?(Array)
+    end if job.tasks.is_a?(Array)
 
-    return details.count > 0
+    # Keep only text details that are not nil
+    return details.reject(&:nil?).any?
   end
 
 
   def localized(entry)
+    # Let's determine the key name
+    key = I18n.locale
+
     # We have no structured data > take it as-is
-    if !entry.is_a? Hash
-      return localized_block(:t_notrans, entry.to_s)
+    if entry.is_a?(String)
+      return localized_block(:t_notrans, entry)
     end
 
-    # Let's determine the key name
-    # key = prefix ? "#{prefix}_#{I18n.locale}" : I18n.locale
-    key = I18n.locale
+    # From now on, it should be a hash
+    return nil unless entry.is_a?(Hash)
 
     # We have a translation with many items
     if entry[key].is_a?(Array)
@@ -85,48 +87,15 @@ end
       return localized_block(:t_ok, value)
     end
 
-    # Otherwise, as it's a hash with no "key" version, take the first one 
+    # Otherwise, as it's a hash with no "key" version, take the first one
     first = entry.reject{ |key, value| value.to_s.blank? }.first
     key, value = first
-    if value
-      return localized_block(:t_fallback, value) 
-    end
-
-    return nil
+    return localized_block(:t_fallback, value) if value
   end
 
   def localized_block style, content
     return content.to_s unless config[:debug]
     return content_tag(:span, content.to_s, class: "t #{style}")
-  end
-
-
-  def label_for(object, key)
-    # It may simply be a string
-    if object.is_a?(String)
-      return localized_block(:t_notrans, object)
-    end
-
-    # It should be a hash at this stage
-    return unless object.is_a?(Enumerable)
-
-    # Let's find something like a localized key,
-    if key.nil?
-      localized_key = I18n.locale
-    else
-      localized_key = sprintf('%s_%s', key.to_s, I18n.locale)
-    end
-
-    # We have an explicit entry for this locale, and it's not empty
-    if entry = object[localized_key]
-      return localized_block(:t_ok, entry.to_s)
-    end
-
-    # We have a general key
-    if entry = object[key]
-      return localized_block(:t_ok, object[key])
-    end
-
   end
 
   def current_page?(path)

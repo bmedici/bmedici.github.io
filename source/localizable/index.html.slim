@@ -7,10 +7,23 @@ langs:
 
 - if config[:blank]
   = partial "index/placeholder"
-  = partial "index/placeholder"
-  = partial "index/placeholder"
 
 - else
   = partial "index/intro"
-  = partial "index/references"
-  = partial "index/testimonials"
+
+/ = partial "index/placeholder"
+/ = partial "index/placeholder"
+
+
+.row
+  .col-12
+    = partial "index/references"
+
+
+.row
+  .col-2
+    = fa_icon :comments, "testimonials", "fa-4x"
+  .col-10
+    = partial "index/testimonials"
+
+
