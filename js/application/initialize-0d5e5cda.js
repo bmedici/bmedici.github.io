@@ -1,0 +1,1 @@
+jQuery(document).ready(function(i){i(".cd-testimonials-wrapper").flexslider({selector:".cd-testimonials > li",animation:"slide",controlNav:!1,slideshow:!1,smoothHeight:!0,start:function(){i(".cd-testimonials").children("li").css({opacity:1,position:"relative"})}})});
