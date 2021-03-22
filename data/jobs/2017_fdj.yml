@@ -1,8 +1,8 @@
 title:
   fr: Architecte Solutions - Domaine Digital
-  en: Solutions Architect - Digital business unit
+  en: Solutions Architect - Digital BU
 
-company: La Française des Jeux (FDJ)
+company: FDJ Française des Jeux
 
 location: Paris (France)
 url: https://www.fdj.fr/
@@ -12,16 +12,6 @@ duration:
   en: 2.5 years
 
 tasks:
-  - fr: Accompagnement du Groupe vers l'architecture microservices
-    en: Defined the target micro-services architecture
-    details:
-      - fr: Mise en œuvre des patterns REST et micro-services
-        en: Defined and executed the migration to REST and micro-services patterns
-      - fr: Sensibilisation du management et d'autres équipes autour des patterns et de l’état de l’art 
-        en: Raised management and other teams awareness to state-of-the-art patterns
-      - fr: Choix technologiques, modélisation, implémentation avec les équipes
-        en: Handled tech choices, data modeling, execution along with teams
-
   - fr: Encadrement et orientation des équipes de développement
     en: Supervised and guided development teams
     details:
@@ -32,6 +22,16 @@ tasks:
       - fr: Responsabilité de la solution d'architecture pour les projets courants
         en: In charge of projects architecture dfnition for day-to-day projects
 
+  - fr: Accompagnement du Groupe vers l'architecture microservices
+    en: Defined the target micro-services architecture
+    details:
+      - fr: Mise en œuvre des patterns REST et micro-services
+        en: Defined and executed the migration to REST and micro-services patterns
+      - fr: Sensibilisation du management et d'autres équipes autour des patterns et de l’état de l’art 
+        en: Raised management and other teams awareness to state-of-the-art patterns
+      - fr: Choix technologiques, modélisation, implémentation avec les équipes
+        en: Handled tech choices, data modeling, execution along with teams
+
   - fr: Mise en place de l'intégration/déploiement continus (CI/CD) avec Docker
     en: Set up continuous integration and deployment (CI/CD) using Docker
     details:
@@ -40,8 +40,8 @@ tasks:
       - fr: Pédagogie et conversion des équipes de qualification et de production
         en: Offered guidance and skills development for quality assessment and production teams
 
-  - fr: Construction équipe pilote sur NodeJS/MongoDB + lean management
-    en: Built a reference team based on NodeJS/MongoDB + lean management
+  - fr: Construction d'équipes pilotes sur NodeJS/MongoDB + lean management
+    en: Bootstrapped and led reference teams on NodeJS/MongoDB + lean management
     details:
       - fr: Introduction de la première stack NodeJS et MongoDB dans l'entreprise
         en: Introduced the first NodeJS and MongoDB stack company-wide
