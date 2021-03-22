@@ -19,12 +19,10 @@
     en: Defining infrastructure guidelines and urbanization
   - fr: Accompagnement des équipes dans l'implémentation et la montée en compétence
     en: Mentoring teams in implementation and skill development
-  - fr: Mise en oeuvre de micro-services, containerization (Docker)
-    en: Implementing micro-service architecture, containerization (Docker)
+  - fr: Topologies micro-services et RESTful/API, containerisation (Docker)
+    en: Micro-service and API.RESTful-centric architectures, containerization (Docker)
   - fr: Virtualisation et migration vers le cloud (privé/public)
     en: Virtualization and cloud migration (private/public)
-  - fr: Architectures API-First, JAMStack
-    en: API-First, JAMStack architectures
 
 - name:
     fr: Expertise technique
