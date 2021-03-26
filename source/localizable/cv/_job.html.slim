@@ -1,7 +1,8 @@
-- duration = localized(job.duration)
 - location = localized(job.location)
 - company  = localized(job.company)
 - has_details = job_has_any_details(job)
+
+- context = [job.year, localized(job.duration)].compact
 
 / - if company && job.url
 /   - place_link = link_to(company, job.url, target: "_blank", title: company)
@@ -31,10 +32,8 @@
         - else
           = company_logo
 
-        .job-when
-          = job.year
-          = " | "
-          = duration
+        .job-context
+          = context.join(' &middot; ')
 
         .job-location
           = location
@@ -66,4 +65,3 @@
                     p.job-detail= nl2br(det) 
 
   hr.noprint
-
