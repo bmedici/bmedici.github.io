@@ -1,0 +1,21 @@
+title:
+  fr: Responsable de l'architecture
+  en: Lead Software Architect
+
+company: Ontex Digital Factory
+
+location: Paris (France)
+# url: https://www.fdj.fr/
+
+duration:
+  fr: 4 mois
+  en: 4 months
+
+tasks:
+  - fr: Conception de la nouvelle plateforme e-commerce par abonnement
+    en: Defined the next e-commerce subscription platform
+    details:
+      - fr: Architecture micro-services permettant les ambitions du groupe
+        en: Led microservices architecture buildup to allow business ambitions
+  - fr: Contribution à un projet d'innovation IoT (marché de l'hygiene)
+    en: Coontributed to an innovative IoT project (hygiene area)
