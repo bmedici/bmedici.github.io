@@ -31,8 +31,8 @@ p.job-task {
 .job-location {
   }
   
-.job-when {
-  margin-top: 4px;
+.job-context {
+  margin-top: 12px;
   }
 
 .job-company {
@@ -84,13 +84,15 @@ p.job-task {
   padding-left: 8px;
   font-size: 0.9em;
   color: gray;
-  /*display: block;*/
-  display: none;
+  display: block;
+  /* display: none; */
   border-left: 2px dotted silver;
   /*text-align: justify-all;*/
   }
 
 .cv-logo {
+  /* width: 75%; */
+
   position: relative;
   /*top: -2px;*/
 }

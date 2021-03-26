@@ -21,10 +21,21 @@ body {
   /*border: 1px solid blue;*/
 }
 
+/* @media print {
+  body {margin-top: 500mm; margin-bottom: 50mm; 
+        margin-left: 0mm; margin-right: 0mm}
+} */
+
 @page {
   size: A4 portrait;
   margin: 1.4cm 0.8cm 1.2cm 0.8cm;
-  /* margin: 1cm 0; */
+  
+  /* margin: 4cm 0; */
+/* 
+  padding-top: 8cm;
+  padding-bottom: 8cm;
+   */
+
 
   header, footer { 
     display: none; 
@@ -52,7 +63,6 @@ body {
 
 }
 
-
 .wrapper {
   /*width: 300px;*/
   margin: 0;
@@ -64,12 +74,18 @@ body {
   color: #eee !important;
 }
 
-.job-title {
+/* .job-title {
   font-size: 1.25em !important;
+  } */
+
+.job {
+  /* border: 1px solid red; */
+  margin-bottom: 1.5em;
   }
 
 p.job-detail {
-  display: block !important;
+  /* display: block !important; */
+  display: none !important;
   color: gray !important;
   /* border-left: none; */
   /* border-left: 8px solid #eee; */
@@ -77,7 +93,7 @@ p.job-detail {
   margin-left: 4px; */
   margin-top: 2px;
   margin-bottom: 0;
-  font-size: 0.85em;
+  /* font-size: 0.85em; */
   }  
 
 
@@ -95,9 +111,18 @@ p.job-detail {
 
 .main-wrapper {
   background: #fff;
-  padding: 20px;
+
+  /* padding: 20px;
   padding-left: 30px;
   padding-right: 280px;
+  */
+
+  /* padding-top: 80px; */
+  /* padding-top: 4em;
+  padding-right: 300px;
+  padding-bottom: 3em;
+  padding-left: 3em; */
+
   }
 
 /* 
@@ -122,11 +147,34 @@ a[href]:after {
   }
 
 .cv-logo {
-  width: 75%;
-  height: 75%;
+  /* width: 75%; */
+  /* height: 75%; */
 }
 
 .sidebar-wrapper {
   min-height: none !important;
   height: auto !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
