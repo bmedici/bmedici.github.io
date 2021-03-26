@@ -46,7 +46,7 @@ end
   end
 
   def job_has_any_details(job)
-    return false unless 
+    return false unless job
     details = []
 
     # Parse job and collect all task details
