@@ -3,7 +3,7 @@
     en: Innovation projects & tech leadership (CTO)
   details:
   - fr: Expérience du secteur médias/web - technologies, enjeux, tendances
-    en: Wide culture of the medias and web area - technologies, concerns, trends
+    en: Wide culture of the medias and web areas - technologies, concerns, trends
   - fr: Structuration d'équipe, conception, réalisation, mise en production, support
     en: Team build-up, design, realization, deployment, support
   - fr: Analyse fonctionelle, planification, choix technologiques et arbitrages
@@ -19,8 +19,8 @@
     en: Defining infrastructure guidelines and urbanization
   - fr: Accompagnement des équipes dans l'implémentation et la montée en compétence
     en: Mentoring teams in implementation and skill development
-  - fr: Topologies micro-services et RESTful/API, containerisation (Docker)
-    en: Micro-service and API.RESTful-centric architectures, containerization (Docker)
+  - fr: Topologies micro-services et RESTful/API, containerisation (Docker), architectures API-First
+    en: Micro-service and API.RESTful-centric architectures, containerization (Docker), API-First architectures
   - fr: Virtualisation et migration vers le cloud (privé/public)
     en: Virtualization and cloud migration (private/public)
 
@@ -28,12 +28,12 @@
     fr: Expertise technique
     en: Technical expertise
   details:
-  - fr: Plateformes à forte charge (VoD, e-commerce, médias d'information)
-    en: High-traffic hosting platforms (VoD, e-commerce, information medias)
+  - fr: Ecosystèmes IoT et domotique, plateformes distribuées
+    en: IoT ecosystems and smart home, distributed platforms
   - fr: Mise en place DevOps & intégration continue CI/CD
     en: DevOps transformation & continuous integration CI/CD
+  - fr: Plateformes à forte charge (VoD, e-commerce, médias d'information)
+    en: High-traffic hosting platforms (VoD, e-commerce, information medias)
   - HTML/CSS, Git, RubyOnRails, DNS, Debian, MySQL/MariaDB, Apache/Nginx, Postfix
   - fr: Architecture réseau du L2 au L7, proxies, VLAN 802.1q
     en: Network architecture from L2 to L7, proxies, VLAN 802.1q
-  - fr: Ecosystèmes IoT et domotique, plateformes distribuées
-    en: IoT ecosystems and smart home, distributed platforms
