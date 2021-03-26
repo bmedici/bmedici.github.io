@@ -1,6 +1,6 @@
 title:
-  fr: Architecte - nouvelle plateforme micro-services
-  en: Micro-services platform architect
+  fr: Ré-architecture de la plateforme en micro-services
+  en: Re-platforming architect to micro-services
 
 company: RueDuCommerce
 
@@ -18,7 +18,7 @@ tasks:
     details:
       - fr: Sensibilisation de la Direction par la cartographie et l'illustration des principes d'architecture
         en:
-      - fr: Mentoring des tech-leads et évengélisation permantente (ateliers hebdomadaires)
+      - fr: Mentorat des tech-leads et évengélisation permantente (ateliers hebdomadaires)
         en:
       - fr: Diverses présentations effectuées (retours d'expérience, messaging temps-réel sur RabbitMQ, ...)
         en:

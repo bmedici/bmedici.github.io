@@ -15,7 +15,7 @@ tasks:
   - fr: Encadrement et orientation des équipes de développement
     en: Supervised and guided development teams
     details:
-      - fr: Mentoring des tech-leads par des ateliers hebdomadaires
+      - fr: Mentorat des tech-leads par des ateliers hebdomadaires
         en: Montored tech-lead developpers with weekly workshops
       - fr: Multiples présentations effectuées - retours d'expérience, messaging sur RabbitMQ...
         en: Organized and presented several internal talks - projects feedback, RabbitMQ messaging...
@@ -37,8 +37,8 @@ tasks:
     details:
       - fr: Containerisation sur Docker Swarm et pipelines automatiques pour les nouveaux projets
         en: Containerization on Docker Swarm and automated pipelines for new projects
-      - fr: Pédagogie et conversion des équipes de qualification et de production
-        en: Offered guidance and skills development for quality assessment and production teams
+      - fr: Montée en compétences et conversion des équipes de qualification et de production
+        en: Provided guidance and skills development for quality assessment and production teams
 
   - fr: Construction d'équipes pilotes sur NodeJS/MongoDB + lean management
     en: Bootstrapped and led reference teams on NodeJS/MongoDB + lean management
