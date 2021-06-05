@@ -29,8 +29,22 @@ p.job-task {
   }
 
 .job-location {
-  }
-  
+}
+
+.job-keyword {
+  float: left;
+
+  color: #6c757d;
+  font-size: .65rem;
+
+  border: 1px solid #BBB;
+  border-radius: .2rem;
+
+  padding: 0 .15rem;
+  margin-right: .2rem;
+  margin-bottom: .15rem;
+}
+
 .job-context {
   margin-top: 12px;
   }
@@ -76,7 +90,6 @@ p.job-task {
   font-size: 0.8em;
 } 
 */
-
 
 .job-detail {
   margin-left: 8px;

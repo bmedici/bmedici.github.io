@@ -109,3 +109,31 @@
   resize_to: 90x45
 - path: logos/atomis.png
   resize_to: 90x45
+- path: logos/photofactory.png
+  resize_to: 120x150
+- path: logos/ontexdf.png
+  resize_to: 120x150
+- path: logos/fdj.png
+  resize_to: 120x150
+- path: logos/rdc.png
+  resize_to: 120x150
+- path: logos/ftven.png
+  resize_to: 120x150
+- path: logos/societegenerale.png
+  resize_to: 120x150
+- path: logos/safran.png
+  resize_to: 120x150
+- path: logos/canalplus.png
+  resize_to: 120x150
+- path: logos/creditdunord.png
+  resize_to: 120x150
+- path: logos/sncfbollore.png
+  resize_to: 120x150
+- path: logos/france24.png
+  resize_to: 120x150
+- path: logos/chureims.png
+  resize_to: 120x150
+- path: logos/its.png
+  resize_to: 120x150
+- path: logos/atomis.png
+  resize_to: 120x150
