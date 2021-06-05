@@ -14,7 +14,13 @@ duration:
   fr: 3 mois
   en: 3 months
 
-keywords: Médical, sécurité des données, référentiel national, LDAP, ruby on rails, PKI, postgresql
+keywords:
+  - Healthcare
+  - Personal data security
+  - National respositoy
+  - Ruby on Rails
+  - PKI
+
 
 tasks:
   - fr: Mise en place d'une architecture fédérant les systèmes d'information de centres hospitaliers, expertise sécurité et proposition de workflow

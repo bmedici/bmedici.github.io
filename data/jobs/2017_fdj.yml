@@ -7,6 +7,16 @@ company: FDJ Française des Jeux
 location: Paris (France)
 url: https://www.fdj.fr/
 
+keywords:
+  - Digital transformation
+  - Micro-services
+  - CI/CD
+  - PHP
+  - MariaDB
+  - NodeJS
+  - MongoDB
+  - Docker
+
 duration:
   fr: 2.5 ans
   en: 2.5 years

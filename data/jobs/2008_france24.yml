@@ -12,7 +12,12 @@ duration:
   fr: 1 mois
   en: 1 month
 
-keywords: Akamai, Drupal, fort traffic
+keywords:
+  - Media & broadcast
+  - High traffic plarform
+  - CDN delivery
+  - Akamai
+  - Drupal
 
 tasks:
   - fr: Audit de l'adhérence des systèmes de production avec certains fournisseurs critiques

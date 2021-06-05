@@ -11,6 +11,15 @@ duration:
   fr: 1 an
   en: 1 year
 
+keywords:
+  - E-commerce
+  - Replatforming
+  - Micro-services
+  - CI/CD
+  - PHP
+  - Docker
+
+
 tasks:
 
   - fr: Travail sur la trajectoire de transformation de la DSI et animation de la démarche 

@@ -7,6 +7,16 @@ company: Ontex Digital Factory
 location: Paris (France)
 # url: https://www.fdj.fr/
 
+
+keywords:
+  - e-commerce
+  - API first
+  - Micro-services
+  - Health Care
+  - PHP/Symfony
+
+
+
 duration:
   fr: 4 mois
   en: 4 months

@@ -1,5 +1,12 @@
 - name: rest-ftp-daemon
   url: https://github.com/bmedici/rest-ftp-daemon
+  keywords:
+    - Ruby
+    - Micro-service
+    - Opensource
+    - File transfer
+    - High traffic
+    - Production
   details:
   - fr: Transferts de fichiers industriel vers en FTP/sFTP/FTPs/S3 piloté par une API RESTful.
     en: Industrial-grade files transfers on FTP/sFTP/FTPs/S3 controlled by a RESTful API.
@@ -10,12 +17,24 @@
 
 
 - name: rbpm - Ruby Business Process Manager
+  keywords:
+    - Ruby
+    - Micro-service
+    - Opensource
+    - Workflow management
+    - PoC
   details:
   - fr: Moteur de workflow technique pour l'orchestration de micro-services REST.
     en: Workflow manager to orchestrate RESTful microservices.
 
 - name: pushyd - Realtime push messages proxy
   url: https://github.com/bmedici/pushyd
+  keywords:
+    - Ruby
+    - Micro-service
+    - Opensource
+    - AMQP
+    - Push messaging
   details:
   - fr: Diffusion en temps-réel d'évènements AMQP vers des partenaires (HTTP POST).
     en: Realtime events diffusion from an AMQP broker to partners (HTTP POST).
