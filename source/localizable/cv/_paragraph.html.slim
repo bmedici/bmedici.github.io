@@ -6,6 +6,8 @@
         h3.job-title
           = localized(paragraph.name)
 
+    = partial "cv/keywords", locals: {keywords: paragraph.keywords}
+
     - if paragraph.details.is_a?(Array)
       .details
         - paragraph.details.each do |what|

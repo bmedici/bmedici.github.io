@@ -49,6 +49,9 @@
         = " "
         .job-company= company
 
+
+      = partial "cv/keywords", locals: {keywords: job.keywords}
+
       - if job.tasks.is_a?(Array)
         .tasks
           - job.tasks.each do |task|
