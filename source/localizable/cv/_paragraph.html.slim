@@ -4,7 +4,10 @@
     .meta
       .job-header
         h3.job-title
-          = localized(paragraph.name)
+          - if paragraph.url.blank?
+            = localized(paragraph.name)
+          - else
+            = link_to localized(paragraph.name), paragraph.url, class: :extlink, target: :_blank
 
     = partial "cv/keywords", locals: {keywords: paragraph.keywords}
 

@@ -100,3 +100,21 @@ p.job-task {
 .download {
   margin-top: 20px;
 }
+
+
+a.extlink {
+  text-decoration: underline silver 0.1em;
+}
+
+a.extlink:hover {
+  text-decoration: underline black;
+}
+
+a.extlink:after {
+
+  font-family: 'FontAwesome';
+  content: " \f08e";
+  font-size: 0.7em;
+  /* padding-left: 0.3em; */
+}
+
