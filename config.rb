@@ -17,7 +17,7 @@ set :debug,       !ENV['DEBUG'].to_i.zero?
 # set :image_cv,   "100x80"
 set :image_cv,   "90x45"
 set :image_refs,   "120x150"
-set :current_cv,  "20210324"
+set :current_cv,  "20210605"
 
 # Blank site ?
 set :blank,       false
