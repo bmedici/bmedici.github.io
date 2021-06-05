@@ -47,8 +47,8 @@ tasks:
     details:
       - fr: Containerisation sur Docker Swarm et pipelines automatiques pour les nouveaux projets
         en: Containerization on Docker Swarm and automated pipelines for new projects
-      - fr: Montée en compétences et conversion des équipes de qualification et de production
-        en: Provided guidance and skills development for quality assessment and production teams
+      - fr: Montée en compétences et conversion des équipes Q/A et de production
+        en: Provided guidance and skills development for Q/A and production teams
 
   - fr: Construction d'équipes pilotes sur NodeJS/MongoDB + lean management
     en: Bootstrapped and led reference teams on NodeJS/MongoDB + lean management
