@@ -37,7 +37,7 @@ tasks:
     details:
       - fr: Mise en œuvre des patterns REST et micro-services
         en: Defined and executed the migration to REST and micro-services patterns
-      - fr: Sensibilisation du management et d'autres équipes autour des patterns et de l’état de l’art 
+      - fr: Sensibilisation du management et d'autres équipes aux patterns et à l’état de l’art 
         en: Raised management and other teams awareness to state-of-the-art patterns
       - fr: Choix technologiques, modélisation, implémentation avec les équipes
         en: Handled tech choices, data modeling, execution along with teams

@@ -25,7 +25,7 @@ tasks:
   - fr: Conception de la nouvelle plateforme e-commerce par abonnement
     en: Defined the next e-commerce subscription platform
     details:
-      - fr: Architecture micro-services permettant les ambitions du groupe
-        en: Led microservices architecture buildup to allow business ambitions
+      - fr: Architecture micro-services comme fondations des ambitions du groupe
+        en: Led microservices architecture as foundations for business ambitions
   - fr: Contribution à un projet d'innovation IoT (marché de l'hygiene)
-    en: Coontributed to an innovative IoT project (hygiene area)
+    en: Contributed to an innovative IoT project (hygiene area)
